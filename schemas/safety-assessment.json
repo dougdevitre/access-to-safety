@@ -1,0 +1,355 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SafetyAssessment",
+  "description": "A structured risk and needs assessment for a survivor of domestic violence, sexual assault, stalking, or related harm. Used by AI assistants and advocates to understand a survivor's situation and recommend appropriate resources. This schema captures the minimum information needed for a useful assessment while avoiding the collection of unnecessary PII.",
+  "type": "object",
+  "required": ["assessmentDate", "assessorType", "situationType", "immediateRisk"],
+  "additionalProperties": false,
+  "properties": {
+    "assessmentId": {
+      "type": "string",
+      "description": "Optional unique identifier for this assessment. Use a UUID or random string — do not use names or other PII."
+    },
+    "assessmentDate": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) on which this assessment was conducted."
+    },
+    "assessmentTime": {
+      "type": "string",
+      "description": "Approximate time of assessment in HH:MM 24-hour format (optional).",
+      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+    },
+    "assessorType": {
+      "type": "string",
+      "description": "Who or what conducted this assessment.",
+      "enum": [
+        "ai-assistant",
+        "dv-advocate",
+        "legal-advocate",
+        "medical-professional",
+        "law-enforcement",
+        "self-assessment",
+        "peer-advocate",
+        "other"
+      ]
+    },
+    "region": {
+      "type": "string",
+      "description": "Geographic region of the survivor, used to match resources. Do not include specific street address. City, county, or state is sufficient.",
+      "examples": ["Austin, TX", "Cook County, IL", "Statewide – California"]
+    },
+    "situationType": {
+      "type": "array",
+      "description": "Type(s) of harm or situation the survivor is experiencing. Select all that apply.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "intimate-partner-violence",
+          "sexual-assault",
+          "stalking",
+          "human-trafficking",
+          "child-abuse",
+          "elder-abuse",
+          "coercive-control",
+          "financial-abuse",
+          "technology-abuse",
+          "workplace-harassment",
+          "other"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "immediateRisk": {
+      "type": "object",
+      "description": "Assessment of the survivor's immediate physical safety risk level and the factors driving that assessment.",
+      "required": ["level"],
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "type": "string",
+          "description": "Overall immediate risk level. 'critical' means the survivor is in danger right now or within hours. 'high' means danger is imminent (days). 'moderate' means ongoing risk but not immediate. 'low' means the situation is stable, though support may still be needed.",
+          "enum": ["critical", "high", "moderate", "low"]
+        },
+        "factors": {
+          "type": "array",
+          "description": "Evidence-based risk factors present in this situation. Based on the Danger Assessment (Campbell, 1986) and similar validated tools.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "weapons-in-home",
+              "abuser-threatened-to-kill",
+              "abuser-has-killed-or-harmed-animals",
+              "strangulation-history",
+              "violence-increasing-in-frequency-or-severity",
+              "abuser-outside-home-watching-or-following",
+              "survivor-plans-to-leave-or-recently-left",
+              "abuser-unemployed",
+              "abuser-uses-drugs-or-alcohol",
+              "abuser-has-mental-health-crisis",
+              "abuser-has-access-to-firearms",
+              "abuser-threatened-suicide",
+              "survivor-is-pregnant-or-recently-gave-birth",
+              "children-in-home",
+              "previous-police-involvement",
+              "protective-order-in-place",
+              "survivor-isolated-from-support",
+              "abuser-has-prior-criminal-history",
+              "technology-monitoring-confirmed-or-suspected",
+              "financial-control-by-abuser"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "assessorNotes": {
+          "type": "string",
+          "description": "Free-text notes from the assessor on why this risk level was assigned, or any factors not captured by the enum above."
+        }
+      }
+    },
+    "currentSituation": {
+      "type": "object",
+      "description": "Snapshot of the survivor's current living and relationship situation.",
+      "additionalProperties": false,
+      "properties": {
+        "livingWithAbuser": {
+          "type": "boolean",
+          "description": "Whether the survivor is currently living with the person causing harm."
+        },
+        "planningToLeave": {
+          "type": "boolean",
+          "description": "Whether the survivor is considering or actively planning to leave."
+        },
+        "recentlyLeft": {
+          "type": "boolean",
+          "description": "Whether the survivor has left within the past 90 days. Risk is highest in the period immediately after leaving."
+        },
+        "hasProtectiveOrder": {
+          "type": "boolean",
+          "description": "Whether the survivor currently has an active protective or restraining order."
+        },
+        "protectiveOrderViolated": {
+          "type": "boolean",
+          "description": "Whether an active protective order has been violated. Only applicable if hasProtectiveOrder is true."
+        },
+        "hasChildren": {
+          "type": "boolean",
+          "description": "Whether children are involved in or affected by the situation."
+        },
+        "housingStatus": {
+          "type": "string",
+          "description": "Current housing situation.",
+          "enum": [
+            "stable-own-home",
+            "stable-rental",
+            "staying-with-family-or-friends",
+            "in-shelter",
+            "in-transitional-housing",
+            "housing-insecure",
+            "homeless",
+            "unknown"
+          ]
+        },
+        "immigrationStatus": {
+          "type": "string",
+          "description": "Immigration status, if relevant to resource matching. Optional and sensitive — only collect if the survivor volunteers this and it affects resource needs.",
+          "enum": [
+            "us-citizen",
+            "legal-permanent-resident",
+            "visa-holder",
+            "undocumented",
+            "daca",
+            "asylum-seeker",
+            "unknown",
+            "not-disclosed"
+          ]
+        },
+        "employmentStatus": {
+          "type": "string",
+          "description": "Employment status, relevant for financial safety planning.",
+          "enum": [
+            "employed-full-time",
+            "employed-part-time",
+            "self-employed",
+            "unemployed-seeking-work",
+            "unemployed-not-seeking",
+            "unable-to-work",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "supportSystem": {
+      "type": "object",
+      "description": "Overview of the survivor's existing support network.",
+      "additionalProperties": false,
+      "properties": {
+        "hasTrustedPerson": {
+          "type": "boolean",
+          "description": "Whether the survivor has at least one trusted person (friend, family, colleague) they can contact."
+        },
+        "hasSafePlace": {
+          "type": "boolean",
+          "description": "Whether the survivor has a safe place they could go to if they needed to leave immediately."
+        },
+        "accessToTransportation": {
+          "type": "boolean",
+          "description": "Whether the survivor has reliable access to transportation (their own vehicle, public transit, or reliable ride)."
+        },
+        "currentlyWorkingWithAdvocate": {
+          "type": "boolean",
+          "description": "Whether the survivor is currently connected with a DV advocate or social worker."
+        },
+        "currentlyInCounseling": {
+          "type": "boolean",
+          "description": "Whether the survivor is currently receiving mental health counseling or therapy."
+        }
+      }
+    },
+    "barriers": {
+      "type": "array",
+      "description": "Barriers the survivor has identified to accessing safety or services.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "financial-dependence",
+          "no-transportation",
+          "language-barrier",
+          "immigration-concerns",
+          "disability",
+          "children",
+          "pets",
+          "cultural-or-religious-concerns",
+          "fear-of-abuser",
+          "distrust-of-systems",
+          "prior-negative-experience-with-services",
+          "no-identification-documents",
+          "geographic-isolation",
+          "technology-monitoring",
+          "lack-of-awareness-of-resources",
+          "other"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "barriersNotes": {
+      "type": "string",
+      "description": "Free-text elaboration on any barriers, especially those captured as 'other'."
+    },
+    "safetyNeeds": {
+      "type": "array",
+      "description": "The survivor's identified safety and support needs, used to match them with appropriate resources.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "immediate-shelter",
+          "crisis-support",
+          "safety-planning",
+          "legal-advocacy",
+          "protective-order",
+          "law-enforcement-assistance",
+          "medical-care",
+          "forensic-exam",
+          "mental-health-counseling",
+          "financial-assistance",
+          "employment-support",
+          "housing-long-term",
+          "childcare",
+          "children-services",
+          "transportation",
+          "technology-safety",
+          "immigration-legal-help",
+          "substance-use-support",
+          "disability-services",
+          "cultural-community-support",
+          "document-recovery",
+          "other"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "safetyNeedsNotes": {
+      "type": "string",
+      "description": "Free-text elaboration on safety needs, including anything not captured by the enum."
+    },
+    "recommendedResources": {
+      "type": "array",
+      "description": "Resource entries or resource types recommended based on this assessment. May be references to resource-entry.json IDs or free-text descriptions.",
+      "items": {
+        "type": "object",
+        "required": ["resourceName", "rationale"],
+        "additionalProperties": false,
+        "properties": {
+          "resourceId": {
+            "type": "string",
+            "description": "Optional reference to a resource-entry.json ID if this directory is machine-readable."
+          },
+          "resourceName": {
+            "type": "string",
+            "description": "Human-readable name of the recommended resource or resource type.",
+            "minLength": 1
+          },
+          "pod": {
+            "type": "string",
+            "description": "The Safety Pod this resource belongs to.",
+            "enum": ["pod1", "pod2", "pod3", "pod4", "pod5", "pod6", "pod7", "pod8"]
+          },
+          "rationale": {
+            "type": "string",
+            "description": "Why this resource was recommended for this specific survivor's situation.",
+            "minLength": 1
+          },
+          "priority": {
+            "type": "string",
+            "description": "How urgently this resource is recommended.",
+            "enum": ["immediate", "soon", "when-ready"]
+          }
+        }
+      }
+    },
+    "safetyPlanCompleted": {
+      "type": "boolean",
+      "description": "Whether the survivor has a completed safety plan (using the safety-plan.md template or equivalent).",
+      "default": false
+    },
+    "safetyPlanNotes": {
+      "type": "string",
+      "description": "Notes on the state of the safety plan — e.g., 'In progress', 'Completed and stored with advocate', 'Declined to complete at this time'."
+    },
+    "followUp": {
+      "type": "object",
+      "description": "Follow-up plan agreed upon during the assessment.",
+      "additionalProperties": false,
+      "properties": {
+        "recommended": {
+          "type": "boolean",
+          "description": "Whether follow-up contact is recommended."
+        },
+        "timeframe": {
+          "type": "string",
+          "description": "When follow-up should occur.",
+          "enum": ["24-hours", "48-hours", "1-week", "2-weeks", "1-month", "as-needed", "no-follow-up"]
+        },
+        "method": {
+          "type": "string",
+          "description": "Preferred method for follow-up contact, as identified by the survivor.",
+          "enum": ["phone", "text", "email", "in-person", "hotline-callback", "survivor-will-reach-out", "unknown"]
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any notes on the follow-up plan — e.g., safe times to call, code words, contact preferences."
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional context, observations, or information from the assessment not captured in structured fields. Do not include PII."
+    },
+    "consentToDocument": {
+      "type": "boolean",
+      "description": "Whether the survivor has been informed that this assessment is being documented and has consented. Should be true before storing any record.",
+      "default": false
+    }
+  }
+}
