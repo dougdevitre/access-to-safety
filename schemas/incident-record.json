@@ -1,0 +1,506 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IncidentRecord",
+  "description": "A court-ready incident documentation record for a survivor of domestic violence, sexual assault, stalking, or related harm. Fields are designed to capture information relevant to legal proceedings, including protective order applications, criminal prosecution, and civil litigation. All records should be created as close in time to the incident as safely possible (contemporaneous documentation).",
+  "type": "object",
+  "required": ["incidentId", "date", "description", "documentedBy", "documentedDate"],
+  "additionalProperties": false,
+  "properties": {
+    "incidentId": {
+      "type": "string",
+      "description": "Unique identifier for this incident record. Use a sequential number (e.g., '001', '002') or a UUID. Do not use names or dates that could expose the survivor if the record is found.",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) on which the incident occurred. If the exact date is unknown, record the best estimate and note uncertainty in the description."
+    },
+    "time": {
+      "type": "object",
+      "description": "Time the incident began, with optional end time. Use 24-hour format.",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "string",
+          "description": "Time the incident began in HH:MM format (24-hour).",
+          "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+        },
+        "end": {
+          "type": "string",
+          "description": "Approximate time the incident ended, if known.",
+          "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+        },
+        "approximate": {
+          "type": "boolean",
+          "description": "Set to true if the time is an estimate rather than a precise time.",
+          "default": false
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any notes on the timing — e.g., 'started after the 10pm news', 'lasted approximately 30 minutes'."
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "description": "Where the incident occurred.",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "General type of location.",
+          "enum": [
+            "shared-home",
+            "survivors-home",
+            "abusers-home",
+            "vehicle",
+            "workplace",
+            "school",
+            "public-place",
+            "place-of-worship",
+            "shelter",
+            "online-or-digital",
+            "other"
+          ]
+        },
+        "address": {
+          "type": "string",
+          "description": "Street address or detailed description of location. Include apartment number if applicable."
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "zip": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string",
+          "description": "Additional description of the specific location within the address — e.g., 'kitchen', 'garage', 'parking lot adjacent to the building', 'digital — phone call and texts'."
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "Full narrative description of the incident in the survivor's own words. Should answer: what happened, in what order, who did what, what was said (use direct quotes), what the survivor did in response. Write as if describing the event to someone who was not present. Do not soften or interpret — record exactly what occurred.",
+      "minLength": 1
+    },
+    "involvedParties": {
+      "type": "array",
+      "description": "All persons involved in the incident, including the survivor, the person who caused harm, and any others present.",
+      "items": {
+        "type": "object",
+        "required": ["role"],
+        "additionalProperties": false,
+        "properties": {
+          "role": {
+            "type": "string",
+            "description": "This person's role in the incident.",
+            "enum": [
+              "survivor",
+              "abuser",
+              "witness",
+              "child-present",
+              "first-responder",
+              "other"
+            ]
+          },
+          "identifier": {
+            "type": "string",
+            "description": "How this person is referred to in the record. Use initials, a code name, or a role description rather than a full name where possible for safety. Example: 'J.S.', 'my partner', 'the respondent'."
+          },
+          "relationship": {
+            "type": "string",
+            "description": "Relationship of this person to the survivor.",
+            "enum": [
+              "current-intimate-partner",
+              "former-intimate-partner",
+              "spouse",
+              "former-spouse",
+              "co-parent",
+              "family-member",
+              "acquaintance",
+              "coworker",
+              "stranger",
+              "neighbor",
+              "landlord",
+              "other"
+            ]
+          },
+          "actions": {
+            "type": "string",
+            "description": "Description of what this person did or said during the incident. For the abuser, be specific and use direct quotes where possible. For children, note what they witnessed or experienced."
+          },
+          "contactInfo": {
+            "type": "string",
+            "description": "Contact information, if known and safe to record. For witnesses, this may support legal proceedings."
+          }
+        }
+      }
+    },
+    "witnesses": {
+      "type": "array",
+      "description": "Persons who witnessed part or all of the incident and could potentially corroborate the survivor's account.",
+      "items": {
+        "type": "object",
+        "required": ["description", "whatTheyObserved"],
+        "additionalProperties": false,
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "Who this witness is — use initials, role, or description rather than full name if privacy is a concern.",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "Relationship to the survivor — e.g., 'neighbor', 'coworker', 'my sister', 'stranger who walked by'."
+          },
+          "whatTheyObserved": {
+            "type": "string",
+            "description": "Summary of what this witness saw or heard.",
+            "minLength": 1
+          },
+          "contactInfo": {
+            "type": "string",
+            "description": "Contact information, if known and the witness has consented to being contacted. May be critical for legal proceedings."
+          },
+          "willingToTestify": {
+            "type": "string",
+            "description": "Whether the witness has indicated willingness to provide a statement or testify.",
+            "enum": ["yes", "no", "unknown", "not-asked"]
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "description": "All evidence collected or preserved related to this incident. Document every piece of evidence, including evidence that could not be preserved (note why).",
+      "items": {
+        "type": "object",
+        "required": ["type", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of evidence.",
+            "enum": [
+              "photograph-injury",
+              "photograph-property-damage",
+              "screenshot-text-message",
+              "screenshot-social-media",
+              "screenshot-email",
+              "screenshot-app-message",
+              "voicemail-recording",
+              "audio-recording",
+              "video-recording",
+              "physical-object",
+              "medical-record",
+              "police-report",
+              "911-call-record",
+              "witness-statement",
+              "other"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of this specific piece of evidence — what it shows, when it was created, who created it.",
+            "minLength": 1
+          },
+          "dateCreated": {
+            "type": "string",
+            "format": "date",
+            "description": "Date this evidence was created or captured. For photographs, this is the date the photo was taken."
+          },
+          "location": {
+            "type": "string",
+            "description": "Where this evidence is currently stored — e.g., 'phone camera roll', 'cloud backup – [account name]', 'printed and stored at [trusted person's] home', 'USB drive in go bag'."
+          },
+          "hasMetadata": {
+            "type": "boolean",
+            "description": "For digital evidence: whether the file retains original metadata (date, time, location). Unedited files with metadata are more credible in legal proceedings."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Any notes about this piece of evidence — chain of custody, limitations, context needed to interpret it."
+          }
+        }
+      }
+    },
+    "injuries": {
+      "type": "array",
+      "description": "Physical injuries sustained during or as a result of this incident. Document all injuries, even minor ones — minor injuries can worsen and may be significant in legal proceedings.",
+      "items": {
+        "type": "object",
+        "required": ["bodyPart", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "bodyPart": {
+            "type": "string",
+            "description": "The area of the body affected. Be specific.",
+            "examples": ["left forearm", "neck", "right eye", "lower back", "wrist"]
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the injury — type (bruise, laceration, burn, etc.), size, color, severity.",
+            "minLength": 1
+          },
+          "photographed": {
+            "type": "boolean",
+            "description": "Whether a photograph was taken of this injury."
+          },
+          "photographDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Date the photograph was taken. Note: photographing 24–72 hours after an incident may capture bruising that was not yet visible immediately after."
+          },
+          "seenByMedicalProvider": {
+            "type": "boolean",
+            "description": "Whether a medical provider documented this injury."
+          },
+          "medicalProviderName": {
+            "type": "string",
+            "description": "Name and location of the medical provider who documented the injury, if applicable."
+          },
+          "medicalProviderDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of the medical visit."
+          },
+          "causeDocumentedByProvider": {
+            "type": "boolean",
+            "description": "Whether the medical provider's record documents the stated cause of the injury. A medical record that notes 'caused by [specific act]' is independent corroboration."
+          }
+        }
+      }
+    },
+    "emotionalImpact": {
+      "type": "object",
+      "description": "Documentation of the psychological and emotional impact of this incident. Emotional harm is legally relevant in many jurisdictions.",
+      "additionalProperties": false,
+      "properties": {
+        "fearForLife": {
+          "type": "boolean",
+          "description": "Whether the survivor feared for their life or the lives of others during the incident."
+        },
+        "threatsDescribed": {
+          "type": "string",
+          "description": "Exact words of any threats made, in direct quotes if possible."
+        },
+        "threatsDirectedAt": {
+          "type": "array",
+          "description": "Who the threats were directed at.",
+          "items": {
+            "type": "string",
+            "enum": ["survivor", "children", "pets", "family-members", "other"]
+          }
+        },
+        "immediateEmotionalState": {
+          "type": "string",
+          "description": "How the survivor felt during or immediately after the incident, in their own words."
+        },
+        "ongoingImpact": {
+          "type": "string",
+          "description": "Description of ongoing psychological or behavioral effects — sleep disruption, appetite changes, inability to work, hypervigilance, flashbacks, etc."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any other emotional or psychological impact not captured above."
+        }
+      }
+    },
+    "actionsTaken": {
+      "type": "array",
+      "description": "Actions taken by the survivor or others after the incident.",
+      "items": {
+        "type": "object",
+        "required": ["action"],
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "type": "string",
+            "description": "What action was taken.",
+            "enum": [
+              "called-911",
+              "called-police-non-emergency",
+              "went-to-emergency-room",
+              "went-to-urgent-care",
+              "contacted-dv-hotline",
+              "contacted-dv-advocate",
+              "contacted-attorney",
+              "left-the-home",
+              "went-to-shelter",
+              "told-trusted-person",
+              "notified-school-or-childcare",
+              "filed-for-protective-order",
+              "reported-to-employer",
+              "took-photographs",
+              "preserved-digital-evidence",
+              "sought-mental-health-support",
+              "other"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date this action was taken."
+          },
+          "outcome": {
+            "type": "string",
+            "description": "Result or outcome of this action — e.g., 'police arrived at 11:45pm', 'was referred to shelter', 'no answer, left voicemail'."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Any additional notes about this action."
+          }
+        }
+      }
+    },
+    "policeReport": {
+      "type": "object",
+      "description": "Law enforcement involvement, if any. Completing this section creates a record of any discrepancies between what was reported to police and what is documented here.",
+      "additionalProperties": false,
+      "properties": {
+        "policeInvolved": {
+          "type": "boolean",
+          "description": "Whether law enforcement was called or responded."
+        },
+        "calledBy": {
+          "type": "string",
+          "description": "Who called law enforcement — e.g., 'survivor', 'neighbor', 'dispatch from 911 open line'."
+        },
+        "agencyName": {
+          "type": "string",
+          "description": "Name of the responding law enforcement agency."
+        },
+        "officerNames": {
+          "type": "array",
+          "description": "Names of responding officers.",
+          "items": { "type": "string" }
+        },
+        "badgeNumbers": {
+          "type": "array",
+          "description": "Badge numbers of responding officers.",
+          "items": { "type": "string" }
+        },
+        "reportNumber": {
+          "type": "string",
+          "description": "Police report or case number assigned to this incident."
+        },
+        "arrestMade": {
+          "type": "boolean",
+          "description": "Whether an arrest was made."
+        },
+        "whoArrested": {
+          "type": "string",
+          "description": "Who was arrested and on what charge, if known."
+        },
+        "photographsTakenByPolice": {
+          "type": "boolean",
+          "description": "Whether police officers took photographs at the scene."
+        },
+        "statementsRecorded": {
+          "type": "boolean",
+          "description": "Whether witness or survivor statements were recorded by police."
+        },
+        "survivorAccountToPolice": {
+          "type": "string",
+          "description": "Summary of what the survivor told police. Note any differences from the full description above."
+        },
+        "policeResponseNotes": {
+          "type": "string",
+          "description": "Notes on how police responded — what they told the survivor, whether a victim's advocate was provided, any concerns about the response."
+        },
+        "victimAdvocateProvided": {
+          "type": "boolean",
+          "description": "Whether a victim's advocate or victim services referral was provided by law enforcement."
+        }
+      }
+    },
+    "protectiveOrder": {
+      "type": "object",
+      "description": "Protective or restraining order information, if applicable. Required when documenting an incident that may constitute a violation of an existing order.",
+      "additionalProperties": false,
+      "properties": {
+        "activeOrderExists": {
+          "type": "boolean",
+          "description": "Whether an active protective or restraining order was in effect at the time of the incident."
+        },
+        "orderNumber": {
+          "type": "string",
+          "description": "Court case number or order number."
+        },
+        "issuingCourt": {
+          "type": "string",
+          "description": "Name and jurisdiction of the court that issued the order."
+        },
+        "orderType": {
+          "type": "string",
+          "description": "Type of order.",
+          "enum": [
+            "emergency-protective-order",
+            "temporary-restraining-order",
+            "final-protective-order",
+            "civil-standby",
+            "workplace-restraining-order",
+            "other"
+          ]
+        },
+        "orderViolated": {
+          "type": "boolean",
+          "description": "Whether this incident constitutes a violation of the protective order."
+        },
+        "termsViolated": {
+          "type": "string",
+          "description": "Which specific terms of the order were violated and how."
+        },
+        "violationReported": {
+          "type": "boolean",
+          "description": "Whether the violation was reported to law enforcement."
+        }
+      }
+    },
+    "documentedBy": {
+      "type": "string",
+      "description": "Who created this record. May use initials, a code name, or 'survivor' if privacy is a concern. If documented with the help of an advocate, note that.",
+      "minLength": 1
+    },
+    "documentedDate": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) on which this record was created. Contemporaneous records (created close in time to the incident) carry greater legal weight.",
+      "minLength": 1
+    },
+    "documentedTime": {
+      "type": "string",
+      "description": "Time this record was created, in HH:MM 24-hour format.",
+      "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+    },
+    "storageLocations": {
+      "type": "array",
+      "description": "Where this record and associated evidence are stored. Store in multiple places that the abuser cannot access.",
+      "items": {
+        "type": "string",
+        "examples": [
+          "Secure cloud folder (separate account abuser does not know about)",
+          "Printed copy stored at trusted person's home",
+          "USB drive in go bag",
+          "Sent to DV advocate by email"
+        ]
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional context, background, or information relevant to this incident that is not captured in the structured fields above. Include prior incidents referenced, patterns observed, or future safety concerns."
+    },
+    "certificationStatement": {
+      "type": "string",
+      "description": "Optional affirmation by the person documenting that the record is accurate to the best of their knowledge. Example: 'I certify that the information in this record is accurate to the best of my knowledge and was recorded as close in time to the incident as safely possible.'",
+      "examples": [
+        "I certify that the information in this record is accurate to the best of my knowledge and was recorded as close in time to the incident as safely possible."
+      ]
+    }
+  }
+}

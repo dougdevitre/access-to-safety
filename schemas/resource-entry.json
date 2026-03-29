@@ -1,0 +1,258 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResourceEntry",
+  "description": "A single safety resource or service organization entry in the Access to Safety directory. Each entry represents one organization or program that a survivor may contact for help.",
+  "type": "object",
+  "required": ["name", "type", "pod", "region", "lastVerified"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full legal or commonly known name of the organization or program."
+    },
+    "type": {
+      "type": "string",
+      "description": "Primary category of service this organization provides.",
+      "enum": [
+        "shelter",
+        "hotline",
+        "legal-aid",
+        "court-advocacy",
+        "counseling",
+        "medical",
+        "housing-transitional",
+        "housing-long-term",
+        "financial-assistance",
+        "employment",
+        "children-services",
+        "immigration",
+        "cultural-community",
+        "technology-safety",
+        "substance-use",
+        "disability-services",
+        "faith-community",
+        "other"
+      ]
+    },
+    "pod": {
+      "description": "The Safety Pod(s) this resource primarily belongs to. A resource may serve multiple pods.",
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": ["pod1", "pod2", "pod3", "pod4", "pod5", "pod6", "pod7", "pod8"]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["pod1", "pod2", "pod3", "pod4", "pod5", "pod6", "pod7", "pod8"]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ]
+    },
+    "podLabels": {
+      "type": "object",
+      "description": "Reference labels for pod identifiers. Not required; provided here for documentation.",
+      "properties": {
+        "pod1": { "const": "Crisis and Emergency Safety" },
+        "pod2": { "const": "Legal Advocacy and Protective Orders" },
+        "pod3": { "const": "Housing and Shelter" },
+        "pod4": { "const": "Economic Safety and Financial Independence" },
+        "pod5": { "const": "Medical, Mental Health, and Recovery" },
+        "pod6": { "const": "Children and Family Safety" },
+        "pod7": { "const": "Community and Cultural Support" },
+        "pod8": { "const": "Technology Safety and Privacy" }
+      }
+    },
+    "phone": {
+      "type": "string",
+      "description": "Primary phone number. Use consistent formatting, e.g., 1-800-799-7233 or (512) 555-0100.",
+      "examples": ["1-800-799-7233", "(512) 555-0100"]
+    },
+    "phoneCrisis": {
+      "type": "string",
+      "description": "After-hours or crisis-specific phone number, if different from the primary number."
+    },
+    "phoneText": {
+      "type": "string",
+      "description": "Text or SMS number, if available (e.g., 'Text START to 88788')."
+    },
+    "phoneTTY": {
+      "type": "string",
+      "description": "TTY/TDD number for Deaf and hard-of-hearing callers."
+    },
+    "address": {
+      "type": "string",
+      "description": "Street address. May be omitted for confidential shelter locations — use 'Confidential – call for address' in that case."
+    },
+    "city": {
+      "type": "string",
+      "description": "City where the organization is physically located or primarily serves."
+    },
+    "state": {
+      "type": "string",
+      "description": "Two-letter US state abbreviation, full state name, or province/territory.",
+      "examples": ["TX", "CA", "NY", "Ontario"]
+    },
+    "zip": {
+      "type": "string",
+      "description": "ZIP or postal code.",
+      "examples": ["78701", "10001", "M5V 3A8"]
+    },
+    "region": {
+      "type": "string",
+      "description": "The geographic region this directory entry belongs to. Should match the directory's region metadata. Used to scope queries.",
+      "minLength": 1,
+      "examples": ["Travis County, TX", "Chicago Metro, IL", "Statewide – California"]
+    },
+    "geographicAreaServed": {
+      "type": "string",
+      "description": "Description of the area this organization actually serves, which may differ from where it is located. E.g., 'All of Harris County', 'Statewide', 'Within 50 miles of Austin'."
+    },
+    "hours": {
+      "type": "object",
+      "description": "Hours of operation. Use plain text descriptions for each type of availability.",
+      "properties": {
+        "general": {
+          "type": "string",
+          "description": "Standard operating hours.",
+          "examples": ["Mon–Fri 9am–5pm", "Mon, Wed, Fri 10am–7pm"]
+        },
+        "crisis": {
+          "type": "string",
+          "description": "Crisis line or walk-in availability.",
+          "examples": ["24/7", "24 hours, 7 days a week"]
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any notes on holidays, seasonal changes, or appointment-only access."
+        }
+      },
+      "additionalProperties": false
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Organization's primary website URL.",
+      "examples": ["https://thehotline.org"]
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Public contact email, if available. Do not include personal staff email addresses."
+    },
+    "services": {
+      "type": "array",
+      "description": "List of specific services offered by this organization. Be as specific as possible.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "examples": [
+        ["emergency shelter", "case management", "legal advocacy", "childcare", "transportation"]
+      ]
+    },
+    "languages": {
+      "type": "array",
+      "description": "Languages in which services are provided. Include interpreter/translation services.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "examples": [
+        ["English", "Spanish", "Vietnamese", "Interpreter services available"]
+      ]
+    },
+    "accessibility": {
+      "type": "object",
+      "description": "Accessibility features and accommodations available.",
+      "properties": {
+        "wheelchairAccessible": {
+          "type": "boolean",
+          "description": "Whether the physical location is wheelchair accessible."
+        },
+        "aslInterpreter": {
+          "type": "boolean",
+          "description": "Whether ASL interpretation is available."
+        },
+        "screenReaderFriendlyWebsite": {
+          "type": "boolean",
+          "description": "Whether the organization's website is screen-reader accessible."
+        },
+        "interpreterServices": {
+          "type": "boolean",
+          "description": "Whether professional interpreter services (other than ASL) are available."
+        },
+        "publicTransitAccessible": {
+          "type": "boolean",
+          "description": "Whether the location is accessible by public transit."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any additional accessibility notes or accommodations offered."
+        }
+      },
+      "additionalProperties": false
+    },
+    "cost": {
+      "type": "string",
+      "description": "Cost to the survivor for services.",
+      "enum": [
+        "free",
+        "sliding-scale",
+        "insurance-accepted",
+        "fees-apply",
+        "varies-by-service",
+        "unknown"
+      ]
+    },
+    "costNotes": {
+      "type": "string",
+      "description": "Additional detail on cost — e.g., 'Free for DV survivors; sliding scale for others' or 'Medicaid accepted'."
+    },
+    "eligibility": {
+      "type": "string",
+      "description": "Who can use this service. Be specific about any restrictions (gender, age, county of residence, immigration status, etc.). If open to all, write 'All survivors'.",
+      "examples": [
+        "All survivors of domestic violence or sexual assault",
+        "Women and children only",
+        "LGBTQ+ survivors",
+        "Residents of Travis County",
+        "Adults 18 and older"
+      ]
+    },
+    "lastVerified": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) when this entry was last verified for accuracy.",
+      "examples": ["2025-09-15"]
+    },
+    "verifiedBy": {
+      "type": "string",
+      "description": "Name or identifier of the person who last verified this entry. May use 'anonymous volunteer' if privacy is a concern."
+    },
+    "verificationMethod": {
+      "type": "string",
+      "description": "How the entry was verified.",
+      "enum": ["phone-call", "website-review", "in-person-visit", "email-confirmation", "partner-organization", "unverified"]
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional information relevant to survivors using this resource — context, tips, warnings, referral process, etc."
+    },
+    "active": {
+      "type": "boolean",
+      "description": "Whether this organization is currently active. Set to false if the organization has closed or the program has ended; do not delete entries so the history is preserved.",
+      "default": true
+    },
+    "confidentialLocation": {
+      "type": "boolean",
+      "description": "Set to true if the physical address of this resource (e.g., a shelter) must not be published. When true, the address field should read 'Confidential – call for address'.",
+      "default": false
+    }
+  }
+}
