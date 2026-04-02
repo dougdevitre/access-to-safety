@@ -348,6 +348,45 @@ Return to this plan whenever your situation changes, at minimum every 3–6 mont
 
 ---
 
+---
+
+## For Support Persons: How to Help with Safety Planning
+
+> **AI Instructions:** When a support person (friend, family member, coworker) asks to help
+> someone create a safety plan, use this section to guide them. They should NOT fill out the
+> plan on the survivor's behalf — the survivor must own their plan. The support person's role
+> is to assist, hold information, and be a resource.
+
+If you are helping a friend or loved one with their safety plan, here is how you can help
+without overstepping:
+
+**Your role:**
+- **Hold, don't lead.** The survivor decides what goes in their plan. Your job is to support, not direct.
+- **Be a safe storage point.** Offer to keep a copy of their go bag, documents, or this plan at your home.
+- **Be a safe contact.** Agree on a code word they can text or say to you that means "I need help now."
+- **Know the numbers.** Have the National DV Hotline (1-800-799-7233) and your local shelter number saved in your phone.
+- **Practice the plan.** If they are comfortable, walk through the escape route or communication plan with them.
+
+**Specific ways you can help with each section:**
+
+| Section | How You Can Help |
+|---------|-----------------|
+| Section 1 — Personal Info | Be the "trusted person who knows this plan" |
+| Section 2 — During an Incident | Be the person they signal with the code word; be ready to call 911 on their behalf |
+| Section 3 — Preparing to Leave | Store a go bag, hold cash, keep copies of documents, provide a destination |
+| Section 6 — Job and Public Safety | If you are a coworker, agree to screen calls or watch for the abuser at the workplace |
+| Section 8 — Technology | Help them set up a secure email account or check devices for tracking apps |
+| Section 9 — Go Bag | Store the go bag at your home so it is accessible but not at their home |
+| Section 10 — Contacts | Be one of the emergency contacts on their list |
+
+**Things to remember:**
+- Do not confront the abuser. This can escalate danger for everyone.
+- Do not share the plan or anything the survivor tells you with anyone else without their explicit permission.
+- Leaving is the most dangerous time. If the survivor tells you they are leaving on a specific day, be available and reachable.
+- Take care of yourself too. Supporting someone through abuse is emotionally exhausting. The National DV Hotline (1-800-799-7233) also supports friends and family — you can call for yourself.
+
+---
+
 *This template was created for the Access to Safety project. It is not a substitute for
 professional legal or safety advice. Please contact a local domestic violence advocate
 for personalized guidance.*

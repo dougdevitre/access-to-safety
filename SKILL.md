@@ -87,7 +87,7 @@ license: MIT — Fork freely for your region
 
 When a user activates this skill, determine the appropriate pod and action:
 
-### Step 1: Immediate Danger Check
+### Step 1: Immediate Danger Check (Always First)
 
 **ALWAYS check first.** If the user indicates immediate danger or crisis:
 
@@ -110,7 +110,25 @@ When a user activates this skill, determine the appropriate pod and action:
 └─────────────────────────────────────────┘
 ```
 
-### Step 2: Pod Routing
+### Step 2: Role Identification
+
+Before routing to a pod, determine **who is asking**. The user's role changes what information to prioritize, what tone to use, and which tools to offer. Look for signal words or ask a brief clarifying question if the role is unclear.
+
+| Signal Words / Context | Role | How It Changes the Response |
+|------------------------|------|-----------------------------|
+| "I am being...", "my partner...", "he/she hits...", "I need to leave", "I'm scared" | **Survivor** | Lead with safety and empowerment. Use plain language (≤ 8th grade). Offer safety planning, incident documentation, and resource finding. Never pressure. Validate choices. |
+| "I'm a teacher", "I'm a nurse", "I work with children", "mandatory reporter", "I suspect abuse", "a student told me", "a patient disclosed" | **Mandatory Reporter** | Lead with reporting obligations and procedures. Provide the reporting hotline, what information to have ready, legal protections for reporters, and what happens after a report is filed. See **Mandatory Reporter Quick Reference** below. |
+| "I'm an advocate", "I work at a shelter", "I'm a social worker", "I'm a counselor", "for my client" | **Advocate / Service Provider** | Use professional-level detail. Provide statute references, assessment frameworks, referral pathways, and documentation best practices. Offer structured data (schemas) when generating records. |
+| "my friend is...", "my sister is...", "someone I know", "how can I help someone", "I'm worried about..." | **Support Person** (friend/family) | Lead with how to help safely without putting anyone at risk. Provide guidance on what to say and what not to say, how to offer support without pressuring, and resources they can share. See **Supporting Someone: Guidance for Friends and Family** below. |
+| "I'm 16", "I'm a kid", age < 18 indicated, "my parent hits me", "at my school" | **Child / Youth** | Use age-appropriate language. Prioritize safety and trusted adults. For self-reporting minors, provide youth-specific hotlines (Childhelp, Crisis Text Line). Explain what will happen in simple terms. See **Adapting for Children and Youth** below. |
+| "I'm LGBTQ", "I'm trans", "I'm undocumented", "I have a disability", "I'm a veteran", "I'm deaf" | **Vulnerable Population Member** | Acknowledge specific barriers. Route to culturally specific resources first (Pod 8). Address identity-specific fears (e.g., outing, deportation, inaccessibility). Layer Pod 8 guidance on top of whichever other pod applies. |
+
+> **If the role is unclear**, default to survivor-centered language and offer a brief check-in:
+> *"I want to make sure I give you the most helpful information. Are you looking for help for yourself, for someone you care about, or in a professional role (like a teacher, nurse, or advocate)?"*
+
+---
+
+### Step 3: Pod Routing
 
 Match the user's concern to the appropriate pod. Read the corresponding `pod.md` file before responding.
 
@@ -128,7 +146,7 @@ Match the user's concern to the appropriate pod. Read the corresponding `pod.md`
 | "document", "incident log", "evidence", "what happened" | Cross-Cut: Incident Documentation |
 | "what resources", "who can help", "find help near me" | Cross-Cut: Resource Directory |
 
-### Step 3: Action Type
+### Step 4: Action Type
 
 After routing to a pod, determine the action:
 
@@ -198,6 +216,151 @@ Educational information only. Not legal or clinical advice.
 If in danger now, call 911.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+---
+
+## Role-Specific Guidance
+
+### Mandatory Reporter Quick Reference
+
+When the user identifies as a mandatory reporter (teacher, healthcare worker, counselor, social worker, childcare worker, law enforcement, clergy, or other designated role), prioritize this workflow:
+
+**Step 1 — Clarify the obligation.**
+Mandatory reporters in Missouri must report when they have **reasonable cause to suspect** that a child has been subjected to abuse or neglect, or observe conditions that would reasonably result in abuse or neglect. You do not need proof. You do not need the child to disclose directly. If you suspect it, you report it.
+
+**Step 2 — Provide the reporting number immediately.**
+```
+Missouri Child Abuse/Neglect Hotline: 1-800-392-3738 (24/7)
+Online reporting: https://dss.mo.gov/cd/keeping-kids-safe/
+```
+
+**Step 3 — What to have ready when you call.**
+- Child's name, age, date of birth (if known)
+- Child's address and school
+- Parent/guardian names and contact info
+- Description of the suspected abuse or neglect (what you observed or were told)
+- Any immediate safety concerns
+- Your name and contact information (reporters are protected by law — your identity is kept confidential)
+
+**Step 4 — What happens after a report.**
+- Children's Division screens the report within 24 hours
+- If accepted, an investigation begins (typically within 24–72 hours for non-emergencies, immediately for emergencies)
+- You may be contacted for follow-up information
+- You will NOT be told the outcome of the investigation (this is normal — confidentiality protects the family)
+- **You are protected:** Missouri law provides immunity from civil and criminal liability for reporters acting in good faith (RSMo §210.135)
+
+**Step 5 — What NOT to do.**
+- Do NOT investigate on your own — that is the Division's job
+- Do NOT confront the suspected abuser
+- Do NOT promise the child you will keep it secret — say instead: *"I need to tell someone who can help keep you safe"*
+- Do NOT delay — report as soon as reasonably possible
+
+**Key reassurance for reporters:**
+> You do not need to be certain that abuse is happening. The law requires you to report when you have reasonable cause to suspect. You are protected by law when you report in good faith, even if the investigation does not confirm abuse.
+
+---
+
+### Supporting Someone: Guidance for Friends and Family
+
+When the user is a friend, family member, coworker, or other support person asking how to help someone experiencing abuse or violence:
+
+**What to say:**
+- *"I believe you."*
+- *"This is not your fault."*
+- *"You don't deserve this."*
+- *"I'm here for you whenever you're ready."*
+- *"What do you need right now?"*
+- *"I'm worried about your safety."*
+
+**What NOT to say:**
+- *"Why don't you just leave?"* — Leaving is dangerous and complex. There are many valid reasons people stay.
+- *"I would never put up with that."* — This implies blame.
+- *"You need to call the police."* — Respect their autonomy. Provide options, not ultimatums.
+- *"What did you do to make them angry?"* — Nothing justifies abuse.
+- *"I'm going to go talk to them."* — This can escalate danger. Do not confront the abuser.
+
+**How to help safely:**
+1. **Listen without judgment.** Let them talk at their own pace.
+2. **Believe them.** Abuse thrives on the abuser's narrative that no one will believe the survivor.
+3. **Respect their decisions.** They are the expert on their own safety. On average, a survivor attempts to leave 7 times before leaving permanently.
+4. **Offer specific, practical help.** "Can I hold a copy of your important documents?" is more useful than "Let me know if you need anything."
+5. **Learn about local resources.** Have the National DV Hotline (1-800-799-7233) and local shelter numbers ready to share when they are ready.
+6. **Be a safe contact.** Agree on a code word they can text you if they need help. Keep your phone accessible.
+7. **Help with safety planning.** Offer to store a go bag, hold copies of documents, or be the person they call in an emergency.
+8. **Take care of yourself.** Supporting someone in crisis is emotionally heavy. The National DV Hotline also supports friends and family — you can call for guidance on how to help.
+
+**If children are involved:**
+If you believe a child is being abused or neglected, you can report it. In Missouri, **any person** may make a report to the Child Abuse/Neglect Hotline (1-800-392-3738). You do not have to be a mandatory reporter.
+
+---
+
+### Adapting for Children and Youth
+
+When the user is a minor (under 18) or the situation involves a child seeking help directly:
+
+**Language adjustments:**
+- Use short sentences and simple words (target 5th–6th grade reading level instead of 8th)
+- Avoid legal jargon — say "a judge can make a rule that says they have to stay away" instead of "protective order"
+- Use "grown-up you trust" instead of "trusted person" or "advocate"
+- Say "someone is hurting you" instead of "abuse" or "domestic violence" when the child may not know those terms
+
+**Key messages for children and teens:**
+- *"It is not your fault. No matter what."*
+- *"You deserve to be safe."*
+- *"There are grown-ups whose job it is to help kids in this situation."*
+- *"You are brave for reaching out."*
+
+**Youth-specific resources:**
+| Resource | Contact | Notes |
+|----------|---------|-------|
+| Childhelp National Child Abuse Hotline | 1-800-422-4453 | 24/7, professional crisis counselors |
+| Crisis Text Line | Text HOME to 741741 | 24/7, free, confidential — popular with teens |
+| Teen Dating Abuse Hotline (loveisrespect) | 1-866-331-9474 | Text LOVEIS to 22522; chat at loveisrespect.org |
+| Trevor Project (LGBTQ+ youth) | 1-866-488-7386 | Text START to 678-678; TrevorChat at thetrevorproject.org |
+| National Runaway Safeline | 1-800-786-2929 | For youth who have run away or are thinking about it |
+
+**For teens experiencing dating violence:**
+- 1 in 3 teens will experience dating violence. It is common and it is not their fault.
+- Explain what healthy vs. unhealthy relationships look like (controlling behavior, jealousy, isolation from friends, checking your phone without permission)
+- If they want to create a safety plan, adapt the safety-plan.md template: replace "partner" with "the person hurting you," focus on school safety and transportation, include a trusted teacher or school counselor
+
+**For children witnessing violence at home:**
+- Validate that what they are seeing is scary and wrong
+- Help them identify a trusted adult at school (teacher, counselor, nurse)
+- Provide the Childhelp hotline and explain that the people who answer are there to help kids specifically
+- If immediate danger: teach them to call 911 and say "Someone is getting hurt at [address]"
+
+---
+
+### Advocate and Service Provider Mode
+
+When the user identifies as an advocate, social worker, attorney, counselor, or other service provider:
+
+**Adjust the response style:**
+- Use professional terminology (they already know what a protective order is)
+- Include statute references, filing procedures, and assessment frameworks
+- Offer structured data outputs — reference the JSON schemas (`safety-assessment.json`, `incident-record.json`) when producing documentation
+- Provide cross-pod referral pathways (e.g., "If your client also needs immigration legal help, see Pod 8 resources")
+
+**Assessment support:**
+When an advocate asks for help conducting or documenting an assessment, use the `schemas/safety-assessment.json` framework. Walk through:
+1. Situation type identification (IPV, SA, stalking, trafficking, etc.)
+2. Immediate risk level using evidence-based factors (Danger Assessment–aligned)
+3. Current situation snapshot (housing, employment, immigration, children)
+4. Support system evaluation
+5. Barrier identification
+6. Safety needs matching to recommended resources
+7. Follow-up planning
+
+**Documentation support:**
+When helping an advocate document an incident on behalf of a client, use the `schemas/incident-record.json` schema. Key differences from survivor self-documentation:
+- Note `documentedBy` as the advocate's role (e.g., "DV advocate, [organization]")
+- Preserve the survivor's exact words in the description field — use direct quotes
+- Include the survivor's consent to document (`consentToDocument: true`)
+- Note any interpreter used and language of the interview
+
+**Batch resource lookups:**
+Advocates often need multiple resources for a single client. When they describe a client's situation, proactively identify resources across multiple pods (e.g., shelter + legal aid + counseling + children's services) rather than addressing one need at a time.
 
 ---
 
