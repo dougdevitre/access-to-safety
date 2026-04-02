@@ -284,6 +284,44 @@ my knowledge and was recorded as close in time to the incident as safely possibl
 
 ---
 
+---
+
+## For Advocates and Service Providers
+
+> **AI Instructions:** When an advocate, attorney, social worker, or other professional is
+> documenting an incident on behalf of a client, use this section to adjust the documentation
+> process. Key differences: the advocate documents in the third person, preserves the
+> survivor's exact language in quotes, notes the use of any interpreter, and records informed
+> consent to document. Use the `schemas/incident-record.json` schema for structured output.
+
+If you are an advocate or service provider documenting an incident for or with a client:
+
+**Documentation best practices:**
+1. **Get informed consent.** Before documenting, explain to the survivor what you are recording, how it will be stored, who will have access, and how it may be used. Record their consent.
+2. **Use the survivor's exact words.** Write direct quotes wherever possible. Do not paraphrase, soften, or interpret. If they say "he choked me," write that — do not change it to "strangulation" even though that is the legal term. Note the legal term separately if needed.
+3. **Note the language of the interview.** If an interpreter was used, record the interpreter's name (or ID), the language pair, and whether the interpretation was in-person, by phone, or by video.
+4. **Document your role.** In the "Documented by" field, record your role and organization (e.g., "DV advocate, ALIVE STL").
+5. **Separate observation from reported information.** Mark what you personally observed (e.g., visible injuries, the survivor's demeanor) separately from what the survivor told you.
+6. **Timestamp everything.** Record when the interview started, when it ended, and when the documentation was completed. Contemporaneous records carry more legal weight.
+7. **Assess for immediate safety.** Before ending the session, conduct a brief safety check. If the survivor is returning to a dangerous situation, offer safety planning resources.
+
+**When using structured output (JSON schema):**
+For records that may be used across systems or shared with legal teams, use the `schemas/incident-record.json` schema. Key fields to populate:
+- `documentedBy`: Your role and organization
+- `consentToDocument`: Must be `true`
+- `description`: Survivor's narrative in their own words, with direct quotes
+- `involvedParties`: Use role-based identifiers, not full names, unless the survivor consents
+- `evidence`: Document chain of custody for any evidence you receive or photograph
+
+**For mandatory reporters documenting before filing a report:**
+Use this log to organize your observations before calling the hotline. Focus on:
+- What you directly observed (child's statements, visible injuries, behavioral changes)
+- Dates and times of your observations
+- The child's exact words (in quotes)
+- Do NOT investigate further — document what you know and report it
+
+---
+
 *Repeat the "Incident Entry" section for each new incident. Keep entries in chronological
 order. This log is for the Access to Safety project. It is not a substitute for professional
 legal advice. Contact a local domestic violence legal advocate for help using your
