@@ -1,0 +1,425 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ServiceRecord",
+  "description": "A structured service encounter record designed to capture the data elements required by major federal DV/SA grant programs (VAWA, VOCA, FVPSA). This schema enables advocates to document service delivery in a way that satisfies grant reporting requirements while maintaining survivor privacy. No PII is stored — only demographic categories and service types needed for aggregate reporting.",
+  "type": "object",
+  "required": ["recordId", "serviceDate", "serviceType", "victimizationType", "programFunding"],
+  "additionalProperties": false,
+  "properties": {
+    "recordId": {
+      "type": "string",
+      "description": "Unique identifier for this service record. Use a sequential number, UUID, or internal case number. Do not use the survivor's name or other PII.",
+      "minLength": 1
+    },
+    "clientId": {
+      "type": "string",
+      "description": "Internal client identifier used to track services across encounters without using PII. Same individual across multiple records should use the same clientId."
+    },
+    "serviceDate": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD) on which the service was provided."
+    },
+    "serviceType": {
+      "type": "array",
+      "description": "Type(s) of service provided during this encounter. Categories align with VAWA/VOCA/FVPSA reporting requirements.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "crisis-intervention",
+          "safety-planning",
+          "individual-advocacy",
+          "group-advocacy",
+          "legal-advocacy",
+          "court-accompaniment",
+          "criminal-justice-advocacy",
+          "shelter-emergency",
+          "shelter-transitional",
+          "housing-assistance",
+          "transportation",
+          "individual-counseling",
+          "group-counseling",
+          "children-youth-services",
+          "information-referral",
+          "medical-advocacy",
+          "forensic-exam-advocacy",
+          "language-interpretation",
+          "immigration-assistance",
+          "financial-assistance",
+          "employment-assistance",
+          "education-assistance",
+          "technology-safety",
+          "hotline-call",
+          "community-education",
+          "professional-training",
+          "prevention-programming",
+          "other"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "serviceModality": {
+      "type": "string",
+      "description": "How the service was delivered.",
+      "enum": [
+        "in-person",
+        "phone",
+        "text-chat",
+        "video",
+        "email",
+        "outreach",
+        "accompaniment",
+        "group-setting",
+        "other"
+      ]
+    },
+    "serviceDuration": {
+      "type": "object",
+      "description": "Duration of the service encounter.",
+      "additionalProperties": false,
+      "properties": {
+        "minutes": {
+          "type": "integer",
+          "description": "Length of the encounter in minutes.",
+          "minimum": 1
+        },
+        "shelterNights": {
+          "type": "integer",
+          "description": "Number of shelter bed-nights provided (for shelter services only).",
+          "minimum": 0
+        }
+      }
+    },
+    "victimizationType": {
+      "type": "array",
+      "description": "Type(s) of victimization experienced by the client. Used for aggregate reporting — not for clinical assessment.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "domestic-violence",
+          "dating-violence",
+          "sexual-assault",
+          "stalking",
+          "human-trafficking-sex",
+          "human-trafficking-labor",
+          "child-abuse",
+          "child-sexual-abuse",
+          "elder-abuse",
+          "hate-crime",
+          "other-violent-crime",
+          "other"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "relationshipToOffender": {
+      "type": "string",
+      "description": "Relationship between the survivor and the person who caused harm. Required by most grant reports.",
+      "enum": [
+        "current-intimate-partner",
+        "former-intimate-partner",
+        "spouse",
+        "former-spouse",
+        "co-parent",
+        "parent-caregiver",
+        "other-family-member",
+        "acquaintance",
+        "stranger",
+        "authority-figure",
+        "unknown",
+        "other"
+      ]
+    },
+    "demographics": {
+      "type": "object",
+      "description": "Demographic information collected for aggregate grant reporting ONLY. These fields should NEVER be used to identify an individual. Collection is voluntary — if the survivor declines to provide any field, use 'not-disclosed'. These categories align with federal grant reporting requirements.",
+      "additionalProperties": false,
+      "properties": {
+        "gender": {
+          "type": "string",
+          "enum": [
+            "female",
+            "male",
+            "transgender-female",
+            "transgender-male",
+            "non-binary",
+            "other",
+            "not-disclosed"
+          ]
+        },
+        "ageRange": {
+          "type": "string",
+          "description": "Age range, not exact age — to protect privacy while meeting reporting requirements.",
+          "enum": [
+            "0-11",
+            "12-17",
+            "18-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-64",
+            "65-plus",
+            "not-disclosed"
+          ]
+        },
+        "race": {
+          "type": "array",
+          "description": "Race category(ies). Select all that apply. Categories match federal reporting standards.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "american-indian-alaska-native",
+              "asian",
+              "black-african-american",
+              "hispanic-latino",
+              "native-hawaiian-pacific-islander",
+              "white",
+              "multiracial",
+              "other",
+              "not-disclosed"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "ethnicity": {
+          "type": "string",
+          "enum": [
+            "hispanic-latino",
+            "not-hispanic-latino",
+            "not-disclosed"
+          ]
+        },
+        "disability": {
+          "type": "string",
+          "description": "Whether the client has a disability that affects service needs.",
+          "enum": [
+            "yes",
+            "no",
+            "not-disclosed"
+          ]
+        },
+        "limitedEnglishProficiency": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "not-disclosed"
+          ]
+        },
+        "primaryLanguage": {
+          "type": "string",
+          "description": "Primary language spoken by the client. Relevant for language access reporting.",
+          "examples": ["English", "Spanish", "Vietnamese", "Arabic", "Mandarin"]
+        },
+        "immigrationStatus": {
+          "type": "string",
+          "description": "Immigration-related status, if relevant to services provided. Only collect with consent and only if it affects service delivery.",
+          "enum": [
+            "us-citizen",
+            "legal-permanent-resident",
+            "visa-holder",
+            "undocumented",
+            "daca",
+            "asylum-seeker",
+            "refugee",
+            "t-visa",
+            "u-visa",
+            "not-applicable",
+            "not-disclosed"
+          ]
+        },
+        "lgbtq": {
+          "type": "string",
+          "description": "Whether the client identifies as LGBTQ+. Some grants require this for reporting.",
+          "enum": [
+            "yes",
+            "no",
+            "not-disclosed"
+          ]
+        },
+        "veteran": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no",
+            "not-disclosed"
+          ]
+        },
+        "householdSize": {
+          "type": "integer",
+          "description": "Number of people in the client's household, including children.",
+          "minimum": 1
+        },
+        "dependentChildren": {
+          "type": "integer",
+          "description": "Number of dependent children in the client's care.",
+          "minimum": 0
+        }
+      }
+    },
+    "programFunding": {
+      "type": "array",
+      "description": "Which grant program(s) fund the service being documented. A single service encounter may be reported under multiple grants.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "vawa",
+          "voca",
+          "fvpsa",
+          "state-general-fund",
+          "local-government",
+          "private-foundation",
+          "united-way",
+          "other-federal",
+          "other-private",
+          "unfunded-pro-bono"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "grantSubCategory": {
+      "type": "string",
+      "description": "Specific grant sub-program if applicable — e.g., 'VAWA STOP', 'VAWA Legal Assistance for Victims', 'VOCA Victim Assistance', 'FVPSA Shelter', 'FVPSA Prevention'.",
+      "examples": ["VAWA STOP", "VOCA Victim Assistance", "FVPSA Shelter"]
+    },
+    "outcome": {
+      "type": "object",
+      "description": "Service outcome information. Used for grant performance measurement and program improvement.",
+      "additionalProperties": false,
+      "properties": {
+        "safetyPlanCreatedOrUpdated": {
+          "type": "boolean",
+          "description": "Whether a safety plan was created or updated during this encounter."
+        },
+        "protectiveOrderObtained": {
+          "type": "boolean",
+          "description": "Whether a protective order was obtained as a result of advocacy during this encounter."
+        },
+        "shelterPlaced": {
+          "type": "boolean",
+          "description": "Whether the client was placed in emergency or transitional shelter."
+        },
+        "housingSecured": {
+          "type": "boolean",
+          "description": "Whether permanent or transitional housing was secured."
+        },
+        "legalRepresentationSecured": {
+          "type": "boolean",
+          "description": "Whether the client was connected with legal representation."
+        },
+        "referralsMade": {
+          "type": "array",
+          "description": "Agencies or service types the client was referred to.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "referralsCompleted": {
+          "type": "array",
+          "description": "Referrals where the client successfully connected with the receiving agency (warm handoff completed).",
+          "items": {
+            "type": "string"
+          }
+        },
+        "clientSatisfaction": {
+          "type": "string",
+          "description": "Client's self-reported satisfaction, if collected.",
+          "enum": [
+            "very-satisfied",
+            "satisfied",
+            "neutral",
+            "dissatisfied",
+            "very-dissatisfied",
+            "not-collected"
+          ]
+        },
+        "clientSafetyImproved": {
+          "type": "string",
+          "description": "Advocate's assessment of whether the client's safety situation improved as a result of this service.",
+          "enum": [
+            "significantly-improved",
+            "somewhat-improved",
+            "no-change",
+            "worsened",
+            "too-early-to-assess",
+            "unknown"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any additional outcome notes relevant to program reporting."
+        }
+      }
+    },
+    "staffing": {
+      "type": "object",
+      "description": "Staffing information for the service encounter. Used for program management and grant FTE reporting.",
+      "additionalProperties": false,
+      "properties": {
+        "staffRole": {
+          "type": "string",
+          "description": "Role of the person who provided the service.",
+          "enum": [
+            "dv-advocate",
+            "legal-advocate",
+            "court-advocate",
+            "shelter-advocate",
+            "crisis-counselor",
+            "hotline-advocate",
+            "therapist-licensed",
+            "case-manager",
+            "children-youth-advocate",
+            "prevention-educator",
+            "volunteer",
+            "intern",
+            "peer-advocate",
+            "supervisor",
+            "other"
+          ]
+        },
+        "staffId": {
+          "type": "string",
+          "description": "Internal staff identifier. Do not use names in records that may be shared."
+        },
+        "interpreterUsed": {
+          "type": "boolean",
+          "description": "Whether a language interpreter was used during the service."
+        },
+        "interpreterLanguage": {
+          "type": "string",
+          "description": "Language pair for the interpreter, if used.",
+          "examples": ["Spanish-English", "Vietnamese-English", "ASL-English"]
+        }
+      }
+    },
+    "reportingPeriod": {
+      "type": "object",
+      "description": "The grant reporting period this service falls within. Helps with batch reporting.",
+      "additionalProperties": false,
+      "properties": {
+        "quarter": {
+          "type": "string",
+          "description": "Fiscal quarter.",
+          "enum": ["Q1", "Q2", "Q3", "Q4"]
+        },
+        "fiscalYear": {
+          "type": "string",
+          "description": "Fiscal year (e.g., 'FY2026').",
+          "pattern": "^FY[0-9]{4}$"
+        },
+        "reportingDeadline": {
+          "type": "string",
+          "format": "date",
+          "description": "Date by which this data must be submitted to the funder."
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional notes about this service encounter. Do not include PII — this field is for program notes, not case notes."
+    }
+  }
+}

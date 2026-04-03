@@ -72,6 +72,10 @@ license: MIT — Fork freely for your region
 | **Incident Documentation** | `templates/incident-log.md` | Evidence-quality incident logging |
 | **Resource Directory** | `templates/resource-directory.md` | Structured local resource database |
 | **Customization Guide** | `templates/customization-guide.md` | Fork-and-customize instructions for any region |
+| **Lethality Assessment Guide** | `templates/lethality-assessment-guide.md` | Validated risk screening protocol for advocates |
+| **Court Preparation Toolkit** | `templates/court-preparation-toolkit.md` | Court accompaniment prep, testimony prep, post-hearing follow-up |
+| **Advocate Wellness** | `templates/advocate-wellness.md` | Vicarious trauma, compassion fatigue, sustainable practice |
+| **MDT Coordination** | `templates/mdt-coordination.md` | Multi-disciplinary team meetings, warm handoffs, coordinated community response |
 
 ### Data Schemas
 
@@ -80,6 +84,7 @@ license: MIT — Fork freely for your region
 | **Resource Entry** | `schemas/resource-entry.json` | Standard format for any safety resource |
 | **Safety Assessment** | `schemas/safety-assessment.json` | Structured risk/needs assessment |
 | **Incident Record** | `schemas/incident-record.json` | Court-ready incident documentation |
+| **Service Record** | `schemas/service-record.json` | Grant-compliant service encounter tracking (VAWA/VOCA/FVPSA) |
 
 ---
 
@@ -145,6 +150,11 @@ Match the user's concern to the appropriate pod. Read the corresponding `pod.md`
 | "safety plan", "escape plan", "exit plan", "go bag" | Cross-Cut: Safety Planning Engine |
 | "document", "incident log", "evidence", "what happened" | Cross-Cut: Incident Documentation |
 | "what resources", "who can help", "find help near me" | Cross-Cut: Resource Directory |
+| "lethality", "danger assessment", "risk screen", "how dangerous", "is she safe", "is he going to kill" | Cross-Cut: Lethality Assessment Guide |
+| "court", "hearing", "testify", "testimony", "protective order hearing", "custody hearing", "court prep" | Cross-Cut: Court Preparation Toolkit |
+| "burnout", "vicarious trauma", "compassion fatigue", "secondary trauma", "I can't do this anymore", "self-care for advocates" | Cross-Cut: Advocate Wellness |
+| "coordinate", "MDT", "multi-disciplinary", "warm handoff", "referral", "case conference", "inter-agency" | Cross-Cut: MDT Coordination |
+| "grant report", "VAWA report", "VOCA", "FVPSA", "service data", "outcome tracking", "quarterly report" | Cross-Cut: Service Record Schema |
 
 ### Step 4: Action Type
 
@@ -362,6 +372,21 @@ When helping an advocate document an incident on behalf of a client, use the `sc
 **Batch resource lookups:**
 Advocates often need multiple resources for a single client. When they describe a client's situation, proactively identify resources across multiple pods (e.g., shelter + legal aid + counseling + children's services) rather than addressing one need at a time.
 
+**Lethality assessment support:**
+When an advocate needs help with a danger assessment, lethality screen, or risk evaluation, read and follow `templates/lethality-assessment-guide.md`. Walk through the 11 risk factor domains, help interpret results, and connect to appropriate safety planning based on the screening outcome. Always remind advocates that this guide supports — but does not replace — their formal LAP training.
+
+**Court accompaniment support:**
+When an advocate is preparing to accompany a client to court, read and follow `templates/court-preparation-toolkit.md`. Provide phase-appropriate guidance (before, during, after) based on the hearing type (protective order, criminal, custody). Help with testimony preparation (without coaching), evidence organization, courthouse orientation, and post-hearing safety plan updates.
+
+**Advocate wellness support:**
+When an advocate expresses burnout, compassion fatigue, frustration, or distress related to the work, read and follow `templates/advocate-wellness.md`. Treat advocates with the same trauma-informed care you would give a survivor. Offer practical strategies, not platitudes. If an advocate indicates they are in personal crisis, route them to crisis resources.
+
+**Multi-disciplinary team (MDT) coordination:**
+When an advocate is coordinating services across agencies, conducting warm handoffs, or preparing for case conferences, read and follow `templates/mdt-coordination.md`. Help structure MDT meetings, document warm handoffs, and track system-level issues. Always flag confidentiality requirements (VAWA, HIPAA) before any cross-agency information sharing.
+
+**Grant reporting and data collection:**
+When an advocate needs help tracking service delivery for grant reporting, use the `schemas/service-record.json` schema. This captures VAWA, VOCA, and FVPSA-required data elements without storing PII. Help advocates understand which fields are required by which funders and how to aggregate data for quarterly reports.
+
 ---
 
 ## Privacy & Digital Safety Reminder
@@ -408,11 +433,16 @@ access-to-safety/
 │   ├── safety-plan.md                          ← Personalized safety plan builder
 │   ├── incident-log.md                         ← Evidence-quality documentation
 │   ├── resource-directory.md                   ← Blank directory for any region
-│   └── customization-guide.md                  ← How to fork for your region
+│   ├── customization-guide.md                  ← How to fork for your region
+│   ├── lethality-assessment-guide.md           ← Validated risk screening protocol for advocates
+│   ├── court-preparation-toolkit.md            ← Court accompaniment: before, during, after
+│   ├── advocate-wellness.md                    ← Vicarious trauma, burnout, sustainable practice
+│   └── mdt-coordination.md                     ← MDT meetings, warm handoffs, coordinated community response
 └── schemas/
     ├── resource-entry.json                     ← JSON schema: one resource
     ├── safety-assessment.json                  ← JSON schema: risk assessment
-    └── incident-record.json                    ← JSON schema: incident log entry
+    ├── incident-record.json                    ← JSON schema: incident log entry
+    └── service-record.json                     ← JSON schema: grant-compliant service tracking (VAWA/VOCA/FVPSA)
 ```
 
 **Read the pod file BEFORE responding to any domain-specific question.**
