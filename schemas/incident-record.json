@@ -462,9 +462,93 @@
         }
       }
     },
+    "documenterRole": {
+      "type": "string",
+      "description": "The CoTrackPro role of the person creating this record. Determines documentation standards and required fields.",
+      "enum": [
+        "survivor",
+        "dv-advocate",
+        "legal-advocate",
+        "medical-professional",
+        "mandatory-reporter",
+        "law-enforcement",
+        "support-person",
+        "school-counselor",
+        "other"
+      ]
+    },
+    "consentToDocument": {
+      "type": "boolean",
+      "description": "Whether the survivor/subject has been informed that this incident is being documented and has consented. Required to be true before storing any record created by an advocate or service provider. Not applicable when the survivor is self-documenting.",
+      "default": false
+    },
+    "interpreterUsed": {
+      "type": "object",
+      "description": "If an interpreter was used during the documentation session, record details here.",
+      "additionalProperties": false,
+      "properties": {
+        "used": {
+          "type": "boolean",
+          "description": "Whether an interpreter was used."
+        },
+        "language": {
+          "type": "string",
+          "description": "Language pair — e.g., 'Spanish to English', 'ASL to English'."
+        },
+        "modality": {
+          "type": "string",
+          "description": "How interpretation was provided.",
+          "enum": ["in-person", "phone", "video", "written"]
+        },
+        "interpreterIdentifier": {
+          "type": "string",
+          "description": "Interpreter's name or ID number, if available."
+        }
+      }
+    },
+    "mandatoryReportFiled": {
+      "type": "object",
+      "description": "If this incident triggered a mandatory report, document the report here. Applicable when the documenter is a mandatory reporter.",
+      "additionalProperties": false,
+      "properties": {
+        "reportFiled": {
+          "type": "boolean",
+          "description": "Whether a mandatory report was filed in connection with this incident."
+        },
+        "reportDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Date the mandatory report was filed."
+        },
+        "reportedTo": {
+          "type": "string",
+          "description": "Agency the report was filed with — e.g., 'Missouri Children's Division', 'Adult Protective Services'."
+        },
+        "reportType": {
+          "type": "string",
+          "description": "Type of mandatory report.",
+          "enum": [
+            "child-abuse-neglect",
+            "elder-abuse-neglect",
+            "vulnerable-adult-abuse",
+            "human-trafficking",
+            "sexual-abuse",
+            "other"
+          ]
+        },
+        "referenceNumber": {
+          "type": "string",
+          "description": "Case or reference number assigned by the receiving agency."
+        },
+        "intakeWorkerName": {
+          "type": "string",
+          "description": "Name of the intake worker who received the report, if given."
+        }
+      }
+    },
     "documentedBy": {
       "type": "string",
-      "description": "Who created this record. May use initials, a code name, or 'survivor' if privacy is a concern. If documented with the help of an advocate, note that.",
+      "description": "Who created this record. May use initials, a code name, or 'survivor' if privacy is a concern. If documented with the help of an advocate, note that — e.g., 'DV Advocate, ALIVE STL'.",
       "minLength": 1
     },
     "documentedDate": {
