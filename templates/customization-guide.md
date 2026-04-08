@@ -1,5 +1,14 @@
 # Customization Guide — Fork and Adapt Access to Safety
 
+> **AI Instructions:** When a user asks about forking, customizing, or adapting Access to
+> Safety for a new region, walk them through this guide. Help them identify which files
+> need to change for their region and which can remain as-is. Emphasize the importance of
+> verifying all phone numbers and addresses — outdated safety information is actively harmful.
+> If they are forking for a state other than Missouri, the mandatory reporter checklist
+> (`templates/mandatory-reporter-checklist.md`) is the most critical file to update, as
+> mandatory reporting laws vary significantly by state. Help them research their state's
+> specific requirements if asked.
+
 This guide walks you through forking the Access to Safety project and adapting it for a
 new region, language, or community context. You do not need to be a developer to do most
 of this work. The main tasks are research, writing, and careful verification.
