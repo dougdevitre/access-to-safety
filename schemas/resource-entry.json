@@ -67,6 +67,22 @@
         "pod8": { "const": "Technology Safety and Privacy" }
       }
     },
+    "targetRoles": {
+      "type": "array",
+      "description": "CoTrackPro roles this resource is most relevant for. Used to filter and prioritize resources when responding to different user types. If omitted, the resource is considered relevant to all roles.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "survivor",
+          "mandatory-reporter",
+          "advocate-provider",
+          "support-person",
+          "child-youth",
+          "vulnerable-population-member"
+        ]
+      },
+      "uniqueItems": true
+    },
     "phone": {
       "type": "string",
       "description": "Primary phone number. Use consistent formatting, e.g., 1-800-799-7233 or (512) 555-0100.",

@@ -38,7 +38,23 @@ Access to Safety is an AI skill (designed for [Claude](https://claude.ai)) that 
 | 7 | **Digital & Tech Safety** | Cyberstalking, spyware, AirTag tracking, doxxing, NCII/revenge porn, sextortion, CSAM reporting |
 | 8 | **Vulnerable Populations** | LGBTQ+, disability, immigration (U/T-visa), refugee, veteran, unhoused, youth aging out, tribal |
 
-Plus **4 cross-cutting tools**: Safety Plan Builder, Incident Documentation, Resource Directory, and a Region Customization Guide.
+Plus **8 cross-cutting tools** — role-specific templates that serve 5 distinct user types (see below).
+
+---
+
+## Who This Is For — CoTrackPro Roles
+
+Access to Safety adapts its content based on **who is asking**. The same underlying knowledge is presented differently depending on the user's role.
+
+| Role | Description | Primary Template |
+|------|------------|-----------------|
+| **Survivor** | A person experiencing abuse, violence, or safety threats | `safety-plan.md`, `incident-log.md` |
+| **Mandatory Reporter** | A professional legally required to report suspected abuse (teacher, nurse, counselor, etc.) | `mandatory-reporter-checklist.md` |
+| **Advocate / Service Provider** | A professional helping clients (DV advocate, social worker, attorney, counselor) | `advocate-case-coordination.md` |
+| **Support Person** | A friend, family member, coworker, or neighbor concerned about someone | `support-person-guide.md` |
+| **Child / Youth** | A person under 18 seeking help for themselves | `youth-safety-plan.md` |
+
+A sixth cross-cutting consideration — **Vulnerable Population Member** (LGBTQ+, disabled, undocumented, veteran, refugee, unhoused, etc.) — is layered on top of any role when identity-specific barriers are present.
 
 ---
 
@@ -62,12 +78,27 @@ See the full [Customization Guide](templates/customization-guide.md).
 
 ---
 
+## Templates by Role
+
+| Template | Primary Role | Description |
+|----------|-------------|-------------|
+| `safety-plan.md` | Survivor | Personalized safety plan with go bag checklist, escape routes, and digital safety |
+| `youth-safety-plan.md` | Child/Youth | Age-appropriate safety plan (5th-6th grade reading level) with school safety and dating violence |
+| `incident-log.md` | Survivor, Advocate | Evidence-quality incident documentation for court and legal proceedings |
+| `mandatory-reporter-checklist.md` | Mandatory Reporter | Checklists for 6 report types: child, elder, vulnerable adult, trafficking, DV with children, sexual abuse |
+| `support-person-guide.md` | Support Person | Danger signs recognition, conversation scripts, self-care for supporters |
+| `advocate-case-coordination.md` | Advocate/Provider | Cross-pod referral matrix, multi-need assessment, service coordination timeline |
+| `resource-directory.md` | All roles | Blank directory template for any region |
+| `customization-guide.md` | Fork maintainers | How to fork, localize, and maintain for your region |
+
+---
+
 ## File Structure
 
 ```
 access-to-safety/
 ├── README.md                                    ← You are here
-├── SKILL.md                                     ← Main skill file (routing + principles)
+├── SKILL.md                                     ← Main skill file (routing + role adaptation + principles)
 ├── references/
 │   ├── crisis-response/pod.md                   ← Pod 1: 911, crisis lines, mobile crisis
 │   ├── violence-abuse/pod.md                    ← Pod 2: DV, child abuse, sexual violence, trafficking
@@ -78,13 +109,17 @@ access-to-safety/
 │   ├── digital-safety/pod.md                    ← Pod 7: Cyberstalking, spyware, doxxing, CSAM
 │   └── vulnerable-populations/pod.md            ← Pod 8: LGBTQ+, disability, immigration, veterans
 ├── templates/
-│   ├── safety-plan.md                           ← Personalized safety plan builder
-│   ├── incident-log.md                          ← Evidence-quality incident documentation
-│   ├── resource-directory.md                    ← Blank directory template for any region
+│   ├── safety-plan.md                           ← Safety plan builder (Survivor, Support Person)
+│   ├── youth-safety-plan.md                     ← Youth-adapted safety plan (Child/Youth)
+│   ├── incident-log.md                          ← Incident documentation (Survivor, Advocate)
+│   ├── mandatory-reporter-checklist.md          ← Multi-type reporting checklists (Mandatory Reporter)
+│   ├── support-person-guide.md                  ← Help guide + self-care (Support Person)
+│   ├── advocate-case-coordination.md            ← Case coordination (Advocate/Provider)
+│   ├── resource-directory.md                    ← Blank directory for any region
 │   └── customization-guide.md                   ← How to fork for your region
 └── schemas/
-    ├── resource-entry.json                      ← JSON schema: single resource entry
-    ├── safety-assessment.json                   ← JSON schema: risk/needs assessment
+    ├── resource-entry.json                      ← JSON schema: single resource (with role targeting)
+    ├── safety-assessment.json                   ← JSON schema: risk/needs assessment (all assessor types)
     └── incident-record.json                     ← JSON schema: court-ready incident log
 ```
 

@@ -15,6 +15,23 @@ This pod provides population-specific guidance, resources, and considerations th
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** This pod is an OVERLAY — it modifies how you present content from
+> other pods. Every role needs this pod applied when identity-specific barriers are present.
+> The key principle: acknowledge the specific barrier, address the specific fear, and
+> connect to population-specific resources FIRST, then general resources.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | Acknowledge their identity-specific barrier explicitly: "I want to make sure the resources I share work for your specific situation." For LGBTQ+ survivors: provide LGBTQ+ affirming DV services first, then general services. For undocumented survivors: clarify that DV services do not require immigration status, address deportation fear directly, and provide immigration legal resources (U-visa, VAWA self-petition). For disabled survivors: confirm accessibility of recommended resources. For veterans: provide VA-specific resources alongside civilian services. |
+| **Mandatory Reporter** | When the person you are reporting about is from a vulnerable population: note relevant identity factors in your report (language needs, disability, immigration status) so the investigating agency can assign appropriate staff. For undocumented families: reassure yourself and the family that a CPS report does not automatically trigger immigration enforcement. For LGBTQ+ youth: be aware of mandatory reporting nuances — in some states, a youth's sexual orientation is not itself reportable, but abuse by a parent in response to a youth's identity IS. |
+| **Advocate / Provider** | Document identity-specific barriers in the case coordination template (Section 3). When making referrals, confirm that the receiving organization is affirming and accessible for the client's population (e.g., LGBTQ+ affirming shelter, interpreter-accessible legal aid, wheelchair-accessible facility). Layer this pod on top of other pod referrals — don't treat identity as a separate "issue" but as a factor that shapes every service interaction. Use the `vulnerablePopulationFactors` field in the safety assessment schema. |
+| **Support Person** | If the person they support faces identity-specific barriers: help them understand those barriers without minimizing. For example: "Your friend may be afraid to call the police because of their immigration status — that fear is valid, and there are organizations that help regardless of status." Provide population-specific hotlines (LGBTQ+ DV Hotline: 1-866-356-4673, StrongHearts for Native communities: 1-844-762-8483). |
+| **Child / Youth** | For LGBTQ+ youth: provide the Trevor Project (1-866-488-7386) as a primary resource. Reassure them that their identity is valid and not the cause of the abuse. For youth with disabilities: help identify accessible trusted adults. For immigrant youth: clarify that schools are safe places regardless of immigration status. For youth aging out of foster care: connect to independent living programs and extended foster care options. |
+
+---
+
 ## LGBTQ+ Survivors
 
 ### Unique Barriers

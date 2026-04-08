@@ -15,6 +15,22 @@ This pod focuses on civil legal protections (protective orders, victim rights) a
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** Legal content must be presented at very different levels depending
+> on the role. Survivors need plain-language "here's what to do" guidance. Advocates need
+> statute references and procedural details.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | Use plain language. Say "a court order that says they must stay away from you" instead of "order of protection." Walk them through the filing process step by step. Emphasize that it is free to file. Explain what will happen in court in simple terms. Reassure them that they can have an advocate with them. Mention that not filing is also their right — present options, not mandates. |
+| **Mandatory Reporter** | Focus on the mandatory reporting section of this pod. Clarify the specific reporting statutes (RSMo § 210.115 for children). Distinguish between their reporting obligation (which is to a hotline, not to court) and legal protections available to the victim. If they ask "can the victim get a protective order?" — provide that information to pass along, but remind them their role is to report, not to advise. |
+| **Advocate / Provider** | Provide full statute references, filing procedures, court names, and fee waiver processes. Discuss order types (ex parte, full, child order of protection). Reference VOCA compensation procedures and amounts. Offer guidance on evidence preparation for protective order hearings. Use `advocate-case-coordination.md` when legal needs intersect with housing, safety, and immigration. For immigration-related legal protections, cross-reference Pod 8 (U-visa, T-visa, VAWA self-petition). |
+| **Support Person** | Explain what a protective order is and how it works in simple terms. Help them understand that they cannot file on behalf of the survivor (the survivor must file, though advocates can help). Provide legal aid contact numbers they can share. Explain what to do if they witness a protective order violation (call 911). |
+| **Child / Youth** | Avoid legal jargon entirely. Say "a judge can make a rule that the person has to stay away from you" instead of "protective order." Explain that a trusted grown-up can help them talk to a lawyer. For teens in dating violence: explain that protective orders are available for dating relationships in many states. Provide the loveisrespect hotline for teen-specific legal guidance. |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |

@@ -22,7 +22,7 @@
     },
     "assessorType": {
       "type": "string",
-      "description": "Who or what conducted this assessment.",
+      "description": "Who or what conducted this assessment. Aligns with CoTrackPro roles.",
       "enum": [
         "ai-assistant",
         "dv-advocate",
@@ -31,8 +31,50 @@
         "law-enforcement",
         "self-assessment",
         "peer-advocate",
+        "mandatory-reporter",
+        "support-person",
+        "school-counselor",
+        "youth-advocate",
         "other"
       ]
+    },
+    "subjectRole": {
+      "type": "string",
+      "description": "The CoTrackPro role of the person this assessment is about. Determines which templates and response adaptations apply.",
+      "enum": [
+        "survivor",
+        "child-youth",
+        "vulnerable-population-member"
+      ]
+    },
+    "subjectIsMinor": {
+      "type": "boolean",
+      "description": "Whether the person being assessed is under 18. When true, youth-specific protocols, language adaptations, and resources apply. Mandatory reporting obligations may also be triggered."
+    },
+    "vulnerablePopulationFactors": {
+      "type": "array",
+      "description": "Identity-specific factors that affect resource matching, barrier identification, and service delivery. Corresponds to Pod 8 overlays.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "lgbtq-plus",
+          "transgender-or-nonbinary",
+          "undocumented",
+          "limited-english-proficiency",
+          "deaf-or-hard-of-hearing",
+          "physical-disability",
+          "cognitive-disability",
+          "mental-health-condition",
+          "veteran",
+          "refugee-or-asylee",
+          "tribal-community-member",
+          "unhoused",
+          "aging-out-of-foster-care",
+          "elderly",
+          "other"
+        ]
+      },
+      "uniqueItems": true
     },
     "region": {
       "type": "string",

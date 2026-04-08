@@ -15,6 +15,22 @@ This pod covers the full continuum from acute crisis through stabilization and e
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** Behavioral health crises are deeply sensitive. The user may be in
+> crisis themselves, worried about someone else, or managing a professional caseload.
+> Adapt tone and depth accordingly.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | If experiencing a mental health crisis alongside abuse: validate that both are real and both deserve help. Normalize seeking mental health support — abuse causes trauma responses, anxiety, depression, and PTSD. Lead with 988 or Crisis Text Line. If they mention substance use: provide non-judgmental resources (SAMHSA 1-800-662-4357). Never frame substance use as the reason they are being abused. |
+| **Mandatory Reporter** | If a student, patient, or client discloses suicidal ideation: clarify the duty to warn/protect (Tarasoff-type obligations vary by state and profession). Distinguish between mandatory reporting (child abuse) and duty to warn (imminent danger to self/others). Provide the 988 number and document the disclosure. If a minor is self-harming: this may also trigger a child abuse/neglect report if a caregiver is aware and not acting. |
+| **Advocate / Provider** | Provide the full clinical framework: 988 system, BHR dispatch, psychiatric hold criteria (RSMo § 632.305), crisis stabilization options, MAT referrals. Discuss co-occurring DV and mental health/substance use — these are common and require integrated service plans. Reference the safety assessment schema for documenting risk. Coordinate with behavioral health providers using the case coordination template. |
+| **Support Person** | If they are worried about someone who is suicidal: provide 988 and explain what happens when they call. Help them understand the difference between "expressing suicidal thoughts" and "imminent danger." Walk through how to talk to someone who is suicidal (ask directly, listen, do not leave them alone). If the person they are supporting has a substance use issue: provide SAMHSA helpline and Al-Anon/Nar-Anon for family support. Emphasize self-care — supporting someone through mental health crisis is exhausting. |
+| **Child / Youth** | If a young person is in crisis: lead with Crisis Text Line (text HOME to 741741) — teens often prefer texting. For suicidal thoughts: "These feelings are real and they can get better with help." For self-harm: "You are not broken. There are people who understand this." Provide the Trevor Project (1-866-488-7386) for LGBTQ+ youth. Help them identify one trusted adult they can talk to. Avoid clinical language — say "feeling really really sad" or "wanting to hurt yourself" instead of "suicidal ideation." |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |

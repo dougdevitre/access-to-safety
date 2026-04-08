@@ -15,6 +15,21 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** Digital safety is critical for ALL roles — abusers frequently
+> monitor devices. Adapt guidance based on who needs it and why.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | **HIGH PRIORITY: Always include the private browsing reminder.** Before discussing anything else, ask whether their device is safe. If the abuser may be monitoring: recommend using a library computer or friend's phone. Walk through device security steps one at a time (passwords, 2FA, tracking apps, location sharing). If they suspect spyware: do NOT immediately delete it — this can alert the abuser. Plan the removal as part of a broader safety plan. For NCII/revenge porn: provide reporting options and state laws, emphasize this is not their fault. |
+| **Mandatory Reporter** | If a student or patient discloses online exploitation, sextortion, or CSAM: this triggers mandatory reporting. For CSAM: report to NCMEC CyberTipline (1-800-843-5678) and local law enforcement. For sextortion of a minor: report to FBI (tips.fbi.gov). Document the disclosure using the mandatory reporter checklist but do NOT view, download, or screenshot the material — let law enforcement handle evidence collection. |
+| **Advocate / Provider** | Provide the full tech safety assessment framework. Conduct or recommend a device safety check (spyware, shared accounts, location services, AirTags). Help clients with evidence preservation — screenshots of threats, harassment, stalking messages. Document digital evidence properly (metadata, chain of custody) using the incident record schema. For clients leaving: include digital safety as part of the exit plan (new accounts, device replacement, address suppression). Cross-reference with Legal Protection pod for cyberstalking protective orders. |
+| **Support Person** | If helping someone with device safety: do NOT check their phone for them without their explicit permission. Offer to help research spyware detection or set up new accounts on a safe device. If the person they support asks them to hold evidence: agree to store screenshots securely. Remind them that digital messages they send to the survivor may be visible to the abuser — use agreed-upon code words or a safe channel. |
+| **Child / Youth** | Use simple language. For cyberbullying: "No one has the right to be mean to you online. You can block them and tell a grown-up." For sextortion: "If someone is threatening to share private pictures of you, that is a crime — even if they are a kid too. Tell a trusted adult." Emphasize: never send more pictures to try to make it stop — it will not stop. Provide Crisis Text Line. For CSAM: a child may not understand what is happening — focus on safety and trusted adults, not legal terms. |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |

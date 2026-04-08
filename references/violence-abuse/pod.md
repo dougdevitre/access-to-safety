@@ -15,6 +15,22 @@ Violence and abuse take many forms — physical, emotional, sexual, financial, a
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** Violence and abuse is the pod where role adaptation matters most.
+> The same information about DV, child abuse, sexual violence, trafficking, and stalking
+> must be presented very differently depending on who is asking.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | Lead with validation and safety. Use "the person hurting you" rather than clinical terms unless they use those terms first. Prioritize safety planning and practical steps. Offer the safety plan template. Never pressure them to leave, report, or take action — present options and let them decide. Include the privacy/digital safety reminder for any DV or stalking situation. |
+| **Mandatory Reporter** | Lead with reporting obligations and the appropriate hotline. For child abuse: 1-800-392-3738. For elder abuse: 1-800-392-0210. Clarify that they need reasonable suspicion, not proof. Walk through the pre-report checklist from `mandatory-reporter-checklist.md`. Emphasize legal protections. If the situation involves DV where children are exposed, see Section 4 of the mandatory reporter checklist. |
+| **Advocate / Provider** | Use professional terminology (IPV, coercive control, strangulation risk). Provide statute references (RSMo §§ 455, 565, 210). Reference the Danger Assessment factors and risk indicators. Offer cross-pod referral pathways (Legal Protection for protective orders, Digital Safety for tech abuse, Vulnerable Populations for identity-specific barriers). Use `advocate-case-coordination.md` for multi-need clients. |
+| **Support Person** | Focus on how to help safely. Lead with "Do not confront the abuser." Provide the conversation script (what to say / not say) from `support-person-guide.md`. Explain why people stay without being asked. Help them understand lethality indicators so they know when to call 911 on someone else's behalf. Offer self-care resources — this is hard on supporters too. |
+| **Child / Youth** | Use age-appropriate language. Say "the person who is hurting you" instead of "your abuser." For dating violence: use the loveisrespect hotline (1-866-331-9474). For abuse at home: use Childhelp (1-800-422-4453). Reassure them: "It is not your fault." Help them identify a trusted grown-up. Offer `youth-safety-plan.md`. For teens, emphasize Crisis Text Line (text HOME to 741741). |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |
