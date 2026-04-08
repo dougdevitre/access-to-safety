@@ -194,16 +194,33 @@ If your region has a significant immigrant population, also document:
 | `README.md` | Region name, maintainer contact, coverage area, last updated |
 | `templates/resource-directory.md` | All resource tables, directory metadata, state law section |
 | `templates/safety-plan.md` | Local hotline numbers, any region-specific safety considerations |
+| `templates/youth-safety-plan.md` | Local youth hotlines, school-specific resources, state-specific youth resources |
 | `templates/incident-log.md` | Local court information, any jurisdiction-specific legal notes |
+| `templates/mandatory-reporter-checklist.md` | State-specific reporting hotlines, mandatory reporter definitions, statute references, reporting procedures — **this varies significantly by state** |
+| `templates/support-person-guide.md` | Local DV hotline numbers, local shelter numbers, state-specific reporting guidance for "when children are involved" |
+| `templates/advocate-case-coordination.md` | Local organization names in referral matrix, state-specific legal frameworks, VAWA confidentiality specifics |
 | `schemas/resource-entry.json` | Only if you need to add region-specific fields |
-| `references/` | Add local legal references, state statute links |
+| `references/` | Add local legal references, state statute links, role adaptation blocks |
+
+### Role-Specific Customization Notes
+
+When localizing for your region, pay special attention to these role-specific elements:
+
+| Role | Critical Customization Items |
+|------|------------------------------|
+| **Survivor** | Local shelter numbers, safety plan hotlines, protective order filing locations |
+| **Mandatory Reporter** | **Your state's mandatory reporter law** — who is required to report, which hotline to call, what immunity provisions exist. This is the most state-specific content in the project. |
+| **Advocate/Provider** | Local organization names for the referral matrix, state statute references, court names and filing procedures |
+| **Support Person** | Local DV hotline numbers, local shelter information to share |
+| **Child/Youth** | State-specific youth resources, local school district protocols, youth shelter options |
 
 ### Files You Should NOT Change Without Good Reason
 
-- The core structure of the safety plan template — it is based on evidence-based safety
+- The core structure of the safety plan templates — they are based on evidence-based safety
   planning frameworks
 - The incident log template — it is designed for legal admissibility
 - JSON schema files — changing these will break compatibility with other tools
+- The role adaptation sections in pod files — these are role-agnostic guidance
 
 ---
 

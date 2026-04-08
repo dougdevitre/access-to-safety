@@ -90,26 +90,39 @@ cell signals that information is unknown; a wrong entry is actively harmful.
 
 ## Pod Reference
 
-This directory is organized into 8 Safety Pods. Each resource is tagged with the pod(s)
-it primarily serves. A single organization may appear in multiple pods.
+This directory is organized into 8 Safety Pods that align with the domain knowledge system
+defined in `SKILL.md`. Each resource is tagged with the pod(s) it primarily serves. A
+single organization may appear in multiple pods.
 
-| Pod | Focus area |
+| Pod | Domain | Scope |
+|---|---|---|
+| Pod 1 | **Crisis Response** | 911, 988, crisis lines, mobile crisis teams, crisis stabilization |
+| Pod 2 | **Violence & Abuse** | Domestic violence, child abuse, sexual violence, elder abuse, trafficking, stalking |
+| Pod 3 | **Community Safety** | Gun violence, CVI, hate crimes, school safety |
+| Pod 4 | **Legal Protection** | Protective orders, victim rights, crime victim compensation, mandatory reporting |
+| Pod 5 | **Behavioral Health Crisis** | 988, psychiatric holds, substance use crisis, overdose, naloxone |
+| Pod 6 | **Environmental Safety** | Disaster preparedness, housing safety, workplace safety, hazards |
+| Pod 7 | **Digital & Tech Safety** | Cyberstalking, spyware, doxxing, online exploitation, privacy |
+| Pod 8 | **Vulnerable Populations** | LGBTQ+, disability, immigration, refugee, veteran, unhoused, youth aging out |
+
+### Relevant CoTrackPro Roles
+
+Resources can also be tagged by which user roles they primarily serve:
+
+| Role | Description |
 |---|---|
-| Pod 1 | Crisis & Emergency Safety |
-| Pod 2 | Legal Advocacy & Protective Orders |
-| Pod 3 | Housing & Shelter |
-| Pod 4 | Economic Safety & Financial Independence |
-| Pod 5 | Medical, Mental Health & Recovery |
-| Pod 6 | Children & Family Safety |
-| Pod 7 | Community & Cultural Support |
-| Pod 8 | Technology Safety & Privacy |
+| Survivor | Person directly experiencing abuse or safety threat |
+| Mandatory Reporter | Professional with legal duty to report (teacher, nurse, etc.) |
+| Advocate / Provider | Professional serving clients (DV advocate, social worker, attorney) |
+| Support Person | Friend, family, coworker concerned about someone |
+| Child / Youth | Person under 18 seeking help |
 
 ---
 
-## Pod 1 — Crisis and Emergency Safety
+## Pod 1 — Crisis Response
 
-*Resources for immediate danger situations: hotlines, emergency shelters, crisis intervention,
-law enforcement victim services.*
+*Resources for immediate danger situations: hotlines, crisis lines, mobile crisis teams,
+crisis intervention, law enforcement victim services.*
 
 ### Hotlines
 
@@ -137,10 +150,68 @@ law enforcement victim services.*
 
 ---
 
-## Pod 2 — Legal Advocacy and Protective Orders
+## Pod 2 — Violence & Abuse
+
+*Resources for domestic violence, child abuse, sexual violence, elder abuse, human
+trafficking, and stalking services.*
+
+### DV Advocacy and Shelter
+
+| Organization | Phone | Address | Hours | Services | Languages | Cost | Eligibility | Last Verified |
+|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | |
+| | | | | | | | | |
+
+### Sexual Assault Services
+
+| Organization | Phone | Address | Hours | Services | Languages | Cost | Eligibility | Last Verified |
+|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | |
+| | | | | | | | | |
+
+### Child Abuse / Advocacy Centers
+
+| Organization | Phone | Address | Hours | Services | Ages Served | Cost | Last Verified |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+
+### Elder Abuse Services
+
+| Organization | Phone | Address | Hours | Services | Eligibility | Last Verified |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+### Human Trafficking Services
+
+| Organization | Phone | Address | Hours | Services | Languages | Cost | Last Verified |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+
+---
+
+## Pod 3 — Community Safety
+
+*Resources for community violence intervention, gun violence prevention, hate crimes,
+school safety, and victim services.*
+
+### Community Violence Intervention
+
+| Organization | Phone | Address | Hours | Services | Notes | Last Verified |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+### Hate Crime / Bias Incident Reporting
+
+| Organization | Phone | Address | Services | Notes | Last Verified |
+|---|---|---|---|---|---|
+| | | | | | |
+
+---
+
+## Pod 4 — Legal Protection
 
 *Resources for protective orders, civil legal aid, immigration legal help, court advocacy,
-and criminal justice support.*
+crime victim compensation, and mandatory reporting support.*
 
 ### Protective Order / Court Advocacy
 
@@ -177,12 +248,43 @@ and criminal justice support.*
 
 ---
 
-## Pod 3 — Housing and Shelter
+## Pod 5 — Behavioral Health Crisis
 
-*Resources for emergency shelter, transitional housing, long-term affordable housing,
-hotel/motel vouchers, and housing legal aid.*
+*Resources for mental health crisis, 988 system, psychiatric emergency, substance use
+crisis, overdose response, naloxone access.*
 
-### Emergency Shelter
+### Crisis Lines (beyond national — local/regional)
+
+| Organization | Phone | Hours | Services | Languages | Notes | Last Verified |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+### Psychiatric Emergency Services
+
+| Organization | Phone | Address | Hours | Services | Insurance | Last Verified |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+### Substance Use Crisis
+
+| Organization | Phone | Address | Services | Cost | Eligibility | Last Verified |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+### Naloxone Access
+
+| Organization | Phone | Address | How to Obtain | Cost | Last Verified |
+|---|---|---|---|---|---|
+| | | | | | |
+
+---
+
+## Pod 6 — Environmental Safety
+
+*Resources for housing safety, emergency shelter, transitional housing, disaster
+preparedness, workplace safety, and environmental hazards.*
+
+### Emergency Shelter (DV-Specific)
 
 | Organization | Phone | Address | Bed capacity | Length of stay | Services included | Pet-friendly | Children welcome | LGBTQ+ affirming | Cost | Eligibility | Last Verified |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -210,11 +312,6 @@ hotel/motel vouchers, and housing legal aid.*
 | | | | | | |
 
 ---
-
-## Pod 4 — Economic Safety and Financial Independence
-
-*Resources for emergency financial assistance, employment support, benefits navigation,
-financial literacy, and economic empowerment programs.*
 
 ### Emergency Financial Assistance
 
@@ -245,11 +342,6 @@ financial literacy, and economic empowerment programs.*
 
 ---
 
-## Pod 5 — Medical, Mental Health, and Recovery
-
-*Resources for medical care (including forensic exams), counseling, therapy, substance use
-support, and disability-related services.*
-
 ### Medical Care / SANE Exams
 
 | Organization | Phone | Address | Hours | Services | Insurance accepted | Cost | Last Verified |
@@ -278,11 +370,6 @@ support, and disability-related services.*
 
 ---
 
-## Pod 6 — Children and Family Safety
-
-*Resources for children's advocacy centers, school-based support, childcare assistance,
-custody and parenting support, and family reunification.*
-
 ### Children's Advocacy Centers
 
 | Organization | Phone | Address | Services | Ages served | Cost | Last Verified |
@@ -309,10 +396,32 @@ custody and parenting support, and family reunification.*
 
 ---
 
-## Pod 7 — Community and Cultural Support
+## Pod 7 — Digital & Tech Safety
+
+*Resources for technology abuse support, device safety, cyberstalking assistance, and
+digital privacy.*
+
+### Technology Safety Resources (National)
+
+| Organization | Phone | Website | Services | Cost | Last Verified |
+|---|---|---|---|---|---|
+| Safety Net (NNEDV) | — | techsafety.org | Tech safety guides, training, consulting | Free | — |
+| Coalition Against Stalkerware | — | stopstalkerware.org | Detection, removal resources | Free | — |
+| | | | | | |
+
+### Local Cyberstalking / Tech Abuse Support
+
+| Organization | Phone | Address | Services | Notes | Last Verified |
+|---|---|---|---|---|---|
+| | | | | | |
+
+---
+
+## Pod 8 — Vulnerable Populations
 
 *Resources for communities with specific cultural, linguistic, or identity-based needs:
-LGBTQ+, immigrants/refugees, tribal communities, faith communities, older adults, etc.*
+LGBTQ+, immigrants/refugees, tribal communities, faith communities, older adults,
+disability services, veterans, unhoused, youth aging out of foster care.*
 
 ### LGBTQ+ Services
 
@@ -346,28 +455,6 @@ LGBTQ+, immigrants/refugees, tribal communities, faith communities, older adults
 | Organization | Phone | Address | Services | Eligibility | Last Verified |
 |---|---|---|---|---|---|
 | Eldercare Locator | 1-800-677-1116 | — | Referrals for older adults | 60+ | — |
-| | | | | | |
-
----
-
-## Pod 8 — Technology Safety and Privacy
-
-*Resources for technology abuse support, device safety, cyberstalking assistance, and
-digital privacy.*
-
-### Technology Safety Resources
-
-| Organization | Phone | Website | Services | Cost | Last Verified |
-|---|---|---|---|---|---|
-| Safety Net (NNEDV) | — | techsafety.org | Tech safety guides, training, consulting | Free | — |
-| Coalition Against Stalkerware | — | stopstalkerware.org | Detection, removal resources | Free | — |
-| | | | | | |
-
-### Local Cyberstalking / Tech Abuse Support
-
-| Organization | Phone | Address | Services | Notes | Last Verified |
-|---|---|---|---|---|---|
-| | | | | | |
 | | | | | | |
 
 ---

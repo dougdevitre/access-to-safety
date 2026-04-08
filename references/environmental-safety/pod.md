@@ -15,6 +15,21 @@ This pod provides guidance on housing code violations, disaster preparedness (es
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** Environmental safety intersects with abuse in specific ways.
+> Adapt content based on who is asking and why.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | If fleeing abuse and facing housing instability: prioritize DV-specific shelter (not general homeless shelter — DV shelters offer confidential locations, safety planning, and advocacy). If stuck in unsafe housing due to abuse: explain tenant rights, lease-breaking protections for DV survivors (where available), and housing code complaint processes that do not require the landlord's cooperation. For disaster preparedness: help them build a plan that accounts for the abuser (e.g., separate evacuation, not going to the same shelter). |
+| **Mandatory Reporter** | If you observe a child in unsafe housing conditions (lead paint, no heat, structural hazards): this may constitute neglect and should be reported to the child abuse hotline (1-800-392-3738). Distinguish between "parent cannot afford repairs" (connect to resources) and "caregiver is aware of hazards and not acting" (reportable neglect). For workplace hazards: OSHA complaints can be filed anonymously. |
+| **Advocate / Provider** | Provide housing legal aid contacts, code violation reporting procedures, and OSHA complaint processes. For DV clients: know which shelters are at capacity and what alternatives exist (hotel vouchers, safe home networks). Coordinate housing with other needs using the case coordination template. Document housing conditions for legal proceedings (protective order applications often include housing instability as evidence of harm). |
+| **Support Person** | If the person they support is in unsafe housing: help them understand their options without pressuring. Offer to help research housing resources, make calls, or accompany them to appointments. If they can offer temporary housing: discuss safety considerations (the abuser may follow them there). Provide the National DV Hotline (1-800-799-7233) for housing-specific assistance. |
+| **Child / Youth** | If a child describes unsafe living conditions: help them identify a trusted adult at school (counselor, teacher) who can help. Explain in simple terms: "If your home has things that could hurt you — like no heat, or the ceiling is falling — there are people who can help fix that." For disaster preparedness: make it practical and not scary — focus on "what to do" rather than "what could happen." |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |

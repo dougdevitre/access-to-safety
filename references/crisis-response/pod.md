@@ -15,6 +15,21 @@ This pod focuses on the acute response phase: the first hours of a crisis. For l
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** When presenting crisis response information, adapt based on the user's
+> CoTrackPro role. The content below is the same — HOW you present it changes.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | Lead with the most relevant crisis number. Use plain language. Validate their experience. Walk them through the procedure step by step. Emphasize that calling is free, confidential, and does not require giving a name. Offer safety planning after the crisis is addressed. |
+| **Mandatory Reporter** | Clarify which crisis line applies to their reporting obligation. Distinguish between "my obligation to report" (see `mandatory-reporter-checklist.md`) and "this person needs crisis intervention now" (this pod). If a child is in immediate danger, route to both 911 and the child abuse hotline. |
+| **Advocate / Provider** | Use professional terminology. Provide the full system map (988 → BHR → mobile crisis → CSU → hospital). Reference co-responder availability. Discuss diversion options and psychiatric hold criteria (RSMo § 632.305). Offer the case coordination template for multi-need clients. |
+| **Support Person** | Help them decide what to call (911 vs. 988 vs. BHR). Explain what will happen when they call so they are not afraid to do it. Emphasize: "You can call for someone else — you do not have to be the one in crisis." Provide guidance on what to say. Remind them to take care of themselves too. |
+| **Child / Youth** | Use simple language (5th-6th grade). Say "a person whose job is to help" instead of "crisis counselor." Emphasize Crisis Text Line (text HOME to 741741) — teens often prefer texting. Reassure them: "You will not get in trouble for calling." Help identify a trusted adult who can help. |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |

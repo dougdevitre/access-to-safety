@@ -15,6 +15,21 @@ This pod covers how to recognize threats, how to report them, what community-bas
 
 ---
 
+## Role Adaptation for This Pod
+
+> **AI Instructions:** Community safety involves situations where the user may be a victim,
+> a bystander, a professional, or a concerned community member. Adapt accordingly.
+
+| Role | Adaptation |
+|------|-----------|
+| **Survivor** | If they experienced a hate crime, shooting, or community violence: validate, connect to victim services, and help with incident documentation. If they are in an area with ongoing violence: focus on practical safety steps (routes, times, awareness). Offer trauma-informed resources — community violence exposure causes PTSD. |
+| **Mandatory Reporter** | If a student or child discloses exposure to community violence, gang recruitment, or threats: clarify reporting obligations. School-based violence threats may require reporting to both CPS and school administration. Document what was disclosed using the mandatory reporter checklist. |
+| **Advocate / Provider** | Provide CVI program referrals, victim services contacts, and hate crime reporting procedures. For clients affected by gun violence: coordinate with hospital-based violence intervention programs. Reference community safety statute numbers. Use the case coordination template for clients with multiple needs (housing instability + violence exposure + mental health). |
+| **Support Person** | If they are worried about someone involved in community violence: explain the difference between CVI programs (non-punitive, community-based) and law enforcement. Provide guidance on how to talk to someone without pushing them away. If a young person is at risk: provide Cure Violence / credible messenger program contacts. |
+| **Child / Youth** | For active threat situations: give clear, simple instructions ("Run, hide, call 911"). For ongoing exposure to violence: validate their fear, connect to youth programs and counseling. For bullying or school safety: explain reporting options at school. Emphasize Crisis Text Line. For teens approached by gangs: provide non-judgmental exit/intervention resources. |
+
+---
+
 ## Key Concepts and Definitions
 
 | Term | Definition |
