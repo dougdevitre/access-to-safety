@@ -55,16 +55,16 @@
     },
     "podLabels": {
       "type": "object",
-      "description": "Reference labels for pod identifiers. Not required; provided here for documentation.",
+      "description": "Reference labels for pod identifiers. Must match the pod definitions in SKILL.md.",
       "properties": {
-        "pod1": { "const": "Crisis and Emergency Safety" },
-        "pod2": { "const": "Legal Advocacy and Protective Orders" },
-        "pod3": { "const": "Housing and Shelter" },
-        "pod4": { "const": "Economic Safety and Financial Independence" },
-        "pod5": { "const": "Medical, Mental Health, and Recovery" },
-        "pod6": { "const": "Children and Family Safety" },
-        "pod7": { "const": "Community and Cultural Support" },
-        "pod8": { "const": "Technology Safety and Privacy" }
+        "pod1": { "const": "Crisis Response" },
+        "pod2": { "const": "Violence & Abuse" },
+        "pod3": { "const": "Community Safety" },
+        "pod4": { "const": "Legal Protection" },
+        "pod5": { "const": "Behavioral Health Crisis" },
+        "pod6": { "const": "Environmental Safety" },
+        "pod7": { "const": "Digital & Tech Safety" },
+        "pod8": { "const": "Vulnerable Populations" }
       }
     },
     "targetRoles": {
