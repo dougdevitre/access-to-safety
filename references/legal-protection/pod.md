@@ -84,7 +84,7 @@ Under the **Missouri Adult Abuse Act (RSMo Chapter 455)**, you can file for an o
 
 **Step 2: Request the forms**
 - Ask the court clerk for the **Petition for Order of Protection**.
-- Forms are also available at: courts.mo.gov
+- Forms are also available at: www.courts.mo.gov
 
 **Step 3: Complete the petition**
 - Describe the abuse in specific, factual terms: what happened, when, where, any injuries, any witnesses.

@@ -51,8 +51,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
-          # --root-dir lets lychee resolve the Jekyll site's root-relative links
-          # (see .lycheeignore). 403 and 429 are accepted: many .gov and nonprofit sites refuse or
+          # 403 and 429 are accepted: many .gov and nonprofit sites refuse or
           # rate-limit GitHub-hosted bots, and a bot block is not a dead link.
           # 404, 410, DNS/connection errors and repeated 5xx still fail.
           args: >-
@@ -62,7 +61,6 @@ jobs:
             --timeout 20
             --accept 200..=299,403,429
             --exclude-loopback
-            --root-dir ${{ github.workspace }}
             './**/*.md'
             'lychee/*.txt'
           output: lychee/report.md

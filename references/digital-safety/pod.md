@@ -203,7 +203,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 | StopNCII.org | stopncii.org | Hash-based image removal from major platforms |
 | Cyber Civil Rights Initiative | cybercivilrights.org; 844-878-2274 | NCII crisis support |
 | NCMEC CyberTipline | report.cybertip.org; 1-800-843-5678 | CSAM reporting |
-| FBI IC3 | ic3.gov | Internet crime reporting |
+| FBI IC3 | www.ic3.gov | Internet crime reporting |
 | Identity Theft Resource Center | idtheftcenter.org; 888-400-5530 | If personal data has been stolen |
 
 ---

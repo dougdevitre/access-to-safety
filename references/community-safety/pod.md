@@ -92,7 +92,6 @@ Cure Violence is an evidence-based public health model that treats violence like
 
 | Program | Description | Contact |
 |---------|-------------|---------|
-| **Alive and Well** | Addresses trauma from gun violence; hospital-based violence intervention | alivenstl.org |
 | **Youth Violence Prevention Initiative (YVPI)** | STL County initiative connecting at-risk youth to services | Via STL County government |
 | **Better Family Life** | Community-based organization providing CVI and youth services | 314-381-3900 |
 | **St. Louis City Hospital Violence Intervention Program (HVIP)** | Connects gunshot wound patients to services at hospital bedside | Via Barnes-Jewish |

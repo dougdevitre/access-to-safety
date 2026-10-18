@@ -122,8 +122,8 @@ This pod provides population-specific guidance, resources, and considerations th
 | Resource | Contact | Services |
 |----------|---------|----------|
 | **National Domestic Violence Hotline (accessible)** | **1-800-799-7233**; video phone 855-812-1001 (The Deaf Hotline) | 24/7 |
-| **The Deaf Hotline** | **855-812-1001** (VP); deafhotline.org | Video phone for Deaf survivors |
-| **Missouri Protection and Advocacy Services (Mo P&A)** | **800-392-8667**; moadvocacy.org | Legal advocacy for people with disabilities; abuse/neglect investigation in facilities |
+| **The Deaf Hotline** | **855-812-1001** (VP), listed by the National DV Hotline | Video phone for Deaf survivors |
+| **Missouri Protection and Advocacy Services (Mo P&A)** | **800-392-8667**; www.moadvocacy.org | Legal advocacy for people with disabilities; abuse/neglect investigation in facilities |
 | **Paraquad (STL)** | **314-289-4200**; paraquad.org | Independent living services, advocacy, ADA rights |
 | **AbilitySTL** | **314-567-5516** | Assistive technology, employment, community support |
 
@@ -160,7 +160,6 @@ When referring a survivor with a disability, verify with the receiving organizat
 | **Military OneSource** | **800-342-9647** | 24/7 confidential support for active duty, reserves, and families |
 | **National Call Center for Homeless Veterans** | **877-424-3838** | 24/7; housing assistance, healthcare, employment |
 | **Legal Services of Eastern MO — Veterans Project** | **314-534-4200** | Free legal help for veterans |
-| **Safe Helproom (NNEDV for military)** | militaryfamiliesandipv.org | Safety planning and resources specific to military/veteran DV |
 
 ### For Survivors Whose Abuser Is Active-Duty Military
 
@@ -214,7 +213,7 @@ When referring a survivor with a disability, verify with the receiving organizat
 
 | Resource | Contact | Services |
 |----------|---------|----------|
-| **Foster Care to Success** | fc2success.org | Scholarships, care packages, coaching for foster care alumni |
+| **Foster Care to Success** | www.fc2success.org | Scholarships, care packages, coaching for foster care alumni |
 | **National Runaway Safeline** | **1-800-786-2929** (call or text) | 24/7 crisis support for youth; "Home Free" free ride home for ages 12–21 |
 | **Covenant House** | covenanthouse.org | Shelter and services for homeless youth (16–24) |
 | **Missouri Chafee Program** | dss.mo.gov (search Chafee) | Independent living services, education vouchers, transition support for current/former foster youth |
