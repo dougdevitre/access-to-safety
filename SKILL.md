@@ -17,6 +17,8 @@ description: >
 license: MIT — Fork freely for your region
 ---
 
+# Access to Safety
+
 <!-- BEGIN DISCLAIMER: synced from dougdevitre/access-to, edit it there -->
 ## Notice — show once at the start of every conversation
 
@@ -26,8 +28,6 @@ Before your first answer in a conversation, show this notice once, then continue
 
 The full text is in DISCLAIMER.md at the root of this repository.
 <!-- END DISCLAIMER -->
-
-# Access to Safety
 
 **Every person deserves to know what safety resources exist, how to reach them, and what to expect when they do.**
 
