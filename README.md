@@ -1,5 +1,10 @@
 # Access to Safety
 
+<!-- BEGIN DISCLAIMER: synced from dougdevitre/access-to, edit it there -->
+> [!IMPORTANT]
+> **Educational information only.** Access to Safety is not legal, medical, mental health, financial or safety advice, and using it creates no professional relationship. **In danger now? Call 911. For crisis support, call or text 988.** Confirm anything important with the official source or a licensed professional. Read the full [disclaimer](DISCLAIMER.md).
+<!-- END DISCLAIMER -->
+
 **The most comprehensive community safety navigation tool on the planet.**
 
 > Part of **[Access To](https://dougdevitre.org)** — open-source tools for the access gaps that matter most. [See all projects →](https://dougdevitre.org/#pillars)
