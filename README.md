@@ -2,7 +2,7 @@
 
 **The most comprehensive community safety navigation tool on the planet.**
 
-*Part of the [Access To](https://cotrackpro.github.io/access-to/) project family — open-source Claude skills for human rights infrastructure.*
+> Part of **[Access To](https://dougdevitre.org)** — open-source tools for the access gaps that matter most. [See all projects →](https://dougdevitre.org/#pillars)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Pillar: Safety](https://img.shields.io/badge/Pillar-Safety-red.svg)](#)
