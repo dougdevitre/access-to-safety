@@ -213,7 +213,6 @@ When referring a survivor with a disability, verify with the receiving organizat
 
 | Resource | Contact | Services |
 |----------|---------|----------|
-| **Foster Care to Success** | www.fc2success.org | Scholarships, care packages, coaching for foster care alumni |
 | **National Runaway Safeline** | **1-800-786-2929** (call or text) | 24/7 crisis support for youth; "Home Free" free ride home for ages 12–21 |
 | **Covenant House** | covenanthouse.org | Shelter and services for homeless youth (16–24) |
 | **Missouri Chafee Program** | dss.mo.gov (search Chafee) | Independent living services, education vouchers, transition support for current/former foster youth |
