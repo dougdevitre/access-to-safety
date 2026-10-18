@@ -128,9 +128,9 @@ crisis intervention, law enforcement victim services.*
 
 | Organization | Phone | Hours | Languages | Notes | Last Verified |
 |---|---|---|---|---|---|
-| National DV Hotline | 1-800-799-7233 | 24/7 | 200+ | Also: thehotline.org chat; Text START to 88788 | — |
-| National Sexual Assault Hotline | 1-800-656-4673 | 24/7 | English, Spanish | RAINN; online.rainn.org | — |
-| Crisis Text Line | Text HOME to 741741 | 24/7 | English, Spanish | Free, confidential | — |
+| National DV Hotline | 1-800-799-7233 | 24/7 | 200+ | Also: thehotline.org chat; Text START to 88788 | 2026-10-18 |
+| National Sexual Assault Hotline | 1-800-656-4673 | 24/7 | English, Spanish | RAINN; chat at rainn.org/hotline; text HOPE to 64673 | 2026-10-18 |
+| Crisis Text Line | Text HOME to 741741 (Spanish: HOLA) | 24/7 | English, Spanish | Free, confidential | 2026-10-18 |
 | 211 Information & Referral | Dial 2-1-1 | Varies by region | Varies | Local social services referrals | — |
 | | | | | | |
 
@@ -427,7 +427,7 @@ disability services, veterans, unhoused, youth aging out of foster care.*
 
 | Organization | Phone | Address | Services | Languages | Cost | Last Verified |
 |---|---|---|---|---|---|---|
-| National LGBTQ+ DV Hotline | 1-866-356-4673 | — | Crisis support, referrals | English, Spanish | Free | — |
+| Trans Lifeline | 877-565-8860 | — | Peer support (weekdays 1–9 p.m. ET; not 24/7) | English, Spanish | Free | 2026-10-18 |
 | | | | | | | |
 
 ### Immigrant and Refugee Services
@@ -441,7 +441,7 @@ disability services, veterans, unhoused, youth aging out of foster care.*
 
 | Organization | Phone | Address | Services | Notes | Last Verified |
 |---|---|---|---|---|---|
-| StrongHearts Native Helpline | 1-844-762-8483 | — | DV/SA support for Native communities | English | Free | — |
+| StrongHearts Native Helpline | 1-844-762-8483 | — | 24/7 DV/SA support for Native communities; text START to 1-844-762-8483 | English | Free | 2026-10-18 |
 | | | | | | |
 
 ### Faith Community Resources
@@ -454,7 +454,7 @@ disability services, veterans, unhoused, youth aging out of foster care.*
 
 | Organization | Phone | Address | Services | Eligibility | Last Verified |
 |---|---|---|---|---|---|
-| Eldercare Locator | 1-800-677-1116 | — | Referrals for older adults | 60+ | — |
+| Eldercare Locator | 1-800-677-1116 | — | Referrals for older adults (call or text) | 60+ | 2026-10-18 |
 | | | | | | |
 
 ---

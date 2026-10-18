@@ -3,6 +3,7 @@
 **Domain:** Mental health crisis, 988 system, psychiatric holds, substance use crisis, overdose response, naloxone, medication-assisted treatment (MAT), suicide prevention
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-04-02
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Crisis Response](../crisis-response/pod.md) | [Violence & Abuse](../violence-abuse/pod.md) | [Vulnerable Populations](../vulnerable-populations/pod.md) | [Legal Protection](../legal-protection/pod.md)
 
 ---
@@ -35,10 +36,10 @@ This pod covers the full continuum from acute crisis through stabilization and e
 
 | Term | Definition |
 |------|-----------|
-| **988 Suicide and Crisis Lifeline** | National crisis line (call or text 988). Routes to local crisis centers. Replaced the old 10-digit number in July 2022. |
+| **988 Suicide and Crisis Lifeline** | National crisis line (call or text 988). Routes to local crisis centers. Launched in July 2022; the old 10-digit number still connects. |
 | **Suicidal ideation** | Thoughts about ending one's life, ranging from passive ("I wish I weren't here") to active ("I have a plan to..."). All levels should be taken seriously. |
 | **96-hour hold (involuntary detention)** | Under Missouri RSMo § 632.305, a person may be held up to 96 hours for psychiatric evaluation if they pose an imminent danger to themselves or others due to a mental disorder. |
-| **Voluntary admission** | Under RSMo § 632.300, a person can voluntarily admit themselves to a psychiatric facility. They may request discharge, which the facility must act on within 3 days unless involuntary proceedings are initiated. |
+| **Voluntary admission** | A person can ask to be admitted to a psychiatric facility voluntarily. Discharge rules for voluntary patients are set by Missouri law — ask the facility or an attorney. |
 | **Naloxone (Narcan)** | A medication that rapidly reverses opioid overdose. Available over-the-counter in Missouri pharmacies without a prescription. Can be administered as a nasal spray. |
 | **MAT (Medication-Assisted Treatment)** | Use of FDA-approved medications (buprenorphine/Suboxone, methadone, naltrexone/Vivitrol) combined with counseling to treat opioid and alcohol use disorders. |
 | **Detoxification (Detox)** | Medically supervised withdrawal management. Detox alone is not treatment — it must be followed by ongoing care. |
@@ -55,31 +56,30 @@ This pod covers the full continuum from acute crisis through stabilization and e
 | Resource | Phone | Hours | Notes |
 |----------|-------|-------|-------|
 | **988 Suicide and Crisis Lifeline** | **988** (call or text) | 24/7 | Press 1 for veterans; press 2 for Spanish; chat at 988lifeline.org |
-| **BHR — Behavioral Health Response** | **314-469-6644** | 24/7 | Mobile crisis dispatch for STL County |
+| **BHR — Behavioral Health Response** | **988** or **314-819-8811** | 24/7 | BHR answers 988 in the St. Louis region; local line 314-819-8811 |
 | **SAMHSA National Helpline** | **1-800-662-4357** | 24/7 | Substance use and mental health referrals; free, confidential |
-| **Missouri Crisis Line** | **1-800-811-4760** | 24/7 | Statewide alternative to 988 |
 | **Crisis Text Line** | Text HOME to **741741** | 24/7 | Text-based crisis support |
 | **Trevor Project (LGBTQ+ youth)** | **1-866-488-7386** | 24/7 | Text START to 678-678; TrevorChat online |
-| **Postpartum Support International** | **1-800-944-4773** | 24/7 | Text 503-894-9453; perinatal mental health crises |
+| **Postpartum Support International HelpLine** | **1-800-944-4773** | Not 24/7 — leave a message and a volunteer calls back | Text 800-944-4773 (English) or 971-203-7773 (Spanish). Not a crisis line; for 24/7 support call or text the National Maternal Mental Health Hotline, 1-833-852-6262 |
 
 ### Psychiatric Emergency Facilities (STL Area)
 
 | Facility | Address | Phone | Notes |
 |----------|---------|-------|-------|
 | SSM Health DePaul Hospital | 12303 De Paul Dr, Bridgeton, MO 63044 | 314-344-6000 | Adult psychiatric emergency |
-| Mercy Hospital Behavioral Health | 615 S New Ballas Rd, St. Louis, MO 63141 | 314-569-6000 | Adult and adolescent |
+| Mercy Hospital St. Louis | 615 S New Ballas Rd, St. Louis, MO 63141 | 314-251-6000 | Adult and adolescent |
 | Barnes-Jewish Hospital (BJC) | 1 Barnes-Jewish Hospital Plaza, St. Louis, MO 63110 | 314-747-3000 | Level 1 trauma; psychiatric ED |
 | St. Louis Children's Hospital | 1 Children's Place, St. Louis, MO 63110 | 314-454-6000 | Under 18; psychiatric emergency |
-| CenterPointe Hospital | 4801 Weldon Spring Pkwy, St. Peters, MO 63304 | 636-441-7300 | Adult and adolescent inpatient |
+| CenterPointe Hospital | 4801 Weldon Spring Pkwy, St. Charles, MO 63304 | 866-924-2522 | Adolescent, adult and senior inpatient |
 
 ### Substance Use Treatment
 
 | Facility | Phone | Services | Notes |
 |----------|-------|----------|-------|
-| Assisted Recovery Centers of America | 314-942-6312 | Detox, residential, outpatient, MAT | Multiple STL area locations |
-| BJC Behavioral Health | 314-747-7800 | Outpatient, intensive outpatient, MAT | |
-| Places for People | 314-534-5600 | Outpatient SUD treatment, mental health | Integrated co-occurring care |
-| NCADA (National Council on Alcoholism & Drug Abuse) | 314-962-3456 | Assessment, referral, outpatient | |
+| Assisted Recovery Centers of America | 314-645-6840 | Detox, residential, outpatient, MAT | Multiple STL area locations |
+| BJC Behavioral Health | 314-747-7491 | Outpatient, intensive outpatient, MAT | |
+| Places for People | 314-535-5600 | Outpatient SUD treatment, mental health | Integrated co-occurring care |
+| PreventEd (formerly NCADA) | prevented.org | Prevention education; counseling for teens and parents | |
 | Harris House Foundation | 314-631-4299 | Residential treatment (men) | |
 | Preferred Family Healthcare | 1-800-780-0200 | Residential, outpatient, MAT | |
 
@@ -88,9 +88,7 @@ This pod covers the full continuum from acute crisis through stabilization and e
 | Source | Details |
 |--------|---------|
 | Any Missouri pharmacy | Available over-the-counter without a prescription |
-| BHR mobile crisis teams | Carry and can provide naloxone on-scene |
-| Prevention Consultants | 314-647-3100 — free naloxone distribution events |
-| Missouri Dept. of Health & Senior Services | Free mail-order naloxone program at health.mo.gov |
+| Missouri statewide standing order | Pharmacists can dispense naloxone under the state standing order (health.mo.gov) |
 
 ---
 
@@ -119,16 +117,16 @@ This pod covers the full continuum from acute crisis through stabilization and e
    - "Do you have access to [means]?"
    - If yes to both: this is **high risk** — call 988 or 911.
 5. **Remove means if safe to do so.** Secure firearms, medications, sharp objects.
-6. **Connect to help:** Call or text **988**, or call BHR at **314-469-6644**.
+6. **Connect to help:** Call or text **988** (BHR answers in the St. Louis region), or call BHR at **314-819-8811**.
 7. **Do not leave the person alone** until they are connected to a crisis professional.
 8. **Follow up.** Check in within 24–48 hours. The period after a crisis is high-risk.
 
 ### Procedure 3: Psychiatric Hold (96-Hour Hold) in Missouri
 
 **Who can initiate:**
+- Any adult, by filing a sworn application with the court
 - A peace officer (police, sheriff)
-- A licensed physician
-- A licensed mental health professional (psychologist, LCSW, LPC with appropriate authority)
+- A physician, registered nurse or mental health professional at a mental health facility
 
 **Criteria (RSMo § 632.305):**
 The person must present a likelihood of serious harm to themselves or others due to a mental disorder AND be unable or unwilling to seek voluntary treatment.
@@ -146,14 +144,13 @@ The person must present a likelihood of serious harm to themselves or others due
    - A judicial hearing if detention is extended beyond 96 hours
    - Refuse medication except in emergencies
 
-**For families:** If you believe a loved one needs a psychiatric hold, call BHR (314-469-6644) or 911. You cannot directly initiate a hold — only authorized professionals can. But you can request a wellness check and explain your concerns to responders.
+**For families:** If you believe a loved one needs a psychiatric hold, call 988, BHR (314-819-8811) or 911. Under RSMo § 632.305, any adult can also file a sworn application with the court asking for a 96-hour evaluation. You can request a wellness check and explain your concerns to responders.
 
 ### Procedure 4: Accessing Substance Use Treatment
 
 1. **For immediate crisis (overdose or danger):** Call 911.
 2. **For non-emergency help starting treatment:**
    - Call SAMHSA National Helpline: **1-800-662-4357** (free referral, 24/7)
-   - Call NCADA for local assessment: **314-962-3456**
 3. **Types of treatment available:**
    - **Detox:** Medically supervised withdrawal (3–7 days typically)
    - **Residential:** Structured live-in treatment (28 days to 6+ months)
@@ -184,10 +181,10 @@ Abuse often co-occurs with mental health and substance use crises. Important con
 | Statute | Description |
 |---------|-------------|
 | **RSMo § 632.305** | 96-hour involuntary psychiatric hold — imminent danger to self or others due to mental disorder |
-| **RSMo § 632.300** | Voluntary admission to psychiatric facilities; right to request discharge within 3 days |
+| **RSMo § 632.300** | Mental health coordinator procedure when a likelihood of serious harm is reported |
 | **RSMo § 195.205** | Drug Overdose Immunity — limited protection from drug possession charges when calling 911 for overdose |
 | **RSMo § 630.140** | Confidentiality of mental health records; cannot be disclosed without written consent except in limited circumstances |
-| **RSMo § 630.167** | Rights of persons receiving mental health services (right to treatment, least restrictive environment, informed consent) |
+| **RSMo § 630.167** | Investigation of abuse or neglect reports in Department of Mental Health facilities and programs; protection for reporters |
 
 ---
 
@@ -195,12 +192,12 @@ Abuse often co-occurs with mental health and substance use crises. Important con
 
 ```
 SUICIDE / CRISIS LIFELINE:           988  (call or text)
-MENTAL HEALTH CRISIS (STL County):   314-469-6644  (BHR)
+MENTAL HEALTH CRISIS (STL region):   988 or 314-819-8811  (BHR)
 OVERDOSE — CALL 911 FIRST:           911  then administer naloxone
 SUBSTANCE USE HELPLINE:              1-800-662-4357  (SAMHSA)
 VETERANS CRISIS LINE:                988 then press 1
 CRISIS TEXT LINE:                    Text HOME to 741741
-CHILDREN'S PSYCHIATRIC EMERGENCY:    314-454-6000  (STL Children's)
+ST. LOUIS CHILDREN'S HOSPITAL:       314-454-6000  (main line)
 ```
 
 ---

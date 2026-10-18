@@ -264,7 +264,7 @@ Before sharing client information with another provider:
 - [ ] Release specifies WITH WHOM information can be shared
 - [ ] Release has an expiration date
 - [ ] Client understands they can revoke consent at any time
-- [ ] Release is compliant with VAWA confidentiality provisions (42 U.S.C. § 13925(b)(2))
+- [ ] Release is compliant with VAWA confidentiality provisions (34 U.S.C. § 12291(b)(2), formerly 42 U.S.C. § 13925(b)(2))
 - [ ] If applicable: HIPAA authorization obtained (for medical/mental health providers)
 
 ### Warm Handoff Protocol

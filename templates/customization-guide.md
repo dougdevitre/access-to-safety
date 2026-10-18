@@ -134,11 +134,10 @@ See Step 6 for how to research state laws.
 | Source | What You'll Find |
 |---|---|
 | **211.org** or dial 2-1-1 | Broad social services database, searchable by zip code |
-| **thehotline.org/get-help/domestic-violence-local-resources/** | DV-specific local resources |
+| **thehotline.org/get-help/directory-of-local-providers/** | DV-specific local resources |
 | **domesticshelters.org** | Shelter locator with detailed program info |
 | **womenslaw.org/find-help/advocates-and-shelters** | State-by-state advocates list |
 | **rainn.org/get-help/local-counseling-centers** | Sexual assault resources by zip |
-| **aardvarc.org** | State coalitions and member organizations |
 | **State DV coalition website** | Your state's coalition maintains member directories |
 | **2-1-1 database** | Many states have a searchable 211 database online |
 | **Google / local news** | Search "[city] domestic violence shelter" or "DV resources [city]" |

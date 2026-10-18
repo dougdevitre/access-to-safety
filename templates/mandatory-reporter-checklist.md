@@ -55,7 +55,7 @@ or neglect. In Missouri (RSMo §210.115, §565.188, §630.162, §192.2405), mand
 
 ```
 Missouri Child Abuse/Neglect Hotline: 1-800-392-3738 (24/7)
-Online reporting: https://dss.mo.gov/cd/keeping-kids-safe/
+Online reporting (mandated reporters, non-emergency): https://apps.dss.mo.gov/OnlineCanReporting/default.aspx
 ```
 
 > **For other states:** Find your state's hotline at Childhelp (1-800-422-4453) or
@@ -124,8 +124,9 @@ Gather what you **already know** before calling. Do not delay the report to coll
 ### Report To
 
 ```
-Missouri Elder Abuse & Neglect Hotline: 1-800-392-0210 (24/7)
-Missouri Adult Abuse & Neglect Hotline: 1-800-392-0210
+Missouri Adult Abuse & Neglect Hotline: 1-800-392-0210 (daily 7 a.m.–8 p.m.)
+Online reports (any time): https://moapss.health.mo.gov/
+After hours in an emergency: call 911
 ```
 
 > **National:** Eldercare Locator: 1-800-677-1116
@@ -175,8 +176,9 @@ Missouri Adult Abuse & Neglect Hotline: 1-800-392-0210
 ### Report To
 
 ```
-Missouri Adult Abuse & Neglect Hotline: 1-800-392-0210 (24/7)
-For abuse in licensed facilities: Missouri DHSS complaint line: 573-751-6303
+Missouri Adult Abuse & Neglect Hotline: 1-800-392-0210 (daily 7 a.m.–8 p.m.)
+Online reports (any time): https://moapss.health.mo.gov/
+Abuse in licensed facilities: report to the same hotline
 ```
 
 ### Who Is a Vulnerable Adult?
@@ -252,7 +254,7 @@ Report when a child:
 
 ```
 National Human Trafficking Hotline: 1-888-373-7888 (24/7)
-Text: 233733 (BEFREE)
+Text: 233733 · TTY: 711
 Online: humantraffickinghotline.org
 Report to FBI: tips.fbi.gov
 ```
@@ -307,7 +309,7 @@ The reporting destination depends on the victim's age and vulnerability:
 | Victim | Report to |
 |--------|-----------|
 | Child (under 18) | Child Abuse/Neglect Hotline: 1-800-392-3738 |
-| Vulnerable adult | Adult Abuse Hotline: 1-800-392-0210 |
+| Vulnerable adult | Adult Abuse Hotline: 1-800-392-0210 (7 a.m.–8 p.m.; online any time) |
 | Adult (not vulnerable) | Encourage but cannot mandate; provide RAINN: 1-800-656-4673 |
 
 ### When a Professional Receives a Disclosure
@@ -398,5 +400,5 @@ Print or save this for quick access:
 
 *This template was created for the Access to Safety project. It is not a substitute for
 legal advice. Consult your organization's policies and your state's specific mandatory
-reporting laws. Missouri statutes referenced: RSMo §210.115, §210.135, §565.186–188,
+reporting laws. Missouri statutes referenced: RSMo §210.115, §210.135, §565.188,
 §630.162, §192.2405.*

@@ -3,6 +3,7 @@
 **Domain:** Emergency and crisis intervention, dispatch systems, mobile crisis, co-responder programs, crisis stabilization
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-03-29
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Behavioral Health Crisis](../behavioral-health-crisis/pod.md) | [Violence & Abuse](../violence-abuse/pod.md) | [Community Safety](../community-safety/pod.md) | [Vulnerable Populations](../vulnerable-populations/pod.md) | [Legal Protection](../legal-protection/pod.md)
 
 ---
@@ -36,7 +37,7 @@ This pod focuses on the acute response phase: the first hours of a crisis. For l
 |------|-----------|
 | **911** | Universal emergency number for police, fire, and EMS. Dispatches law enforcement by default unless a specialized unit is available. |
 | **988** | National Suicide and Crisis Lifeline (since July 2022). Call or text 988. Connects to Missouri's crisis network. |
-| **BHR (Behavioral Health Response)** | St. Louis County's 24/7 mobile crisis dispatch line. Routes non-emergency mental health calls to clinicians instead of police. Phone: **314-469-6644**. |
+| **BHR (Behavioral Health Response)** | The St. Louis region's 24/7 crisis organization. It answers 988 calls in the region and works with St. Louis Metro 911 to divert non-emergency mental health calls to clinicians. Call **988**, or BHR's local line **314-819-8811**. |
 | **Mobile Crisis Team (MCT)** | A team of behavioral health clinicians — sometimes paired with a peer support specialist — who respond in the field to mental health crises without police. |
 | **Co-Responder Model** | A licensed clinician rides alongside or responds with a law enforcement officer. Reduces use of force and increases connections to treatment. STL County has co-responder units in some precincts. |
 | **Crisis Stabilization Unit (CSU)** | A short-term facility where people in crisis can stabilize without hospital admission. Less restrictive than a psychiatric emergency room. |
@@ -56,9 +57,8 @@ This pod focuses on the acute response phase: the first hours of a crisis. For l
 |----------|-------|-------|-------|
 | **Emergency (Police / Fire / EMS)** | **911** | 24/7 | Use for immediate physical danger, active medical emergency, active crime in progress |
 | **988 Suicide and Crisis Lifeline** | **988** (call or text) | 24/7 | Connects to Missouri crisis network; chat at 988lifeline.org |
-| **BHR — Behavioral Health Response (STL County)** | **314-469-6644** | 24/7 | Mobile crisis dispatch; routes non-emergency mental health calls to clinicians |
-| **STL County Police Non-Emergency** | **314-889-2341** | 24/7 | For situations not immediately life-threatening but requiring police response |
-| **Missouri DMH Crisis Line** | **1-800-811-4760** | 24/7 | Statewide alternative to 988 for mental health crises |
+| **BHR — Behavioral Health Response (STL region)** | **988** or **314-819-8811** | 24/7 | Crisis counseling and mobile outreach; works with 911 to divert non-emergency mental health calls |
+| **STL County Police Non-Emergency** | **636-529-8210** | 24/7 (automated assistant routes calls) | For situations not immediately life-threatening but requiring police response |
 | **Veterans Crisis Line** | **988, then press 1** | 24/7 | Text 838255; chat at VeteransCrisisLine.net |
 | **Crisis Text Line** | Text HOME to **741741** | 24/7 | Text-based crisis support, nationwide |
 | **SAMHSA National Helpline** | **1-800-662-4357** | 24/7 | Substance use and mental health; free, confidential, multilingual |
@@ -68,10 +68,10 @@ This pod focuses on the acute response phase: the first hours of a crisis. For l
 | Hospital | Address | Phone |
 |----------|---------|-------|
 | SSM Health DePaul Hospital | 12303 De Paul Dr, Bridgeton, MO 63044 | 314-344-6000 |
-| Mercy Hospital — Behavioral Health | 615 S New Ballas Rd, St. Louis, MO 63141 | 314-569-6000 |
+| Mercy Hospital St. Louis | 615 S New Ballas Rd, St. Louis, MO 63141 | 314-251-6000 |
 | Barnes-Jewish Hospital (BJC) | 1 Barnes-Jewish Hospital Plaza, St. Louis, MO 63110 | 314-747-3000 |
 | St. Louis Children's Hospital (under 18) | 1 Children's Place, St. Louis, MO 63110 | 314-454-6000 |
-| CenterPointe Hospital | 4801 Weldon Spring Pkwy, St. Peters, MO 63304 | 636-441-7300 |
+| CenterPointe Hospital | 4801 Weldon Spring Pkwy, St. Charles, MO 63304 | 866-924-2522 |
 
 ---
 
@@ -86,15 +86,15 @@ This pod focuses on the acute response phase: the first hours of a crisis. For l
 5. If imminent danger exists, the counselor can coordinate a 911 dispatch or a warm handoff to EMS.
 6. Follow-up calls may be placed within 24–72 hours.
 
-**Spanish language support:** Press 2 for Spanish. Additional languages available through interpretation services.
+**Spanish language support:** Press 2 for Spanish, or text AYUDA to 988. Interpretation in 240+ other languages is available on calls.
 **Veterans:** Press 1 after dialing.
 **LGBTQ+ youth:** Separate support available via Trevor Project (1-866-488-7386) or text START to 678-678.
 
-### How BHR Works (314-469-6644)
+### How BHR Works (988 or 314-819-8811)
 
-BHR is St. Louis County's primary alternative to sending police to a mental health call. It is operated by the Behavioral Health Network of Greater St. Louis.
+BHR is the region's primary alternative to sending police to a mental health call. It is operated by Behavioral Health Response, Inc., a nonprofit that is a Missouri 988 provider.
 
-1. A caller dials **314-469-6644** or is transferred from 911 or 988.
+1. A caller dials **988** or BHR's local line **314-819-8811**, or is transferred from 911.
 2. A licensed clinician triages the call.
 3. Depending on risk level, BHR can:
    - Provide phone-based crisis counseling
@@ -125,7 +125,7 @@ St. Louis County Police Department has embedded licensed mental health clinician
 - Prepare documentation to support involuntary holds when clinically indicated
 - Serve as a bridge between law enforcement and the behavioral health system
 
-Contact the STL County Police Department's Community Outreach Unit for co-responder inquiries: **314-889-2341**.
+For co-responder questions, call the STL County Police non-emergency line: **636-529-8210**.
 
 ---
 
@@ -144,7 +144,7 @@ Contact the STL County Police Department's Community Outreach Unit for co-respon
 
 ### Procedure 2: Requesting a Mobile Crisis Team
 
-1. Call **BHR at 314-469-6644**.
+1. Call **988** (BHR answers in the St. Louis region) or **BHR at 314-819-8811**.
 2. Be ready to share:
    - Location (address or nearest intersection)
    - Description of what is happening
@@ -157,8 +157,8 @@ Contact the STL County Police Department's Community Outreach Unit for co-respon
 
 ### Procedure 3: Requesting a Wellness Check
 
-1. For a wellness check involving mental health concerns: call **BHR 314-469-6644** first — they may be able to send a non-law-enforcement responder.
-2. If BHR cannot respond and the concern is urgent: call **STL County Police non-emergency at 314-889-2341**.
+1. For a wellness check involving mental health concerns: call **988 or BHR (314-819-8811)** first — they may be able to send a non-law-enforcement responder.
+2. If BHR cannot respond and the concern is urgent: call **STL County Police non-emergency at 636-529-8210**.
 3. If you believe the person is in immediate danger: call **911**.
 4. Provide the person's address, physical description, and the reason for concern.
 5. Ask dispatch if a CIT-trained officer or co-responder is available.
@@ -166,7 +166,7 @@ Contact the STL County Police Department's Community Outreach Unit for co-respon
 ### Procedure 4: Helping Someone in Substance Use Crisis (Not Overdose)
 
 1. For overdose, call **911 immediately**. See Behavioral Health Crisis pod for naloxone/overdose response.
-2. For a substance use crisis without overdose, call **BHR 314-469-6644** or **SAMHSA 1-800-662-4357**.
+2. For a substance use crisis without overdose, call **988**, **BHR (314-819-8811)** or **SAMHSA 1-800-662-4357**.
 3. Keep the person safe, calm, and away from additional substances.
 4. Do not physically restrain unless absolutely necessary for immediate safety.
 5. Missouri's **Drug Overdose Immunity Law (RSMo § 195.205)** provides limited immunity from prosecution when calling 911 to report an overdose — this may reduce fear of calling for help.
@@ -174,8 +174,8 @@ Contact the STL County Police Department's Community Outreach Unit for co-respon
 ### Procedure 5: Supporting a Child in Crisis
 
 1. For a child in immediate danger: call **911**.
-2. For a child in mental health crisis: call **BHR 314-469-6644** — they have clinicians trained in pediatric crisis response.
-3. St. Louis Children's Hospital has a dedicated psychiatric emergency service: **314-454-6000**.
+2. For a child in mental health crisis: call **988** or **BHR (314-819-8811)**.
+3. St. Louis Children's Hospital (main line): **314-454-6000**.
 4. For suspected abuse or neglect, call the **Missouri Child Abuse Hotline: 1-800-392-3738** (see Violence & Abuse pod).
 5. Do not leave a child in crisis alone. Stay with them or ensure a trusted adult is present.
 
@@ -189,13 +189,13 @@ CSUs offer short-term, voluntary stabilization — typically up to 23 hours — 
 
 | Facility | Phone | Notes |
 |----------|-------|-------|
-| Behavioral Health Network (BHN) Crisis Center | 314-469-6644 (via BHR) | Referral-based; accessed through BHR dispatch |
-| Compass Health Network | 636-946-0790 | Outpatient and crisis services, multiple STL area locations |
+| BHR crisis services | 988 or 314-819-8811 | Ask BHR about crisis stabilization options |
+| Compass Health Network | 844-853-8937 | Outpatient and crisis services, multiple STL area locations |
 
 ### Diversion Programs
 
 - **Law Enforcement Assisted Diversion (LEAD):** In some STL County jurisdictions, officers can divert people from arrest toward social services for low-level offenses driven by behavioral health needs.
-- **Mental Health Court (21st Judicial Circuit):** A specialty court for individuals with serious mental illness charged with nonviolent offenses. Contact: St. Louis County Circuit Court, **314-615-8000**.
+- **Mental Health Court (21st Judicial Circuit):** A specialty court for individuals with serious mental illness charged with nonviolent offenses. Contact: St. Louis County Circuit Court, **314-615-8029**.
 - **Drug Court:** Similar structure for substance use-related offenses. Contact the same circuit court number above.
 
 ---
@@ -228,10 +228,9 @@ CSUs offer short-term, voluntary stabilization — typically up to 23 hours — 
 
 | Statute | Description |
 |---------|-------------|
-| **RSMo § 632.305** | Authorizes 96-hour involuntary psychiatric holds. A peace officer, physician, or mental health professional may take someone into protective custody if they pose imminent danger due to a mental disorder. |
-| **RSMo § 632.300** | Governs voluntary admission to mental health facilities. |
+| **RSMo § 632.305** | Authorizes 96-hour detention for evaluation. Any adult may file a sworn application with the court; a peace officer, or a physician, nurse or mental health professional at a facility, may also start a detention when there is a likelihood of serious harm due to a mental disorder. |
+| **RSMo § 632.300** | What a mental health coordinator does when told a person may be a danger to self or others (investigation, court application, referral). |
 | **RSMo § 195.205** | Drug Overdose Immunity — limited protection from prosecution when calling 911 for an overdose. |
-| **RSMo § 217.735** | Missouri's Mental Health Diversion Program framework. |
 
 ---
 
@@ -242,9 +241,9 @@ CSUs offer short-term, voluntary stabilization — typically up to 23 hours — 
 | Veterans | Veterans Crisis Line | 988, press 1; text 838255 |
 | LGBTQ+ youth | Trevor Project | 1-866-488-7386; text START to 678-678 |
 | Domestic violence | National DV Hotline | 1-800-799-7233 |
-| Deaf / hard of hearing | 988 TTY via relay | Use relay service, then dial 988 |
+| Deaf / hard of hearing | 988 by TTY or videophone | TTY: dial 711, then 988; videophone users can call 988 directly |
 | Spanish speakers | 988 (press 2) or SAMHSA | 988 or 1-800-662-4357 |
-| Older adults | Eldercare Locator | 1-800-677-1116 |
+| Older adults | Eldercare Locator | 1-800-677-1116 (weekdays; not a crisis line) |
 | Children and youth | Childhelp | 1-800-422-4453 |
 
 ---
@@ -253,9 +252,9 @@ CSUs offer short-term, voluntary stabilization — typically up to 23 hours — 
 
 ```
 EMERGENCY (life-threatening):           911
-MENTAL HEALTH CRISIS (STL County):      314-469-6644  (BHR)
+MENTAL HEALTH CRISIS (STL region):      988 or 314-819-8811  (BHR)
 SUICIDE / CRISIS LIFELINE:              988  (call or text)
-POLICE NON-EMERGENCY (STL County):      314-889-2341
+POLICE NON-EMERGENCY (STL County):      636-529-8210
 SUBSTANCE USE HELPLINE (national):      1-800-662-4357
 VETERANS CRISIS LINE:                   988 then press 1
 CRISIS TEXT LINE:                       Text HOME to 741741

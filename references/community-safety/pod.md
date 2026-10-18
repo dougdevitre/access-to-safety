@@ -3,6 +3,7 @@
 **Domain:** Gun violence, community violence intervention, hate crimes, bias incidents, school safety, active threats, gang intervention
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-03-29
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Crisis Response](../crisis-response/pod.md) | [Violence & Abuse](../violence-abuse/pod.md) | [Legal Protection](../legal-protection/pod.md) | [Behavioral Health Crisis](../behavioral-health-crisis/pod.md) | [Vulnerable Populations](../vulnerable-populations/pod.md)
 
 ---
@@ -38,7 +39,7 @@ This pod covers how to recognize threats, how to report them, what community-bas
 | **Community Violence Intervention (CVI)** | Evidence-based programs that use credible messengers — often people with lived experience of violence — to interrupt cycles of violence and connect high-risk individuals to resources. |
 | **Credible messenger** | A person who has lived experience similar to those they are trying to reach (often a formerly incarcerated person or former gang member) who can build trust and influence behavior. |
 | **Gun violence** | Violence involving a firearm, including homicide, assault, suicide, and unintentional injury. Missouri has minimal gun regulation relative to national averages. |
-| **Hate crime** | A criminal offense motivated in whole or in part by bias against a person's race, religion, national origin, ethnicity, sex, sexual orientation, disability, or other protected class. Under Missouri RSMo § 574.090. |
+| **Hate crime** | A criminal offense knowingly motivated by the victim's race, color, religion, national origin, sex, sexual orientation or disability. Missouri's hate-offense law is RSMo § 557.035. |
 | **Bias incident** | An act that may be motivated by bias but does not rise to the level of a criminal offense. Still taken seriously and tracked. |
 | **Active shooter / active threat** | An individual or group actively engaged in killing or attempting to kill people in a populated area. Response protocols: Run-Hide-Fight or ALICE. |
 | **School safety** | A combination of physical security, threat assessment, mental health support, and restorative practices that contribute to safe learning environments. |
@@ -70,9 +71,9 @@ St. Louis City and County together represent one of the highest gun violence rat
 | **Permitless carry (Constitutional Carry)** | Missouri allows most adults to carry a concealed firearm without a permit (RSMo § 571.030). |
 
 **For reporting illegal firearms or trafficking:**
-- **ATF (Bureau of Alcohol, Tobacco, Firearms and Explosives) St. Louis Field Division:** 314-269-3200
-- **FBI St. Louis:** 314-231-4324
-- **STL County Police:** 314-889-2341
+- **ATF tip line:** 1-888-283-8477 (1-888-ATF-TIPS)
+- **FBI St. Louis:** 314-589-2500
+- **STL County Police (non-emergency):** 636-529-8210
 
 ---
 
@@ -104,18 +105,18 @@ Cure Violence is an evidence-based public health model that treats violence like
 
 | Resource | Contact | Notes |
 |----------|---------|-------|
-| **Crime Stoppers of Greater St. Louis** | **866-371-TIPS (8477)** | Anonymous tips about crimes, including gun violence |
-| **STL County Police tip line** | stlouisco.com/LawEnforcement | Online tip submission |
+| **CrimeStoppers (Greater St. Louis)** | **1-866-371-TIPS (8477)**; stlrcs.org | Anonymous tips about crimes, including gun violence |
+| **STL County Police** | stlouiscountypolice.com; non-emergency 636-529-8210 | Reporting options |
 | **FBI tip line** | tips.fbi.gov | For federal crimes, terrorism, trafficking |
-| **ATF tip line** | 1-888-283-2662 | For illegal gun sales and trafficking |
+| **ATF tip line** | 1-888-283-8477 (1-888-ATF-TIPS) | For illegal gun sales and trafficking |
 | **Missouri State Highway Patrol** | 573-751-3313 | For crimes with statewide scope |
 
 ### How to Report a Crime
 
 1. **If in progress:** Call **911**
-2. **After the fact (non-emergency):** Call **314-889-2341** (STL County Police non-emergency)
-3. **Anonymously:** Call Crime Stoppers **866-371-TIPS** — no personal information required, possible reward
-4. **Online report** (for non-violent property crimes): stlouisco.com/LawEnforcement
+2. **After the fact (non-emergency):** Call **636-529-8210** (STL County Police non-emergency)
+3. **Anonymously:** Call CrimeStoppers **1-866-371-TIPS (8477)** — no personal information required, possible reward
+4. **Other reporting options:** see stlouiscountypolice.com
 5. **Request a case number** after reporting — needed for insurance, victim compensation, and follow-up
 
 ---
@@ -124,26 +125,24 @@ Cure Violence is an evidence-based public health model that treats violence like
 
 ### What Is a Hate Crime in Missouri?
 
-Under **RSMo § 574.090**, a hate crime (called "ethnic intimidation" in the statute) occurs when a person commits an underlying criminal offense (assault, property damage, threats, etc.) motivated by bias based on:
+Under **RSMo § 557.035**, certain offenses (such as some assaults, property damage and weapons offenses) are charged at a higher felony level when the offender was knowingly motivated by the victim's:
 - Race
 - Color
 - Religion
-- National origin or ancestry
+- National origin
 - Sex
 - Sexual orientation
-- Gender identity
 - Disability
 
-A hate crime **adds a penalty** to the underlying offense — it is an enhancement, not a stand-alone charge.
+The statute does not list gender identity by name; ask an attorney or advocate how it applies. A hate crime **raises the penalty** for the underlying offense.
 
 ### Reporting a Hate Crime
 
 1. **Call 911** if the incident is ongoing or involves immediate physical danger.
-2. **Call STL County Police non-emergency: 314-889-2341** and specifically state that you believe it is a hate crime.
+2. **Call STL County Police non-emergency: 636-529-8210** and specifically state that you believe it is a hate crime.
 3. **File with the FBI:** tips.fbi.gov — the FBI has civil rights jurisdiction over hate crimes.
-4. **Contact the Missouri Attorney General's Office Civil Rights Unit:** 573-751-3321
-5. **Contact the Anti-Defamation League (ADL) Midwest:** 314-432-6868 — they track and respond to bias incidents
-6. **Document:** Photograph evidence, save written messages, note witnesses.
+4. **Contact the Anti-Defamation League (ADL), St. Louis office:** 314-721-1270 — they track and respond to bias incidents
+5. **Document:** Photograph evidence, save written messages, note witnesses.
 
 ### Bias Incidents (Not Crimes)
 
@@ -157,10 +156,10 @@ A bias incident is an act motivated by prejudice that does not meet the legal de
 | Organization | Phone | Notes |
 |-------------|-------|-------|
 | **NAACP St. Louis County Branch** | 314-535-5150 | Civil rights, discrimination complaints |
-| **Anti-Defamation League Midwest** | 314-432-6868 | Antisemitism, hate incidents, extremism |
-| **Missouri Commission on Human Rights** | 573-751-3325 | State-level discrimination complaints |
-| **ACLU of Missouri** | 314-652-3114 | Civil liberties, constitutional rights |
-| **US DOJ Civil Rights Division** | 1-855-856-1247 | Federal civil rights violations |
+| **Anti-Defamation League (St. Louis office)** | 314-721-1270 | Antisemitism, hate incidents, extremism |
+| **Missouri Commission on Human Rights** | 573-751-3325; complaints 1-877-781-4236 | State-level discrimination complaints |
+| **ACLU of Missouri** | 314-652-3111 | Civil liberties, constitutional rights |
+| **US DOJ Civil Rights Division** | 1-855-856-1247; civilrights.justice.gov | Federal civil rights violations |
 
 ---
 
@@ -169,8 +168,8 @@ A bias incident is an act motivated by prejudice that does not meet the legal de
 ### Missouri School Safety Framework
 
 Missouri schools operate under:
-- **Missouri Safe Schools Act (RSMo § 160.261):** Requires each school to have a written discipline policy, including reporting certain offenses to law enforcement.
-- **RSMo § 160.665:** School Safety and Security Coordinator requirements.
+- **RSMo § 160.261:** Requires each school board to adopt a written discipline policy, and requires administrators to report certain violent offenses to law enforcement.
+- **RSMo § 160.665:** Lets districts designate trained teachers or administrators as school protection officers.
 - Each district must have a **Comprehensive School Safety Plan**.
 - STL County schools participate in the **Missouri Center for Education Safety**.
 
@@ -194,7 +193,7 @@ Most STL area schools use the **ALICE** protocol or similar:
 
 - **Students can report threats anonymously:** Contact school administration or use the district's anonymous tip line.
 - **Sandy Hook Promise Say Something app:** Allows students to anonymously report threats. Many STL area schools use this.
-- **STL County Police School Resource Officers:** 314-889-2341
+- **STL County Police (non-emergency):** 636-529-8210
 - **FBI tip line for school threats:** tips.fbi.gov
 
 ### Warning Signs of Student in Crisis (Threat Assessment)
@@ -222,15 +221,15 @@ Research shows that most school shooters give warnings before attacking. Warning
 | Resource | Phone | Notes |
 |----------|-------|-------|
 | **Better Family Life** | 314-381-3900 | Youth development, street outreach |
-| **Youth In Need** | 636-946-9927 | Youth crisis, shelter, outreach |
-| **Covenant House Missouri** | 314-533-2241 | Youth ages 18–24, street outreach |
+| **Youth In Need** | 636-946-3771 (24-hour); 636-946-5600 (main) | Youth crisis, shelter, outreach |
+| **Covenant House Missouri** | 314-533-2241 | Youth ages 16–24, street outreach |
 | **Urban League of Metropolitan St. Louis** | 314-615-3600 | Employment, youth programs |
 | **St. Patrick Center** | 314-802-0700 | Employment, housing for high-risk adults |
 
 **For young people trying to leave gang involvement:**
 1. Talk to a trusted adult or a CVI outreach worker.
 2. Contact Better Family Life (314-381-3900) — they have credible messengers who have left gang life.
-3. Request a case manager through STL County Health Department or BHR (314-469-6644).
+3. Request a case manager through STL County Health Department or BHR (988 or 314-819-8811).
 4. Consider relocation assistance if violence risk is high in current neighborhood.
 
 ---
@@ -243,17 +242,17 @@ Research shows that most school shooters give warnings before attacking. Warning
 2. **Get to safety.** Move away from the scene. Get behind a solid barrier if shots are still being fired.
 3. **Do not return to the scene** until police declare it safe.
 4. **If someone is injured:** Apply pressure to wounds if safe. Do not move the victim unless there is immediate threat.
-5. **After the incident:** You may experience traumatic stress. Contact BHR (314-469-6644) or a mental health provider. See Behavioral Health Crisis pod.
-6. **To report information:** Call Crime Stoppers at **866-371-TIPS** — you do not need to give your name.
+5. **After the incident:** You may experience traumatic stress. Contact 988 or BHR (314-819-8811) or a mental health provider. See Behavioral Health Crisis pod.
+6. **To report information:** Call CrimeStoppers at **1-866-371-TIPS (8477)** — you do not need to give your name.
 
 ### Procedure: Reporting a Suspected Hate Crime
 
 1. **Document the incident** — take photos, save messages, write down what was said and by whom.
-2. **Report to STL County Police:** 314-889-2341. Specifically say "I believe this is a hate crime."
+2. **Report to STL County Police:** 636-529-8210 (non-emergency). Specifically say "I believe this is a hate crime."
 3. **Request a case number** and ask whether a detective will be assigned.
-4. **Report to the FBI** if the incident involves significant threat or appears organized: tips.fbi.gov or 314-231-4324.
+4. **Report to the FBI** if the incident involves significant threat or appears organized: tips.fbi.gov or 314-589-2500.
 5. **Contact the ADL, NAACP, or ACLU** for support and documentation of the broader pattern.
-6. **Get support for yourself.** Hate crimes cause psychological harm. Contact BHR (314-469-6644) or a community organization.
+6. **Get support for yourself.** Hate crimes cause psychological harm. Contact 988 or BHR (314-819-8811) or a community organization.
 
 ---
 
@@ -277,12 +276,11 @@ Research shows that most school shooters give warnings before attacking. Warning
 
 | Statute | Description |
 |---------|-------------|
-| RSMo § 574.090 | Ethnic intimidation (hate crime enhancement) |
+| RSMo § 557.035 | Hate offenses (higher penalty when bias-motivated) |
 | RSMo § 565.050 | First-degree assault |
 | RSMo § 571.030 | Unlawful use of weapons |
-| RSMo § 160.261 | Missouri Safe Schools Act |
-| RSMo § 565.150 | Harassment (includes online threats) |
-| RSMo § 565.225 | Stalking |
+| RSMo § 160.261 | School discipline policies and reporting to law enforcement |
+| RSMo § 565.225 | Stalking, first degree |
 | 18 U.S.C. § 249 | Federal Matthew Shepard Hate Crimes Prevention Act |
 
 ---
