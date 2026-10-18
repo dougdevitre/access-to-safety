@@ -3,6 +3,7 @@
 **Domain:** Cyberstalking, technology-enabled abuse, spyware and stalkerware detection, doxxing, online harassment, non-consensual intimate images (NCII/"revenge porn"), CSAM reporting, digital privacy, location tracking abuse
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-04-02
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Violence & Abuse](../violence-abuse/pod.md) | [Legal Protection](../legal-protection/pod.md) | [Vulnerable Populations](../vulnerable-populations/pod.md) | [Crisis Response](../crisis-response/pod.md)
 
 ---
@@ -40,7 +41,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 | **NCII (Non-Consensual Intimate Images)** | Sharing or threatening to share intimate/sexual images without the subject's consent. Sometimes called "revenge porn." This is a crime in Missouri. |
 | **Sextortion** | Threatening to share intimate images or information unless the victim provides money, more images, or other demands. |
 | **CSAM (Child Sexual Abuse Material)** | Any visual depiction of sexually explicit conduct involving a minor. Possession, distribution, and production are federal crimes. Report to NCMEC. |
-| **Cyberstalking** | Using electronic communication to stalk, harass, or threaten. A federal crime under 18 U.S.C. § 2261A and a Missouri crime under RSMo § 565.225. |
+| **Cyberstalking** | Using electronic communication to stalk, harass, or threaten. A federal crime under 18 U.S.C. § 2261A and can be prosecuted in Missouri as stalking (RSMo §§ 565.225, 565.227). |
 | **Digital coercive control** | Using technology as part of a broader pattern of control — monitoring messages, demanding passwords, controlling access to devices, using GPS to track movements. |
 | **IP logging** | Capturing a person's IP address through links or images to determine their approximate location. |
 | **Account compromise** | When an abuser has access to a survivor's email, cloud storage, or social media — either through shared passwords, password recovery access, or device access. |
@@ -94,7 +95,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 
 2. **Check for AirTags / Bluetooth trackers:**
    - iPhone: You will receive an automatic alert if an unknown AirTag is traveling with you.
-   - Android: Download the **Tracker Detect** app (by Apple) or enable Google's built-in unknown tracker alerts.
+   - Android: Use Google's built-in unknown tracker alerts, or Apple's **Tracker Detect** app.
    - Physically check: Look in your car (wheel wells, under seats, in trunk), bags, jacket pockets, and belongings.
    - If you find one: Do NOT destroy it (it is evidence). Note the serial number, take a photo, and report it to police.
 
@@ -150,7 +151,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 
 **If you encounter CSAM online:**
 1. **Do NOT download, screenshot, or share the material.** Possession is a federal crime, even if your intent is to report it.
-2. **Report immediately to NCMEC:** CyberTipline.org or call **1-800-843-5678** (1-800-THE-LOST)
+2. **Report immediately to NCMEC:** report.cybertip.org (CyberTipline.org redirects there) or call **1-800-843-5678** (1-800-THE-LOST), 24/7
 3. **Report to the platform** where you found it.
 4. **Report to the FBI:** tips.fbi.gov
 5. **If a child is in immediate danger:** Call **911**.
@@ -170,7 +171,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 4. **Preserve evidence:** Screenshot all messages, demands, and threats.
 5. **Report:**
    - FBI: tips.fbi.gov or local FBI field office (St. Louis: 314-589-2500)
-   - If the victim is under 18: NCMEC CyberTipline (CyberTipline.org)
+   - If the victim is under 18: NCMEC CyberTipline (report.cybertip.org)
    - Local police
 6. **Get support:**
    - For minors: Thorn's sextortion resources at thorn.org
@@ -184,9 +185,9 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 | Statute / Law | Description |
 |---------------|-------------|
 | **RSMo § 573.110** | Non-consensual dissemination of private sexual images — class D felony |
-| **RSMo § 565.225** | Cyberstalking — using electronic communication to harass, intimidate, or threaten. Class D felony for aggravated (threats of death/injury). |
-| **RSMo § 565.227** | Harassment in the first degree — electronic harassment targeting a specific person |
-| **RSMo § 573.025–573.037** | Child sexual exploitation and CSAM — state-level offenses |
+| **RSMo § 565.225** | Stalking in the first degree — class E felony |
+| **RSMo § 565.227** | Stalking in the second degree — generally a class A misdemeanor |
+| **RSMo § 573.025–573.037** | Promoting and possessing child sexual abuse material — state-level offenses |
 | **18 U.S.C. § 2261A** | Federal cyberstalking statute |
 | **18 U.S.C. § 2252** | Federal CSAM possession and distribution |
 | **47 U.S.C. § 230(e)(1)** | Section 230 does NOT protect platforms from federal criminal law related to CSAM |
@@ -201,8 +202,8 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 | Coalition Against Stalkerware | stopstalkerware.org | Stalkerware detection and removal |
 | StopNCII.org | stopncii.org | Hash-based image removal from major platforms |
 | Cyber Civil Rights Initiative | cybercivilrights.org; 844-878-2274 | NCII crisis support |
-| NCMEC CyberTipline | CyberTipline.org; 1-800-843-5678 | CSAM reporting |
-| FBI IC3 | ic3.gov | Internet crime reporting |
+| NCMEC CyberTipline | report.cybertip.org; 1-800-843-5678 | CSAM reporting |
+| FBI IC3 | www.ic3.gov | Internet crime reporting |
 | Identity Theft Resource Center | idtheftcenter.org; 888-400-5530 | If personal data has been stolen |
 
 ---
@@ -212,7 +213,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 ```
 CYBERSTALKING / TECH ABUSE HELP:     techsafety.org  (Safety Net / NNEDV)
 NCII / REVENGE PORN CRISIS LINE:     844-878-2274  (Cyber Civil Rights Initiative)
-CSAM REPORTING:                      CyberTipline.org  or  1-800-843-5678
+CSAM REPORTING:                      report.cybertip.org  or  1-800-843-5678
 SEXTORTION (FBI):                    tips.fbi.gov
 STALKERWARE DETECTION:               stopstalkerware.org
 IMAGE REMOVAL:                       StopNCII.org

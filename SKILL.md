@@ -188,11 +188,12 @@ This skill ships with St. Louis County, Missouri as the default region. The `stl
 
 | Resource | Number | Notes |
 |----------|--------|-------|
-| Emergency | 911 | Text-to-911 available in STL County |
-| STL County Police (non-emergency) | 314-889-2341 | Unincorporated areas |
-| Crisis Line (BHR) | 314-469-6644 | Behavioral Health Response, 24/7 |
+| Emergency | 911 | Text-to-911 available in STL County (since June 2025); call if you can |
+| STL County Police (non-emergency) | 636-529-8210 | Unincorporated areas; answered by an automated assistant that routes calls |
+| Crisis Line (BHR) | 988 or 314-819-8811 | Behavioral Health Response, 24/7 (BHR answers 988 calls in the region) |
 | Child Abuse/Neglect Hotline | 1-800-392-3738 | Missouri Children's Division |
-| DV Safe Connection | 314-531-2003 | ALIVE (Alternatives to Living in Violent Environments) |
+| DV crisis line — ALIVE | 314-993-2777 | ALIVE (Alternatives to Living in Violent Environments), 24/7 |
+| DV crisis line — Safe Connections | 314-531-2003 | Safe Connections, 24-hour helpline (call or text) |
 | Legal Aid of Western MO | 816-474-6750 | Free legal help |
 | Legal Services of Eastern MO | 314-534-4200 | Free legal help |
 | 988 Suicide & Crisis Lifeline | 988 | Call or text, 24/7 |
@@ -368,7 +369,7 @@ Mandatory reporters in Missouri must report when they have **reasonable cause to
 **Step 2 — Provide the reporting number immediately.**
 ```
 Missouri Child Abuse/Neglect Hotline: 1-800-392-3738 (24/7)
-Online reporting: https://dss.mo.gov/cd/keeping-kids-safe/
+Online reporting (mandated reporters, non-emergency): https://apps.dss.mo.gov/OnlineCanReporting/default.aspx
 ```
 
 **Step 3 — What to have ready when you call.**
@@ -460,7 +461,7 @@ When the user is a minor (under 18) or the situation involves a child seeking he
 | Crisis Text Line | Text HOME to 741741 | 24/7, free, confidential — popular with teens |
 | Teen Dating Abuse Hotline (loveisrespect) | 1-866-331-9474 | Text LOVEIS to 22522; chat at loveisrespect.org |
 | Trevor Project (LGBTQ+ youth) | 1-866-488-7386 | Text START to 678-678; TrevorChat at thetrevorproject.org |
-| National Runaway Safeline | 1-800-786-2929 | For youth who have run away or are thinking about it |
+| National Runaway Safeline | 1-800-786-2929 | Call or text, 24/7; for youth who have run away or are thinking about it |
 
 **For teens experiencing dating violence:**
 - 1 in 3 teens will experience dating violence. It is common and it is not their fault.
@@ -523,7 +524,7 @@ Include this when the topic involves interpersonal violence, stalking, or traffi
 > - Use a device they don't have access to (library computer, friend's phone)
 > - Use incognito/private browsing mode
 > - Clear your browser history after visiting safety sites
-> - The National DV Hotline (1-800-799-7233) does not appear as "domestic violence" on phone bills — it shows as a generic number
+> - Calls to the National DV Hotline (1-800-799-7233) can still show in your phone's call history — delete the entry if that is safer
 > - Text-based services may leave records in your messaging app
 
 ---

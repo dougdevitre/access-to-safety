@@ -1,0 +1,25 @@
+# Exclusions for the Link check workflow (.github/workflows/link-check.yml).
+# One regular expression per line. Every entry says why it is skipped.
+
+# tel: and sms: links are phone numbers, not web pages, so there is nothing to fetch.
+^tel:
+^sms:
+
+# Placeholders in templates/customization-guide.md ("YOUR-USERNAME",
+# "ORIGINAL-OWNER") stand for the reader's own fork, not real repositories.
+^https?://github\.com/(YOUR-USERNAME|ORIGINAL-OWNER)/
+
+# iistl.org (International Institute of St. Louis) refuses automated requests
+# (HTTP 500 to GitHub runners; robots rules block fetchers), as the same check
+# found in access-to-services. Its phone number is on the needs-a-human list.
+^https?://(www\.)?iistl\.org
+
+# childwelfare.gov (Child Welfare Information Gateway) returns 404 to link
+# checkers for every URL, including the home page, while the page loads for a
+# browser-like fetch (checked 2026-10-18). Bot filtering, not a dead site.
+^https?://(www\.)?childwelfare\.gov
+
+# TEMPORARY: the Access To hub (dougdevitre.org) returned 404 to the link check
+# in sibling repos on 2026-10-18. It is the hub's own site, not a resource for
+# people seeking help. Remove this line once the hub serves again.
+^https?://(www\.)?dougdevitre\.org

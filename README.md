@@ -212,11 +212,11 @@ If you or someone you know is in immediate danger:
 | **Emergency** | **911** | Call or text (where available) |
 | **Suicide & Crisis** | **988** (call or text) | 24/7, nationwide |
 | **Domestic Violence** | **1-800-799-7233** | National DV Hotline, 24/7, 200+ languages |
-| **Child Abuse (National)** | **1-800-422-4453** | Childhelp National Hotline, 24/7 |
+| **Child Abuse (National)** | **1-800-422-4453** | Childhelp National Hotline, 24/7 (call or text) |
 | **Child Abuse (Missouri)** | **1-800-392-3738** | Missouri Children's Division, 24/7 |
-| **Elder Abuse** | **1-800-392-0210** | Missouri Adult Abuse & Neglect, 24/7 |
+| **Elder Abuse** | **1-800-392-0210** | Missouri Adult Abuse & Neglect, daily 7 a.m.–8 p.m. (online reports any time) |
 | **Sexual Assault** | **1-800-656-4673** | RAINN, 24/7 |
-| **Human Trafficking** | **1-888-373-7888** | Text 233733 (BEFREE) |
+| **Human Trafficking** | **1-888-373-7888** | 24/7; text 233733 |
 | **Poison Control** | **1-800-222-1222** | 24/7, nationwide |
 | **Crisis Text Line** | Text **HOME** to **741741** | Free, confidential, 24/7 |
 | **LGBTQ+ Youth (Trevor)** | **1-866-488-7386** | Text START to 678-678 |

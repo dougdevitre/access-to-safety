@@ -265,7 +265,7 @@ people. Here is what to know:
 | National DV Hotline (friends & family line) | 1-800-799-7233 | Guidance for support persons; call for yourself |
 | loveisrespect (for supporting teens) | 1-866-331-9474 | If the person you are supporting is a teen |
 | SAMHSA Helpline | 1-800-662-4357 | If the person also has substance use concerns |
-| NAMI Helpline | 1-800-950-6264 | If the person also has mental health concerns |
+| NAMI HelpLine | 1-800-950-6264 | Mental health information and referrals (weekdays 10 a.m.–10 p.m. ET; not a crisis line) |
 | Crisis Text Line | Text HOME to 741741 | For your own crisis support |
 | 988 Suicide & Crisis Lifeline | Call or text 988 | If you or the person you support is in crisis |
 

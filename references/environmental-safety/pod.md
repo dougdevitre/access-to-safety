@@ -3,6 +3,7 @@
 **Domain:** Disaster preparedness, housing safety, lead/mold/code violations, workplace safety, OSHA, environmental hazards
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-04-02
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Crisis Response](../crisis-response/pod.md) | [Legal Protection](../legal-protection/pod.md) | [Vulnerable Populations](../vulnerable-populations/pod.md)
 
 ---
@@ -52,8 +53,7 @@ This pod provides guidance on housing code violations, disaster preparedness (es
 **Landlords in Missouri must provide:**
 - Working plumbing, heating, and electrical systems
 - Structural integrity (no collapsing ceilings, floors, or walls)
-- Working smoke detectors (RSMo § 320.106)
-- Working carbon monoxide detectors in dwellings with fuel-burning appliances (RSMo § 320.106)
+- Working smoke detectors and carbon monoxide detectors where local codes require them
 - Locks on exterior doors and windows
 - Freedom from pest infestation
 - Compliance with local building and health codes
@@ -69,16 +69,16 @@ This pod provides guidance on housing code violations, disaster preparedness (es
    - Legal Services of Eastern Missouri: **314-534-4200** (free legal help for qualifying residents)
    - Legal Aid of Western Missouri: **816-474-6750**
 5. **Know your options:**
-   - **Rent escrow (RSMo § 441.570–441.580):** If a code violation exists and the landlord has been notified, you may deposit rent with the court instead of paying the landlord, until repairs are made.
+   - **Nuisance receivership (RSMo § 441.570–441.580):** In a court nuisance case, a judge can appoint a receiver to collect rents and use them for repairs. Do not withhold rent on your own — talk to legal aid first.
    - **Repair and deduct:** In some circumstances, tenants may make minor repairs and deduct the cost from rent. Consult a legal aid attorney before doing this.
    - **Constructive eviction:** If conditions make the home uninhabitable, you may be able to break the lease without penalty. Get legal advice first.
 
-**Retaliation protections:** Missouri law (RSMo § 441.233) prohibits landlords from retaliating (eviction, rent increase, service reduction) against tenants who report code violations or exercise legal rights.
+**Lockouts and shutoffs:** Missouri law (RSMo § 441.233) makes a landlord liable for removing or locking out a tenant without a court order, or for willfully cutting off utilities. Ask legal aid whether retaliation protections apply where you live.
 
 ### For Survivors of Abuse: Housing-Specific Concerns
 
 - **If your abuser is your landlord:** Contact a DV advocate immediately. You may have additional legal protections. National DV Hotline: 1-800-799-7233.
-- **If your abuser controls the lease:** Missouri law (RSMo § 441.920) allows survivors of DV, sexual assault, or stalking to terminate a lease early by providing a protective order or police report, with 30 days' notice. No early termination penalty.
+- **If you need to end a lease:** Missouri law (RSMo § 441.920) protects applicants and tenants who are survivors of DV, sexual assault, or stalking from discrimination, and lets a survivor end a lease early; the landlord may charge a reasonable termination fee. The landlord may ask for documentation, such as a statement from an advocate or health professional, or a police or court record.
 - **If you need emergency shelter:** See the Resource Directory (templates/resource-directory.md) for shelter listings, or call the National DV Hotline.
 - **Safe at Home Program (Missouri Secretary of State):** Provides a substitute address for survivors to use on public records, voter registration, and other documents. Phone: **866-509-1409**.
 
@@ -89,7 +89,7 @@ This pod provides guidance on housing code violations, disaster preparedness (es
 **Signs of lead exposure in children:** Developmental delays, learning difficulties, irritability, loss of appetite, weight loss, fatigue, abdominal pain, vomiting.
 
 **What to do:**
-1. **Get your child tested.** Ask your pediatrician for a blood lead level test. Missouri law requires testing at ages 1 and 2 for children in high-risk areas.
+1. **Get your child tested.** Ask your pediatrician for a blood lead level test, especially for young children in older housing.
 2. **Report lead hazards:**
    - St. Louis County Dept. of Public Health: **314-615-0600**
    - Missouri Dept. of Health and Senior Services Lead Program: **573-751-6102**
@@ -117,7 +117,7 @@ St. Louis County is in the central U.S. tornado corridor. Peak season is March t
 - Identify your shelter location: basement, interior room on lowest floor, away from windows
 - Know the difference: **Watch** = conditions favorable; **Warning** = take shelter NOW
 - Have an emergency kit ready (see below)
-- Sign up for STL County emergency alerts: stlouisco.com/emergency-management
+- Sign up for emergency alerts offered by your city or county, and keep Wireless Emergency Alerts turned on in your phone settings
 
 **During a tornado WARNING:**
 1. Go to your shelter location immediately
@@ -192,8 +192,7 @@ Every worker has the right to:
 ### For Survivors: Workplace Safety Considerations
 
 - **If your abuser shows up at your workplace:** Inform a trusted coworker or supervisor. Ask building security to be alerted. See safety-plan.md Section 6.
-- **Workplace protective orders:** Missouri allows employers to seek workplace restraining orders on behalf of employees (RSMo § 455.075).
-- **Time off for court:** Missouri law allows employees to take time off to attend court for protective orders or criminal proceedings related to domestic or sexual violence without employer retaliation.
+- **Time off for court:** Missouri law protects crime victims and witnesses from being disciplined or fired for honoring a subpoena (RSMo § 595.209). Other leave rights depend on your employer — ask an advocate or attorney.
 
 ---
 
@@ -205,10 +204,9 @@ Every worker has the right to:
 | STL County Dept. of Public Health | 314-615-0600 | Lead, environmental health |
 | Legal Services of Eastern Missouri | 314-534-4200 | Free legal help (tenant rights, housing) |
 | OSHA St. Louis Area Office | 314-425-4249 | Workplace safety |
-| Missouri Attorney General — Consumer Protection | 573-751-3321 | Landlord-tenant complaints |
-| American Red Cross (Gateway Chapter) | 314-516-2800 | Disaster relief |
+| Missouri Attorney General's Office (main line) | 573-751-3321 | Consumer complaints |
+| American Red Cross (St. Louis Area) | 314-516-2800 | Disaster relief |
 | FEMA | 1-800-621-3362 | Disaster assistance |
-| STL County Emergency Management | stlouisco.com/emergency-management | Alerts and preparedness |
 | Missouri Safe at Home Program | 866-509-1409 | Substitute address for survivors |
 
 ---
@@ -217,11 +215,9 @@ Every worker has the right to:
 
 | Statute | Description |
 |---------|-------------|
-| **RSMo § 441.233** | Landlord retaliation prohibition — cannot evict or raise rent in response to code complaints |
-| **RSMo § 441.570–441.580** | Rent escrow for code violations |
-| **RSMo § 441.920** | Lease termination for survivors of DV, SA, or stalking (30-day notice with documentation) |
-| **RSMo § 320.106** | Smoke and CO detector requirements |
-| **RSMo § 455.075** | Workplace protective orders |
+| **RSMo § 441.233** | Landlord liability for lockouts and utility shutoffs without a court order |
+| **RSMo § 441.570–441.580** | Court receivership of nuisance properties |
+| **RSMo § 441.920** | Protections for survivors of DV, SA, or stalking (no discrimination; early lease termination with a reasonable fee) |
 | **RSMo § 701.300 et seq.** | Missouri Lead Abatement and Assessment Licensing Act |
 
 ---

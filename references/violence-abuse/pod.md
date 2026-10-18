@@ -3,6 +3,7 @@
 **Domain:** Domestic violence, child abuse/neglect, sexual violence, elder abuse, human trafficking, stalking
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-03-29
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Crisis Response](../crisis-response/pod.md) | [Legal Protection](../legal-protection/pod.md) | [Behavioral Health Crisis](../behavioral-health-crisis/pod.md) | [Vulnerable Populations](../vulnerable-populations/pod.md) | [Digital Safety](../digital-safety/pod.md)
 
 ---
@@ -24,7 +25,7 @@ Violence and abuse take many forms — physical, emotional, sexual, financial, a
 | Role | Adaptation |
 |------|-----------|
 | **Survivor** | Lead with validation and safety. Use "the person hurting you" rather than clinical terms unless they use those terms first. Prioritize safety planning and practical steps. Offer the safety plan template. Never pressure them to leave, report, or take action — present options and let them decide. Include the privacy/digital safety reminder for any DV or stalking situation. |
-| **Mandatory Reporter** | Lead with reporting obligations and the appropriate hotline. For child abuse: 1-800-392-3738. For elder abuse: 1-800-392-0210. Clarify that they need reasonable suspicion, not proof. Walk through the pre-report checklist from `mandatory-reporter-checklist.md`. Emphasize legal protections. If the situation involves DV where children are exposed, see Section 4 of the mandatory reporter checklist. |
+| **Mandatory Reporter** | Lead with reporting obligations and the appropriate hotline. For child abuse: 1-800-392-3738. For elder or vulnerable-adult abuse: 1-800-392-0210 (daily 7 a.m.–8 p.m.; online reports at moapss.health.mo.gov). Clarify that they need reasonable suspicion, not proof. Walk through the pre-report checklist from `mandatory-reporter-checklist.md`. Emphasize legal protections. If the situation involves DV where children are exposed, see Section 4 of the mandatory reporter checklist. |
 | **Advocate / Provider** | Use professional terminology (IPV, coercive control, strangulation risk). Provide statute references (RSMo §§ 455, 565, 210). Reference the Danger Assessment factors and risk indicators. Offer cross-pod referral pathways (Legal Protection for protective orders, Digital Safety for tech abuse, Vulnerable Populations for identity-specific barriers). Use `advocate-case-coordination.md` for multi-need clients. |
 | **Support Person** | Focus on how to help safely. Lead with "Do not confront the abuser." Provide the conversation script (what to say / not say) from `support-person-guide.md`. Explain why people stay without being asked. Help them understand lethality indicators so they know when to call 911 on someone else's behalf. Offer self-care resources — this is hard on supporters too. |
 | **Child / Youth** | Use age-appropriate language. Say "the person who is hurting you" instead of "your abuser." For dating violence: use the loveisrespect hotline (1-866-331-9474). For abuse at home: use Childhelp (1-800-422-4453). Reassure them: "It is not your fault." Help them identify a trusted grown-up. Offer `youth-safety-plan.md`. For teens, emphasize Crisis Text Line (text HOME to 741741). |
@@ -40,11 +41,11 @@ Violence and abuse take many forms — physical, emotional, sexual, financial, a
 | **Child abuse** | Physical, emotional, or sexual harm to a child, or neglect (failure to provide basic needs). Missouri mandates reporting to the Children's Division. |
 | **Child neglect** | Failure to provide adequate food, shelter, supervision, medical care, or education. The most common form of child maltreatment. |
 | **Sexual violence** | Any sexual act committed without consent, including rape, sexual assault, sexual coercion, and unwanted sexual contact. |
-| **Elder abuse** | Physical, emotional, sexual, or financial abuse of a person 60 or older, or neglect by a caregiver. Missouri's Adult Abuse and Neglect Act covers this. |
+| **Elder abuse** | Physical, emotional, sexual, or financial abuse of a person 60 or older, or neglect by a caregiver. Missouri's adult abuse and neglect law (RSMo Chapter 192) also covers adults 18–59 with a disability. |
 | **Human trafficking** | The use of force, fraud, or coercion to exploit a person for labor or commercial sex. Missouri is a transit state for trafficking due to its interstate highway system. |
 | **Labor trafficking** | Exploitation of a person's labor through force, fraud, or coercion. |
 | **Sex trafficking** | Commercial sexual exploitation through force, fraud, or coercion — or any commercial sex act involving a minor (regardless of force). |
-| **Stalking** | A pattern of conduct directed at a specific person that causes fear. Includes following, surveillance, repeated contact, and technology-facilitated monitoring. Under Missouri RSMo § 565.225. |
+| **Stalking** | A pattern of conduct directed at a specific person that causes fear. Includes following, surveillance, repeated contact, and technology-facilitated monitoring. Missouri crimes: RSMo § 565.225 (first degree) and § 565.227 (second degree). |
 | **Order of protection** | A civil court order requiring an abuser to stay away from and have no contact with the victim. See Legal Protection pod for details. |
 | **SANE nurse** | Sexual Assault Nurse Examiner — a specially trained nurse who conducts forensic medical exams after sexual assault and collects evidence. |
 
@@ -73,27 +74,26 @@ A safety plan is a personalized guide for staying safer in an abusive situation 
 - Memorizing key phone numbers
 - Planning for children and pets
 
-**ALIVE (formerly Alternatives to Living in Violent Environments)** can help create a personalized safety plan:
-- **Phone:** 314-531-2003
-- **Address:** 4370 Lindell Blvd, St. Louis, MO 63108
+**ALIVE (Alternatives to Living in Violent Environments)** can help create a personalized safety plan:
+- **24/7 crisis line:** 314-993-2777 (office: 314-993-7080)
 - **Services:** 24-hour crisis hotline, emergency shelter, legal advocacy, counseling, children's services, transitional housing
 
 ### St. Louis County Domestic Violence Resources
 
 | Resource | Phone | Notes |
 |----------|-------|-------|
-| **ALIVE** | **314-531-2003** | 24/7 crisis line; shelter and advocacy for STL area |
-| **National DV Hotline** | **1-800-799-7233** | 24/7; TTY: 1-800-787-3224; text START to 88788; chat at thehotline.org |
-| **Missouri Coalition Against DV** | 573-634-4503 | Can help find local shelter statewide |
-| **Safe Connections** | 314-531-2003 | Merged with ALIVE; serves St. Louis City and County |
-| **Places for People** | 314-621-3574 | Housing and support for survivors with behavioral health needs |
-| **STL County Police — DV Unit** | 314-889-2341 | Non-emergency; request DV unit when reporting |
+| **ALIVE** | **314-993-2777** | 24/7 crisis line; shelter and advocacy for STL area |
+| **National DV Hotline** | **1-800-799-7233** | 24/7; text START to 88788; chat at thehotline.org; Deaf/hard of hearing: video phone 855-812-1001 (The Deaf Hotline) |
+| **Missouri Coalition Against Domestic and Sexual Violence (MCADSV)** | 573-634-4161 | Office line, not a crisis line; statewide map of local programs at mocadsv.org |
+| **Safe Connections** | 314-531-2003 | 24-hour crisis helpline (call or text); counseling and support; St. Louis City and County |
+| **Places for People** | 314-535-5600 | Community mental health center; housing support |
+| **STL County Police (non-emergency)** | 636-529-8210 | Ask for the domestic violence unit when reporting |
 
 ### Leaving an Abusive Situation
 
 **Important:** Leaving is often the most dangerous time. The risk of lethal violence increases when a survivor attempts to leave. Planning is essential.
 
-1. **Contact a DV advocate** (ALIVE: 314-531-2003 or National Hotline: 1-800-799-7233) before leaving if possible.
+1. **Contact a DV advocate** (ALIVE: 314-993-2777, Safe Connections: 314-531-2003, or National Hotline: 1-800-799-7233) before leaving if possible.
 2. **Gather important items** when safe: ID, birth certificates, Social Security cards, medications, phone charger, cash, a change of clothes.
 3. **Know where you are going:** DV shelter, trusted family or friend, hotel.
 4. **Do not announce your plans** to the abuser or people who might tell them.
@@ -116,18 +116,17 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 - Social workers
 - Child care workers
 - Law enforcement
-- Foster parents
-- Court-appointed special advocates (CASAs)
-- Clergy (with limited exceptions)
-- Commercial film and photo processors (for CSAM)
+- Foster parents and others responsible for a child's care
+- Ministers (see RSMo § 210.115)
+- Juvenile officers, probation and parole officers
 
 **Any person** — not just mandated reporters — may report suspected abuse. Reporters who act in good faith are protected from civil liability.
 
 ### How to Report Child Abuse in Missouri
 
 - **Missouri Child Abuse and Neglect Hotline:** **1-800-392-3738** (24/7)
-- **Online:** reportchildabusemissouri.com
-- **Local Children's Division (STL County):** 314-340-7400
+- **Online (mandated reporters, non-emergency):** apps.dss.mo.gov/OnlineCanReporting/default.aspx
+- **Relay Missouri (hearing or speech impaired):** 1-800-735-2466 (voice) or 1-800-735-2966 (text)
 - You can report anonymously, though providing your name helps investigators follow up.
 
 ### What Happens After a Report
@@ -140,13 +139,13 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 
 ### Child Advocacy Center — STL Area
 
-**The Child Advocacy Center of St. Louis** provides coordinated, trauma-informed services for child victims of abuse:
+**The St. Louis Children's Advocacy Center** (at the University of Missouri–St. Louis; serves St. Louis City and County) provides coordinated, trauma-informed services for child victims of abuse:
 - Forensic interviews (once, by trained specialists, so children don't have to repeat their story)
 - Medical exams
 - Therapy and support services
 - Coordination between law enforcement, prosecutors, and social services
 
-**Contact:** 314-282-4965 | childadvocacystlouis.org
+**Contact:** 314-516-6798 | umsl.edu/casgsl
 
 ---
 
@@ -169,17 +168,16 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 | Resource | Phone | Notes |
 |----------|-------|-------|
 | **RAINN National Sexual Assault Hotline** | **1-800-656-4673** | 24/7; online chat at rainn.org |
-| **YWCA Metro St. Louis** | 314-531-3980 | Sexual assault services, counseling, advocacy |
-| **Missouri Coalition Against Sexual Assault (MOCASA)** | 573-636-8776 | Statewide referrals and policy |
-| **Barnes-Jewish Hospital SANE Program** | 314-747-3000 | 24/7 SANE nurse services |
-| **SSM Health DePaul SANE Program** | 314-344-6000 | 24/7 SANE nurse services |
+| **YWCA Metro St. Louis — Regional Sexual Assault Center** | 314-531-7273 | 24/7 hotline; sexual assault advocacy and counseling |
+| **Barnes-Jewish Hospital** | 314-747-3000 | Main line; ask the emergency department about a SANE exam |
+| **SSM Health DePaul Hospital** | 314-344-6000 | Main line; ask the emergency department about a SANE exam |
 
 ### SANE Exam — What to Expect
 
 - The exam is performed by a specially trained nurse, not a regular ED nurse.
 - You have the right to decline any portion of the exam.
 - Evidence can be collected and stored even if you do not immediately want to report to police.
-- A Missouri statute allows evidence to be held for **6 months** without a report being filed (the "Jane Doe kit" option).
+- Evidence can be collected and stored without a police report. Ask the nurse or advocate how long your kit will be kept and how to track it.
 - An advocate can be present throughout the exam at your request.
 
 ---
@@ -197,14 +195,13 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 
 ### How to Report Elder Abuse in Missouri
 
-- **Missouri Adult Abuse and Neglect Hotline:** **1-800-392-0210** (24/7)
-- **Local STL County Adult Protective Services:** 314-615-4350
-- **For abuse in a nursing home or care facility:** Missouri Department of Health and Senior Services Long-Term Care Complaint Line: **1-800-392-0210**
-- **National Elder Fraud Hotline (financial exploitation):** 1-833-372-8311
+- **Missouri Adult Abuse and Neglect Hotline:** **1-800-392-0210** (daily 7 a.m.–8 p.m.; report online any time at moapss.health.mo.gov; call 911 in an emergency)
+- **For abuse in a nursing home or care facility:** report to the same hotline, **1-800-392-0210**
+- **National Elder Fraud Hotline (financial exploitation):** 1-833-372-8311 (7 days, 6 a.m.–11 p.m. ET)
 
 ### Legal Protections for Older Adults
 
-- **Missouri Adult Abuse and Neglect Act (RSMo Chapter 192):** Establishes protections and reporting requirements for abuse of adults age 60+.
+- **Missouri adult abuse and neglect law (RSMo Chapter 192):** Establishes protections and reporting requirements for adults 60 and older and adults 18–59 with a disability.
 - An elder abuse victim can seek an **Order of Protection** through the circuit court — available to anyone who has been subject to domestic violence or abuse, regardless of age.
 
 ---
@@ -233,17 +230,16 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 
 | Resource | Phone | Notes |
 |----------|-------|-------|
-| **National Human Trafficking Hotline** | **1-888-373-7888** | 24/7; text 233733 (BeFree); chat available |
-| **STL Area Anti-Trafficking Resources (SAATF)** | Contact via thehotline | Coalition of local providers |
-| **Covenant House Missouri** | 314-533-2241 | Serves youth who are at risk or have experienced trafficking |
+| **National Human Trafficking Hotline** | **1-888-373-7888** | 24/7; text 233733; chat available; TTY 711 |
+| **Covenant House Missouri** | 314-533-2241 | Serves youth ages 16–24, including youth who have experienced trafficking |
 | **International Institute of St. Louis** | 314-773-9090 | Services for immigrant trafficking victims, T-visa assistance |
-| **FBI St. Louis Field Office** | 314-231-4324 | Federal jurisdiction over trafficking cases |
-| **STL County Prosecuting Attorney** | 314-615-2600 | State trafficking prosecutions |
+| **FBI St. Louis Field Office** | 314-589-2500 | Federal jurisdiction over trafficking cases |
+| **STL County Prosecuting Attorney — Victim Advocate** | 314-615-2610 | State prosecutions, including trafficking |
 
 ### Missouri Trafficking Laws
 
-- **RSMo § 566.200–566.225:** Missouri's trafficking statutes. Sex trafficking of a minor carries up to life in prison. Labor trafficking is a Class B felony.
-- **RSMo § 566.223:** Victim protection — trafficking victims are protected from prosecution for offenses committed as a direct result of being trafficked.
+- **RSMo § 566.200–566.225:** Missouri's trafficking statutes. First-degree sexual trafficking of a child carries life in prison. Trafficking for forced labor is a felony punishable by 5 to 20 years.
+- **RSMo § 566.223:** Victim protections — federal Trafficking Victims Protection Act protections apply, there is an affirmative defense to prostitution charges for people who were coerced, and victims can be referred for services.
 - **T-Visa and U-Visa:** Federal immigration protections for trafficking victims who cooperate with law enforcement. See Vulnerable Populations pod.
 
 ---
@@ -263,16 +259,16 @@ Missouri defines stalking as a **course of conduct** directed at a specific pers
 - Using third parties to monitor or contact the victim
 - Technology-facilitated stalking (spyware, GPS tracking, AirTags) — see Digital Safety pod
 
-**Aggravated stalking (Class D felony):** Stalking combined with a credible threat, use of a deadly weapon, or violation of an existing order of protection.
+**Stalking in the first degree (RSMo § 565.225)** is a class E felony. **Stalking in the second degree (RSMo § 565.227)** is generally a class A misdemeanor.
 
 ### Steps to Take if You Are Being Stalked
 
 1. **Document everything.** Save text messages, voicemails, emails, and social media messages. Note dates, times, and locations of incidents. Take photos of evidence.
 2. **Tell someone you trust** — a friend, family member, or coworker — so they can be a witness.
-3. **File a police report** with STL County Police: **314-889-2341** (non-emergency) or **911** if in immediate danger.
+3. **File a police report** with STL County Police: **636-529-8210** (non-emergency) or **911** if in immediate danger.
 4. **Seek an Order of Protection** from St. Louis County Circuit Court (see Legal Protection pod).
 5. **Review your digital security** — change passwords, check for tracking devices, review account permissions. See Digital Safety pod.
-6. **Contact a DV/stalking advocate** — many DV organizations also specialize in stalking: ALIVE 314-531-2003.
+6. **Contact a DV/stalking advocate** — many DV organizations also specialize in stalking: ALIVE 314-993-2777 or Safe Connections 314-531-2003.
 
 ---
 
@@ -281,18 +277,18 @@ Missouri defines stalking as a **course of conduct** directed at a specific pers
 ### Procedure: Reporting Domestic Violence to Police
 
 1. Call **911** if in immediate danger. Say: "I need police. There is domestic violence at [address]."
-2. For non-emergency reports: call **314-889-2341** and request the Domestic Violence Unit.
+2. For non-emergency reports: call **636-529-8210** and ask for the domestic violence unit.
 3. When police arrive, you have the right to:
    - Request a female officer
    - Have an interpreter if needed
    - Decline to give a statement (though a statement helps prosecution)
 4. Ask the officer about **emergency orders of protection** — police can sometimes facilitate emergency orders.
-5. Missouri has a **mandatory arrest policy** in domestic assault cases: if an officer has probable cause, they must arrest the primary aggressor.
-6. After police leave, contact ALIVE (314-531-2003) for safety planning and advocacy.
+5. Under RSMo § 455.085, officers with probable cause **may** arrest for domestic violence. They **must** arrest if they are called back to the same address within 12 hours, or if an order of protection has been violated. If both people claim assault, the officer arrests the primary physical aggressor.
+6. After police leave, contact ALIVE (314-993-2777) or Safe Connections (314-531-2003) for safety planning and advocacy.
 
 ### Procedure: Getting Emergency Shelter
 
-1. Call **ALIVE: 314-531-2003** (24/7 for STL area) or **National DV Hotline: 1-800-799-7233**.
+1. Call **ALIVE: 314-993-2777** (24/7 for STL area) or **National DV Hotline: 1-800-799-7233**.
 2. A hotline counselor will assess your situation and connect you to an available shelter.
 3. Most DV shelters:
    - Are confidential — their addresses are not public
@@ -334,7 +330,7 @@ Missouri defines stalking as a **course of conduct** directed at a specific pers
 | RSMo § 210.110–210.165 | Child abuse and neglect definitions and reporting |
 | RSMo § 210.115 | Mandatory reporting of child abuse |
 | RSMo Chapter 192 | Adult Abuse and Neglect Act (elder abuse) |
-| RSMo § 565.225–565.227 | Stalking and aggravated stalking |
+| RSMo § 565.225–565.227 | Stalking, first and second degree |
 | RSMo § 566.200–566.225 | Human trafficking statutes |
 | RSMo § 491.075 | Child witness hearsay exceptions in abuse cases |
 

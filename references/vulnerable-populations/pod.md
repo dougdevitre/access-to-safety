@@ -3,6 +3,7 @@
 **Domain:** LGBTQ+ safety, disability, immigration (U-visa, T-visa, asylum, DACA), refugee services, veteran safety, unhoused persons, youth aging out of foster care, tribal communities
 **Reference Implementation:** St. Louis County, Missouri
 **Last Reviewed:** 2026-04-02
+**Last Verified:** 2026-10-18 (phone numbers, links and citations checked against official sources; see the fact-check PR)
 **Related Pods:** [Violence & Abuse](../violence-abuse/pod.md) | [Crisis Response](../crisis-response/pod.md) | [Legal Protection](../legal-protection/pod.md) | [Digital & Tech Safety](../digital-safety/pod.md) | [Behavioral Health Crisis](../behavioral-health-crisis/pod.md)
 
 ---
@@ -27,7 +28,7 @@ This pod provides population-specific guidance, resources, and considerations th
 | **Survivor** | Acknowledge their identity-specific barrier explicitly: "I want to make sure the resources I share work for your specific situation." For LGBTQ+ survivors: provide LGBTQ+ affirming DV services first, then general services. For undocumented survivors: clarify that DV services do not require immigration status, address deportation fear directly, and provide immigration legal resources (U-visa, VAWA self-petition). For disabled survivors: confirm accessibility of recommended resources. For veterans: provide VA-specific resources alongside civilian services. |
 | **Mandatory Reporter** | When the person you are reporting about is from a vulnerable population: note relevant identity factors in your report (language needs, disability, immigration status) so the investigating agency can assign appropriate staff. For undocumented families: reassure yourself and the family that a CPS report does not automatically trigger immigration enforcement. For LGBTQ+ youth: be aware of mandatory reporting nuances — in some states, a youth's sexual orientation is not itself reportable, but abuse by a parent in response to a youth's identity IS. |
 | **Advocate / Provider** | Document identity-specific barriers in the case coordination template (Section 3). When making referrals, confirm that the receiving organization is affirming and accessible for the client's population (e.g., LGBTQ+ affirming shelter, interpreter-accessible legal aid, wheelchair-accessible facility). Layer this pod on top of other pod referrals — don't treat identity as a separate "issue" but as a factor that shapes every service interaction. Use the `vulnerablePopulationFactors` field in the safety assessment schema. |
-| **Support Person** | If the person they support faces identity-specific barriers: help them understand those barriers without minimizing. For example: "Your friend may be afraid to call the police because of their immigration status — that fear is valid, and there are organizations that help regardless of status." Provide population-specific hotlines (LGBTQ+ DV Hotline: 1-866-356-4673, StrongHearts for Native communities: 1-844-762-8483). |
+| **Support Person** | If the person they support faces identity-specific barriers: help them understand those barriers without minimizing. For example: "Your friend may be afraid to call the police because of their immigration status — that fear is valid, and there are organizations that help regardless of status." Provide population-specific hotlines (StrongHearts for Native communities: 1-844-762-8483; Trevor Project for LGBTQ+ youth: 1-866-488-7386). |
 | **Child / Youth** | For LGBTQ+ youth: provide the Trevor Project (1-866-488-7386) as a primary resource. Reassure them that their identity is valid and not the cause of the abuse. For youth with disabilities: help identify accessible trusted adults. For immigrant youth: clarify that schools are safe places regardless of immigration status. For youth aging out of foster care: connect to independent living programs and extended foster care options. |
 
 ---
@@ -47,13 +48,11 @@ This pod provides population-specific guidance, resources, and considerations th
 
 | Resource | Contact | Services | Notes |
 |----------|---------|----------|-------|
-| **National LGBTQ+ DV Hotline** | **1-866-356-4673** | Crisis support, safety planning, referrals | English and Spanish; operated by the Northwest Network |
 | **Trevor Project** (youth under 25) | **1-866-488-7386**; text START to 678-678 | Suicide and crisis support for LGBTQ+ youth | 24/7; TrevorChat at thetrevorproject.org |
-| **Trans Lifeline** | **877-565-8860** | Peer support hotline staffed by trans people | Will not contact police without your consent |
+| **Trans Lifeline** | **877-565-8860** (press 2 for Spanish) | Peer support hotline staffed by trans people | Not 24/7: weekdays 1–9 p.m. ET (12–8 p.m. Central); will not contact police without your explicit request |
 | **GLMA Provider Directory** | glma.org | Find LGBTQ+-affirming healthcare providers | Searchable by location |
 | **PFLAG St. Louis** | pflagstl.org | Family and ally support, education | |
-| **Metro Trans Umbrella Group (MTUG)** | metrотransumbrella.org | STL-area trans community support, resources | |
-| **Doorways (STL)** | doorwayshousing.org | Housing for LGBTQ+ youth experiencing homelessness | Ages 16–24 |
+| **Doorways (STL)** | doorwayshousing.org | Affordable housing and support for people living with HIV/AIDS | |
 
 ### Guidance for Advocates Working with LGBTQ+ Survivors
 
@@ -80,8 +79,8 @@ This pod provides population-specific guidance, resources, and considerations th
 
 | Protection | What It Is | Key Details |
 |------------|-----------|-------------|
-| **U-visa** | For victims of qualifying crimes (DV, sexual assault, trafficking, stalking, etc.) who assist law enforcement | Provides temporary legal status and work authorization. Requires law enforcement certification (Form I-918B). Up to 10,000 issued per year. Path to green card after 3 years. |
-| **T-visa** | For victims of human trafficking | Provides temporary legal status, work authorization, and access to federal benefits. Does not require law enforcement cooperation (but cooperation is considered). Path to green card. |
+| **U-visa** | For victims of qualifying crimes (DV, sexual assault, trafficking, stalking, etc.) who assist law enforcement | Provides temporary legal status and work authorization. Requires law enforcement certification (Form I-918B). Up to 10,000 issued per year. Path to green card after 3 years of continuous presence. |
+| **T-visa** | For victims of human trafficking | Provides temporary legal status, work authorization, and access to federal benefits. Generally requires complying with reasonable requests from law enforcement, with exceptions for people under 18 and for people who cannot because of trauma. Path to green card. |
 | **VAWA Self-Petition** | For spouses, children, and parents of abusive U.S. citizens or lawful permanent residents | Allows the survivor to petition for legal status independently, without the abuser's knowledge or involvement. |
 | **Asylum** | For persons fleeing persecution based on race, religion, nationality, political opinion, or membership in a particular social group | DV survivors may qualify if the abuse is connected to a protected ground and the home country cannot or will not protect them. Must file within 1 year of arrival (with exceptions). |
 | **Special Immigrant Juvenile Status (SIJS)** | For children under 21 who have been abused, neglected, or abandoned by a parent | Provides path to green card through juvenile court finding and USCIS petition. |
@@ -122,12 +121,11 @@ This pod provides population-specific guidance, resources, and considerations th
 
 | Resource | Contact | Services |
 |----------|---------|----------|
-| **National Domestic Violence Hotline (accessible)** | **1-800-799-7233**; TTY 1-800-787-3224 | 24/7; ASL via video relay |
-| **Deaf Hotline (ADWAS)** | **855-812-1001** (VP); deafhotline.org | Video phone, email, and chat for Deaf survivors |
-| **Missouri Protection and Advocacy Services (Mo P&A)** | **800-392-8667**; moadvocacy.org | Legal advocacy for people with disabilities; abuse/neglect investigation in facilities |
-| **Paraquad (STL)** | **314-289-4005**; paraquad.org | Independent living services, advocacy, ADA rights |
+| **National Domestic Violence Hotline (accessible)** | **1-800-799-7233**; video phone 855-812-1001 (The Deaf Hotline) | 24/7 |
+| **The Deaf Hotline** | **855-812-1001** (VP), listed by the National DV Hotline | Video phone for Deaf survivors |
+| **Missouri Protection and Advocacy Services (Mo P&A)** | **800-392-8667**; www.moadvocacy.org | Legal advocacy for people with disabilities; abuse/neglect investigation in facilities |
+| **Paraquad (STL)** | **314-289-4200**; paraquad.org | Independent living services, advocacy, ADA rights |
 | **AbilitySTL** | **314-567-5516** | Assistive technology, employment, community support |
-| **Disability Rights Missouri** | **800-392-8667** | Same as Mo P&A — legal advocacy for disability rights |
 
 ### Accessibility Checklist for Service Providers
 
@@ -158,11 +156,10 @@ When referring a survivor with a disability, verify with the receiving organizat
 | Resource | Contact | Services |
 |----------|---------|----------|
 | **Veterans Crisis Line** | **988, press 1**; text 838255 | 24/7 suicide and crisis support for veterans and families |
-| **VA St. Louis Health Care System** | **314-652-4100** | Healthcare including mental health; IPV screening and referral |
-| **Military OneSource** | **800-342-9647** | Confidential support for active duty, reserves, and families |
-| **National Call Center for Homeless Veterans** | **877-424-3838** | Housing assistance, healthcare, employment |
+| **VA St. Louis Health Care System** | **314-652-4100** (toll-free 800-228-5459) | Healthcare including mental health; IPV screening and referral |
+| **Military OneSource** | **800-342-9647** | 24/7 confidential support for active duty, reserves, and families |
+| **National Call Center for Homeless Veterans** | **877-424-3838** | 24/7; housing assistance, healthcare, employment |
 | **Legal Services of Eastern MO — Veterans Project** | **314-534-4200** | Free legal help for veterans |
-| **Safe Helproom (NNEDV for military)** | militaryfamiliesandipv.org | Safety planning and resources specific to military/veteran DV |
 
 ### For Survivors Whose Abuser Is Active-Duty Military
 
@@ -188,9 +185,9 @@ When referring a survivor with a disability, verify with the receiving organizat
 | Resource | Contact | Services |
 |----------|---------|----------|
 | **St. Patrick Center** | **314-802-0700** | Emergency housing, employment, healthcare for unhoused individuals |
-| **Peter & Paul Community Services** | **314-588-8003** | Emergency shelter (men), housing programs |
+| **Peter & Paul Community Services** | **314-588-7111** | Emergency shelter (men; referral through 211 or St. Patrick Center), housing programs |
 | **Gateway180** | **314-231-0422** | Emergency shelter for families experiencing homelessness |
-| **Places for People** | **314-534-5600** | Outpatient mental health and SUD treatment; housing support |
+| **Places for People** | **314-535-5600** | Outpatient mental health and SUD treatment; housing support |
 | **211 (United Way)** | Dial **2-1-1** | Local referral for shelter, food, clothing, and social services |
 | **National DV Hotline** | **1-800-799-7233** | Can help locate DV shelters that serve unhoused survivors |
 
@@ -216,10 +213,8 @@ When referring a survivor with a disability, verify with the receiving organizat
 
 | Resource | Contact | Services |
 |----------|---------|----------|
-| **Foster Care to Success** | fc2success.org | Scholarships, care packages, coaching for foster care alumni |
-| **National Runaway Safeline** | **1-800-786-2929** | Crisis support for youth; "Home Free" bus ticket program |
+| **National Runaway Safeline** | **1-800-786-2929** (call or text) | 24/7 crisis support for youth; "Home Free" free ride home for ages 12–21 |
 | **Covenant House** | covenanthouse.org | Shelter and services for homeless youth (16–24) |
-| **Doorways (STL)** | doorwayshousing.org | Housing for youth experiencing homelessness (16–24), including LGBTQ+ youth |
 | **Missouri Chafee Program** | dss.mo.gov (search Chafee) | Independent living services, education vouchers, transition support for current/former foster youth |
 | **National Human Trafficking Hotline** | **1-888-373-7888** | If a youth is being exploited |
 
@@ -275,10 +270,9 @@ Many survivors belong to more than one vulnerable group (e.g., an undocumented t
 ## Quick Reference Card
 
 ```
-LGBTQ+ DV HOTLINE:                  1-866-356-4673
-TRANS LIFELINE:                      877-565-8860
+TRANS LIFELINE (weekdays, limited):  877-565-8860
 TREVOR PROJECT (LGBTQ+ YOUTH):      1-866-488-7386
-DEAF HOTLINE (ADWAS):                855-812-1001 (VP)
+DEAF HOTLINE:                        855-812-1001 (VP)
 TRAFFICKING HOTLINE:                 1-888-373-7888
 VETERANS CRISIS LINE:                988 then press 1
 STRONGHEARTS NATIVE HELPLINE:        1-844-762-8483
