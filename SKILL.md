@@ -194,7 +194,7 @@ This skill ships with St. Louis County, Missouri as the default region. The `stl
 | Child Abuse/Neglect Hotline | 1-800-392-3738 | Missouri Children's Division |
 | DV crisis line — ALIVE | 314-993-2777 | ALIVE (Alternatives to Living in Violent Environments), 24/7 |
 | DV crisis line — Safe Connections | 314-531-2003 | Safe Connections, 24-hour helpline (call or text) |
-| Legal Aid of Western MO | 816-474-6750 | Free legal help |
+| Legal Aid of Western MO | 816-474-6750 | Free legal help in western Missouri (not St. Louis) |
 | Legal Services of Eastern MO | 314-534-4200 | Free legal help |
 | 988 Suicide & Crisis Lifeline | 988 | Call or text, 24/7 |
 | National DV Hotline | 1-800-799-7233 | 24/7, 200+ languages |

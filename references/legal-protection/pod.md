@@ -262,7 +262,7 @@ Missouri's Crime Victim Compensation Program provides financial assistance to vi
 | **Legal Services of Eastern Missouri (LSEM)** | **314-534-4200** | Eastern Missouri incl. STL County | Civil legal services for low-income individuals; DV, housing, public benefits |
 | **Legal Aid of Western Missouri** | **816-474-6750** | 40 counties in western Missouri (not St. Louis) | Civil legal services; DV, consumer, housing |
 | **Missouri Legal Services (statewide portal)** | lsmo.org | Statewide | Finds the legal aid program for your county |
-| **St. Louis Bar Foundation Volunteer Lawyers Project** | 314-539-2668 | STL metro | Pro bono legal help |
+| **Volunteer Lawyers Program (Legal Services of Eastern Missouri)** | 314-534-4200 | STL metro | Pro bono legal help |
 | **ALIVE** | 314-993-2777 | STL area | DV advocacy, including court advocacy |
 | **Missouri Protection & Advocacy Services** | 800-392-8667 | Statewide | Disability rights, civil rights |
 | **St. Louis University Legal Clinics** | 314-977-2778 | STL metro | Law school clinical programs |
