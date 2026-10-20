@@ -186,7 +186,7 @@ When referring a survivor with a disability, verify with the receiving organizat
 |----------|---------|----------|
 | **St. Patrick Center** | **314-802-0700** | Emergency housing, employment, healthcare for unhoused individuals |
 | **Peter & Paul Community Services** | **314-588-7111** | Emergency shelter (men; referral through 211 or St. Patrick Center), housing programs |
-| **Gateway180** | **314-231-0422** | Emergency shelter for families experiencing homelessness |
+| **Gateway180** | **314-231-1515** | Emergency shelter for families experiencing homelessness |
 | **Places for People** | **314-535-5600** | Outpatient mental health and SUD treatment; housing support |
 | **211 (United Way)** | Dial **2-1-1** | Local referral for shelter, food, clothing, and social services |
 | **National DV Hotline** | **1-800-799-7233** | Can help locate DV shelters that serve unhoused survivors |
