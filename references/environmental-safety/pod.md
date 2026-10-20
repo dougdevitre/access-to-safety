@@ -67,7 +67,7 @@ This pod provides guidance on housing code violations, disaster preparedness (es
    - Individual municipalities may have their own code enforcement offices
 4. **Contact Legal Aid:**
    - Legal Services of Eastern Missouri: **314-534-4200** (free legal help for qualifying residents)
-   - Legal Aid of Western Missouri: **816-474-6750**
+   - Legal Aid of Western Missouri: **816-474-6750** (western Missouri only, not St. Louis)
 5. **Know your options:**
    - **Nuisance receivership (RSMo § 441.570–441.580):** In a court nuisance case, a judge can appoint a receiver to collect rents and use them for repairs. Do not withhold rent on your own — talk to legal aid first.
    - **Repair and deduct:** In some circumstances, tenants may make minor repairs and deduct the cost from rent. Consult a legal aid attorney before doing this.

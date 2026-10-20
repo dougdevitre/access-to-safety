@@ -197,7 +197,7 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 
 - **Missouri Adult Abuse and Neglect Hotline:** **1-800-392-0210** (daily 7 a.m.–8 p.m.; report online any time at moapss.health.mo.gov; call 911 in an emergency)
 - **For abuse in a nursing home or care facility:** report to the same hotline, **1-800-392-0210**
-- **National Elder Fraud Hotline (financial exploitation):** 1-833-372-8311 (7 days, 6 a.m.–11 p.m. ET)
+- **National Elder Fraud Hotline (financial exploitation):** 1-833-372-8311 (Monday–Friday, 10 a.m.–6 p.m. ET)
 
 ### Legal Protections for Older Adults
 
