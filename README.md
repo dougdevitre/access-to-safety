@@ -67,9 +67,20 @@ A sixth cross-cutting consideration — **Vulnerable Population Member** (LGBTQ+
 
 ### Use as a Claude Skill
 
-1. Download this repository
-2. Add the `access-to-safety/` folder to your Claude skill directory
-3. Claude will automatically route safety-related questions to the appropriate domain
+Add Access to Safety to Claude at [claude.ai](https://claude.ai) in a few clicks. It works on the Free, Pro, Max, Team and Enterprise plans.
+
+1. **Download the install file:** [access-to-safety.zip](https://github.com/dougdevitre/access-to-safety/releases/download/skill-latest/access-to-safety.zip)
+2. **Don't unzip it.** Claude needs the `.zip` file just as it downloaded.
+3. **Turn on code execution.** Skills need it.
+   - **Free, Pro or Max:** open **Settings > Capabilities** and turn on **Code execution and file creation**.
+   - **Team or Enterprise:** an organization owner opens **Organization settings > Plugins & skills**, clicks the **Policy** tab, and turns on both **Code execution and file creation** and **Skills**.
+4. **Upload it:** open **Customize > Skills**, click **+**, then **+ Create skill**, then **Upload a skill**, and choose `access-to-safety.zip`.
+5. **Turn it on:** in **Customize > Skills**, switch on **access-to-safety**. Claude will now use it for any safety question.
+
+These steps come from Claude's help center: [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
+If the link 404s, the first release hasn't been published yet.
+
+Maintainers and forks: `scripts/build-skill-zip.sh` builds the same file into `dist/`. The Skill package workflow republishes it on every change to `main`.
 
 ### Fork for Your Region
 
