@@ -69,11 +69,12 @@ jobs:
     concurrency:
       group: skill-latest-release
       cancel-in-progress: false
+    # Not "ZIP": the zip program reads $ZIP as extra options and exits 15.
     env:
       GH_TOKEN: ${{ github.token }}
       TAG: skill-latest
       TITLE: Install file (latest)
-      ZIP: dist/access-to-safety.zip
+      ZIP_PATH: dist/access-to-safety.zip
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
@@ -97,10 +98,10 @@ jobs:
           } > release-notes.md
 
           if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release upload "$TAG" "$ZIP" --clobber --repo "$GITHUB_REPOSITORY"
+            gh release upload "$TAG" "$ZIP_PATH" --clobber --repo "$GITHUB_REPOSITORY"
             gh release edit "$TAG" --title "$TITLE" --notes-file release-notes.md --repo "$GITHUB_REPOSITORY"
           else
-            gh release create "$TAG" "$ZIP" --target "$GITHUB_SHA" \
+            gh release create "$TAG" "$ZIP_PATH" --target "$GITHUB_SHA" \
               --title "$TITLE" --notes-file release-notes.md --repo "$GITHUB_REPOSITORY"
           fi
 
