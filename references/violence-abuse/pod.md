@@ -176,8 +176,8 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 
 - The exam is performed by a specially trained nurse, not a regular ED nurse.
 - You have the right to decline any portion of the exam.
-- The exam is free, and you do not need to make a police report to have one (Missouri DPS SAFE program).
-- A forensic exam also meets the reporting requirement for Missouri Crime Victims' Compensation, so you can still apply for help with costs.
+- You should not be billed for the forensic exam itself, and you do not need to make a police report to have one; anonymous exams are covered (Missouri DPS SAFE program). Other medical treatment may be billed, so ask the hospital or an advocate about help with those costs.
+- Having a forensic exam also counts as reporting for Missouri Crime Victims' Compensation, so you can still apply for help with costs. Other eligibility rules still apply, and approval is not guaranteed.
 - Evidence can be collected and stored without a police report. Ask the nurse or advocate how long your kit will be kept and how to track it.
 - An advocate can be present throughout the exam at your request.
 
