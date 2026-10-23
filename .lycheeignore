@@ -24,11 +24,6 @@
 # people seeking help. Remove this line once the hub serves again.
 ^https?://(www\.)?dougdevitre\.org
 
-# The install file is published by .github/workflows/skill-package.yml when this
-# change reaches main, so it 404s until the first skill-latest release exists.
-# TEMPORARY: remove this line once the release is published.
-^https://github\.com/dougdevitre/access-to-safety/releases/download/skill-latest/
-
 # BROKEN — needs a human (found 2026-10-20). napsa-now.org (National Adult
 # Protective Services Association, named in templates/mandatory-reporter-checklist.md
 # as the way to find another state's APS) timed out twice in a row on the
