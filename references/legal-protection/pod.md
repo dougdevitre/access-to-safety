@@ -79,7 +79,7 @@ Under the **Missouri Adult Abuse Act (RSMo Chapter 455)**, you can file for an o
 > **St. Louis County Circuit Court — Adult Abuse Office**
 > 105 South Central Ave, Clayton, MO 63105
 > Phone: 314-615-8029 (Circuit Clerk); Adult Abuse office 314-615-8086
-> Hours: Monday–Friday, 8:00 AM – 5:00 PM; petitions also accepted Saturdays 9:00–11:00 AM (except holidays)
+> Hours: Monday–Friday, 8:00 AM – 5:00 PM; petitions also accepted Saturdays 9:00–11:00 AM (except holidays). Published hours differ between sources, so call 314-615-8086 before you go.
 > After hours: call 911 if you are in danger, or STL County Police non-emergency (636-529-8210); ask a DV hotline about emergency options.
 
 **Step 2: Request the forms**
@@ -122,7 +122,7 @@ A protective order can require the respondent to:
 - Stay away from the petitioner's home, workplace, school, and other locations
 - Have no contact by any means (phone, text, email, social media, third parties)
 - Leave a shared home
-- Surrender firearms and ammunition (when DV is involved — federal Lautenberg Amendment)
+- Surrender firearms and ammunition (federal law, 18 U.S.C. § 922(g)(8), bars a person under a qualifying full order of protection from having guns; the Lautenberg Amendment, § 922(g)(9), separately covers DV misdemeanor convictions)
 - Pay temporary financial support
 - Attend a batterers' intervention program
 
@@ -280,6 +280,7 @@ Call **314-534-4200** to apply; have income information ready.
 For those who do not qualify for legal aid:
 - **The Missouri Bar LawyerSearch:** a free online tool at mobar.org to find a lawyer in good standing
 - **Missouri Bar legal resource line:** 573-636-3635
+- **The Missouri Bar (main office):** 573-635-4128
 
 ---
 
@@ -346,6 +347,7 @@ For those who do not qualify for legal aid:
 | RSMo § 210.115 | Mandatory reporting of child abuse |
 | RSMo § 210.165 | Penalty for failure to report child abuse |
 | RSMo § 192.2405 | Mandatory reporting of elder and vulnerable-adult abuse |
+| 18 U.S.C. § 922(g)(8) | Federal firearms ban while a qualifying protective order is in effect |
 | 18 U.S.C. § 922(g)(9) | Federal Lautenberg Amendment — DV misdemeanants prohibited from firearms |
 | 18 U.S.C. § 3771 | Federal Crime Victims' Rights Act |
 

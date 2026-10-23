@@ -441,7 +441,7 @@ disability services, veterans, unhoused, youth aging out of foster care.*
 
 | Organization | Phone | Address | Services | Notes | Last Verified |
 |---|---|---|---|---|---|
-| StrongHearts Native Helpline | 1-844-762-8483 | — | 24/7 DV/SA support for Native communities; text START to 1-844-762-8483 | English | Free | 2026-10-18 |
+| StrongHearts Native Helpline | 1-844-762-8483 | — | 24/7 DV/SA support for Native communities; text START to 1-844-762-8483 | English; free | 2026-10-18 |
 | | | | | | |
 
 ### Faith Community Resources

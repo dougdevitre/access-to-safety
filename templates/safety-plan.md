@@ -85,7 +85,7 @@ Leaving is often the most dangerous time. Planning reduces the risk.
 
 **Before I leave, I will try to:**
 
-- [ ] Open a bank account in my name only at a bank my partner does not use
+- [ ] Open a bank account in my name only at a bank my partner does not use, with paperless statements sent to an email they can't see
 - [ ] Save a small amount of cash somewhere safe (location known only to me)
 - [ ] Get copies of important documents (see Section 11)
 - [ ] Pack or hide a go bag (see Section 9)
@@ -116,6 +116,8 @@ Leaving is often the most dangerous time. Planning reduces the risk.
 
 If you have already left or your partner no longer lives with you, these steps help secure
 your space.
+
+> **Before you change anything:** changing passwords, accounts, lock codes or Wi-Fi can alert the person hurting you that you are making a plan. If they might notice, use a safe device, wait until after you have left, or work through the changes with an advocate (National DV Hotline 1-800-799-7233).
 
 - [ ] Change all locks (doors, windows, garage)
 - [ ] Add a door reinforcement bar or door alarm
@@ -208,6 +210,8 @@ Abuse impacts mental and physical health deeply. Your healing matters.
 
 Technology is frequently used as a tool of abuse and surveillance. Take these steps.
 
+> **Before you change anything:** changing passwords, accounts, lock codes or Wi-Fi can alert the person hurting you that you are making a plan. If they might notice, use a safe device, wait until after you have left, or work through the changes with an advocate (National DV Hotline 1-800-799-7233).
+
 **Devices and accounts:**
 
 - [ ] I have changed passwords on all accounts (email, social media, banking, phone)
@@ -215,7 +219,7 @@ Technology is frequently used as a tool of abuse and surveillance. Take these st
 - [ ] I have enabled two-factor authentication using a phone or email they cannot access
 - [ ] I have checked my devices for tracking apps (see resources for how-to guides)
 - [ ] I use a private browsing window when researching safety resources
-- [ ] I clear my browser history after sensitive searches
+- [ ] I delete just the safety-site entries from my browser history after sensitive searches (an empty history can draw attention)
 - [ ] I have reviewed who has access to shared location services (Google Maps, Find My, etc.)
 - [ ] I have removed my abuser from shared accounts (streaming, cloud storage, etc.)
 

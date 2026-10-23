@@ -44,7 +44,7 @@ This pod covers how to recognize threats, how to report them, what community-bas
 | **Active shooter / active threat** | An individual or group actively engaged in killing or attempting to kill people in a populated area. Response protocols: Run-Hide-Fight or ALICE. |
 | **School safety** | A combination of physical security, threat assessment, mental health support, and restorative practices that contribute to safe learning environments. |
 | **Red flag / extreme risk protection order (ERPO)** | A court order allowing temporary removal of firearms from a person who poses a danger. Missouri does not have a statewide ERPO law as of 2026. |
-| **Gun relinquishment** | In cases involving domestic violence, federal law (the Lautenberg Amendment) prohibits persons convicted of DV misdemeanors from possessing firearms. Missouri courts can order relinquishment. |
+| **Gun relinquishment** | In cases involving domestic violence, federal law (the Lautenberg Amendment) prohibits persons convicted of DV misdemeanors from possessing firearms. A separate federal rule, 18 U.S.C. § 922(g)(8), covers people under a qualifying protective order. Missouri courts can order relinquishment. |
 | **Cure Violence** | A public health model for violence intervention that treats violence like an infectious disease and uses interrupters to break cycles of retaliation. |
 
 ---

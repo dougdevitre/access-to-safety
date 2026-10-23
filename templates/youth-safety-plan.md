@@ -154,7 +154,7 @@ These are people I trust. I can go to them if I need a safe place or someone to 
 The person hurting you might check your phone, tablet, or computer. Here is how to stay safer online.
 
 - [ ] I use a private browsing window (incognito mode) when looking up safety information
-- [ ] I clear my browser history after visiting safety websites
+- [ ] I delete just the safety websites from my browser history (not all of it, because an empty history can look odd)
 - [ ] I have a password on my phone that the unsafe person does not know
 - [ ] I have turned off location sharing for people I do not want to track me
 - [ ] I have checked my phone for tracking apps I did not install
@@ -262,8 +262,9 @@ fill out this plan:
   your fault."*
 - **Be honest about reporting.** If you are a mandatory reporter, explain what that
   means before they share: *"I want you to know that if you tell me someone is hurting
-  you, my job says I need to tell someone who can help keep you safe. I will not do
-  anything without telling you first."*
+  you, my job says I need to tell someone who can help keep you safe. I will tell you
+  what I am going to do and who I am telling, and I will keep you in the loop as much
+  as I can."*
 - **Check in on emotions.** Safety planning can bring up hard feelings. Watch for signs
   of distress and take breaks when needed.
 - **Store it safely.** Help them find a safe place for this plan where the person causing

@@ -99,10 +99,10 @@ This pod provides population-specific guidance, resources, and considerations th
 ### Guidance for Advocates
 
 - **You are not required to ask about immigration status** when providing services. Many DV organizations have policies against asking.
-- **Explain that police are not ICE.** Local law enforcement in St. Louis County is generally not involved in immigration enforcement. However, this varies — be honest about risks.
+- **Be honest about police and immigration enforcement.** Local police and ICE are separate agencies, but whether and how local police share information with immigration authorities varies by place and can change. Don't promise that contact with police is safe. When you can, connect the person with an immigration attorney or advocate before they decide.
 - **Connect to immigration legal help early.** U-visa applications require law enforcement certification, which has a time-sensitive element. Start the process as soon as possible.
 - **Use interpreters, not family members.** Family members may be unsafe (could be the abuser or connected to the abuser). Use professional interpretation services.
-- **Reassure about public benefits:** Crime victims accessing services (shelters, medical care, hotlines) are generally not subject to "public charge" determinations for immigration purposes.
+- **Public benefits and "public charge":** Many victim services (shelters, hotlines, emergency medical care) are not usually counted in "public charge" decisions, but the rules are complex and can change. Suggest the person confirm with an immigration attorney before relying on it.
 
 ---
 

@@ -213,16 +213,19 @@ A person 18 or older who:
 
 ### Report To
 
-When children are **witnessing or exposed to** domestic violence, this may constitute a
-mandatory report for child abuse/neglect in many jurisdictions.
+When children are **witnessing or exposed to** domestic violence, whether you must report
+depends on the facts. Exposure alone is not automatically abuse or neglect. The Missouri
+standard is reasonable cause to suspect abuse or neglect; if you are unsure whether what
+you know meets it, **call the hotline and ask**. Describe what you know, and the hotline
+can help you decide whether it is a report.
 
 ```
 Missouri Child Abuse/Neglect Hotline: 1-800-392-3738 (24/7)
 ```
 
-### When Exposure to DV Triggers Mandatory Reporting
+### When a Call Is Likely Needed
 
-Report when a child:
+Call the hotline (to report, or to ask) when a child:
 - Has witnessed physical violence between caregivers
 - Has been physically harmed during a DV incident (even accidentally)
 - Shows behavioral or emotional signs of trauma from exposure

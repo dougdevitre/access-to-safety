@@ -97,7 +97,7 @@ A safety plan is a personalized guide for staying safer in an abusive situation 
 2. **Gather important items** when safe: ID, birth certificates, Social Security cards, medications, phone charger, cash, a change of clothes.
 3. **Know where you are going:** DV shelter, trusted family or friend, hotel.
 4. **Do not announce your plans** to the abuser or people who might tell them.
-5. **If children are involved:** Bring them with you. Taking your own children is generally not considered kidnapping in Missouri, but consult an advocate about custody implications.
+5. **If children are involved:** Bring them if you can do so safely. If there is a custody order or case, call an advocate or legal aid (ALIVE 314-993-2777, LSEM 314-534-4200) as soon as you can. The rules depend on your situation.
 6. **Change your digital footprint:** New email, log out of shared accounts, check for tracking apps. See Digital Safety pod.
 7. **File for an Order of Protection** as soon as you are safe. See Legal Protection pod.
 8. **Call 911** if the abuser is actively violent or blocking your exit.
@@ -176,7 +176,8 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 
 - The exam is performed by a specially trained nurse, not a regular ED nurse.
 - You have the right to decline any portion of the exam.
-- Evidence can be collected and stored even if you do not immediately want to report to police.
+- You should not be billed for the forensic exam itself, and you do not need to make a police report to have one; anonymous exams are covered (Missouri DPS SAFE program). Other medical treatment may be billed, so ask the hospital or an advocate about help with those costs.
+- Having a forensic exam also counts as reporting for Missouri Crime Victims' Compensation, so you can still apply for help with costs. Other eligibility rules still apply, and approval is not guaranteed.
 - Evidence can be collected and stored without a police report. Ask the nurse or advocate how long your kit will be kept and how to track it.
 - An advocate can be present throughout the exam at your request.
 
@@ -198,6 +199,8 @@ Missouri has **mandatory reporting** laws (RSMo § 210.115). Certain professiona
 - **Missouri Adult Abuse and Neglect Hotline:** **1-800-392-0210** (daily 7 a.m.–8 p.m.; report online any time at moapss.health.mo.gov; call 911 in an emergency)
 - **For abuse in a nursing home or care facility:** report to the same hotline, **1-800-392-0210**
 - **National Elder Fraud Hotline (financial exploitation):** 1-833-372-8311 (Monday–Friday, 10 a.m.–6 p.m. ET)
+- **Missouri Attorney General Consumer Protection Hotline (scams and fraud):** 1-800-392-8222
+- **If money was taken:** call the person's bank or card company right away, and report online at reportfraud.ftc.gov (Federal Trade Commission) and, for internet or phone scams, ic3.gov (FBI)
 
 ### Legal Protections for Older Adults
 
@@ -278,8 +281,8 @@ Missouri defines stalking as a **course of conduct** directed at a specific pers
 
 1. Call **911** if in immediate danger. Say: "I need police. There is domestic violence at [address]."
 2. For non-emergency reports: call **636-529-8210** and ask for the domestic violence unit.
-3. When police arrive, you have the right to:
-   - Request a female officer
+3. When police arrive, you can:
+   - Ask for a female officer (one may not always be available)
    - Have an interpreter if needed
    - Decline to give a statement (though a statement helps prosecution)
 4. Ask the officer about **emergency orders of protection** — police can sometimes facilitate emergency orders.
