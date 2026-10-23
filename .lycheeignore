@@ -19,11 +19,6 @@
 # browser-like fetch (checked 2026-10-18). Bot filtering, not a dead site.
 ^https?://(www\.)?childwelfare\.gov
 
-# TEMPORARY: the Access To hub (dougdevitre.org) returned 404 to the link check
-# in sibling repos on 2026-10-18. It is the hub's own site, not a resource for
-# people seeking help. Remove this line once the hub serves again.
-^https?://(www\.)?dougdevitre\.org
-
 # BROKEN — needs a human (found 2026-10-20). napsa-now.org (National Adult
 # Protective Services Association, named in templates/mandatory-reporter-checklist.md
 # as the way to find another state's APS) timed out twice in a row on the
