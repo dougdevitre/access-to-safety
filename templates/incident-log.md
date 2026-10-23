@@ -50,8 +50,9 @@ Detailed, consistent incident records can:
 
 - **Contemporaneous records** (written close in time to the event) carry more weight than
   records written long after the fact.
-- **Your own diary or notes are admissible** in most jurisdictions as a "present sense
-  impression" or similar exception to hearsay rules.
+- **Your own diary or notes may be usable as evidence**, or may help you remember details
+  when you testify. Whether a court admits them depends on the court and its rules of
+  evidence, so ask a lawyer or legal advocate.
 - **Photographs with metadata** (date, time, GPS) are more credible than those without.
   Do not edit or filter photos of injuries or damage.
 - **Screenshots of messages** should include the sender's name/number and timestamp.

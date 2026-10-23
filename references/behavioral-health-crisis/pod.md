@@ -171,7 +171,7 @@ Abuse often co-occurs with mental health and substance use crises. Important con
 - **Abusers may weaponize mental health:** Using a partner's diagnosis, medication, or hospitalization as a tool of control ("You're crazy," threatening to report them as unfit parents).
 - **Survivors may self-medicate:** Substance use can be a coping mechanism for trauma. Do not treat it as the primary problem without addressing safety.
 - **Psychiatric holds can be misused:** Abusers sometimes call police claiming a partner is suicidal to get them detained. If a person reports this, take it seriously and document it.
-- **Suicidal threats by an abuser:** If an abuser threatens suicide to prevent a partner from leaving, this is a form of coercive control. The survivor should call 988 or 911 on the abuser's behalf and proceed with their safety plan.
+- **Suicidal threats by an abuser:** If an abuser threatens suicide to prevent a partner from leaving, this is a form of coercive control. The survivor can call 988 or 911 on the abuser's behalf and proceed with their safety plan.
 - **Children's behavioral health:** Children exposed to domestic violence often present with anxiety, depression, PTSD, aggression, or regression. Connect to children's mental health services (see Crisis Response pod, Procedure 5).
 
 ---

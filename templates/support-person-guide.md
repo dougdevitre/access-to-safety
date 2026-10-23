@@ -188,6 +188,7 @@ Childhelp National Hotline: 1-800-422-4453 (24/7)
 - You can report anonymously
 - You do not need proof — reasonable concern is enough
 - Witnessing violence IS harmful to children, even if they are not being directly hit
+- If you are not sure whether what you know is enough to report, call the hotline and ask — describe the situation and they can help you decide
 - Reporting does not mean the children will automatically be removed — the goal is to get the family support
 
 **Do NOT:**

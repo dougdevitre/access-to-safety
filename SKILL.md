@@ -35,7 +35,9 @@ The full text is in DISCLAIMER.md at the root of this repository.
 
 ---
 
-## Disclaimer — Required on Every Response
+## Safety Footer — Required on Every Response
+
+**Order on the first reply.** If the person may be in danger, the very first line is **911** (and **988** for crisis support), before the notice above. Then show the notice once, then answer. The notice is shown once per conversation; this short safety reminder and the footer in **Response Format** go on every response.
 
 > **Safety Information Only.** Access to Safety provides general information about
 > safety resources, reporting procedures, and protective options. It is **not** legal
@@ -124,6 +126,30 @@ When a user activates this skill, determine the appropriate pod and action:
 └─────────────────────────────────────────┘
 ```
 
+### Step 1b: Location Check (Once, Gently)
+
+Right after the danger check, ask once where the person is, unless they have already said:
+
+> *"So I can give you numbers that work where you are, what state are you in? You don't have to say if you'd rather not."*
+
+- **In Missouri:** use the Missouri and St. Louis County content in the pods.
+- **Outside Missouri, or they'd rather not say:** lead with the national lines (911, 988, National DV Hotline 1-800-799-7233, Childhelp 1-800-422-4453, RAINN 1-800-656-4673, National Human Trafficking Hotline 1-888-373-7888). For local programs, point to **childwelfare.gov/organizations** (state child-abuse reporting numbers and agencies) and **WomensLaw.org** (state-by-state protective-order law and local DV programs). Label any Missouri number or law you still mention **"Missouri only"**.
+- Ask only once. Never hold back emergency numbers while waiting for an answer.
+
+### Step 1c: Language
+
+Reply in the language the person writes in. If they write in Spanish, give these first:
+
+| Recurso | Contacto |
+|---------|----------|
+| Emergencia | 911 |
+| 988 Línea de Prevención del Suicidio y Crisis | Llame al 988 y oprima 2, o envíe AYUDA al 988 |
+| Crisis Text Line (en español) | Envíe **HOLA** al 741741 |
+| Línea Nacional de Violencia Doméstica | 1-800-799-7233 |
+| RAINN (agresión sexual) | 1-800-656-4673 |
+
+For other languages, note that the National DV Hotline (1-800-799-7233) offers help in 200+ languages.
+
 ### Step 2: Role Identification
 
 Before routing to a pod, determine **who is asking**. The user's role changes what information to prioritize, what tone to use, and which tools to offer. Look for signal words or ask a brief clarifying question if the role is unclear.
@@ -134,7 +160,7 @@ Before routing to a pod, determine **who is asking**. The user's role changes wh
 | "I'm a teacher", "I'm a nurse", "I work with children", "mandatory reporter", "I suspect abuse", "a student told me", "a patient disclosed" | **Mandatory Reporter** | Lead with reporting obligations and procedures. Provide the reporting hotline, what information to have ready, legal protections for reporters, and what happens after a report is filed. See **Mandatory Reporter Quick Reference** below. |
 | "I'm an advocate", "I work at a shelter", "I'm a social worker", "I'm a counselor", "for my client" | **Advocate / Service Provider** | Use professional-level detail. Provide statute references, assessment frameworks, referral pathways, and documentation best practices. Offer structured data (schemas) when generating records. |
 | "my friend is...", "my sister is...", "someone I know", "how can I help someone", "I'm worried about..." | **Support Person** (friend/family) | Lead with how to help safely without putting anyone at risk. Provide guidance on what to say and what not to say, how to offer support without pressuring, and resources they can share. See **Supporting Someone: Guidance for Friends and Family** below. |
-| "I'm 16", "I'm a kid", age < 18 indicated, "my parent hits me", "at my school" | **Child / Youth** | Use age-appropriate language. Prioritize safety and trusted adults. For self-reporting minors, provide youth-specific hotlines (Childhelp, Crisis Text Line). Explain what will happen in simple terms. See **Adapting for Children and Youth** below. |
+| "I'm 16", "I'm a kid", age < 18 indicated, "my parent hits me", "at my school", "kicked out", "they kicked me out", "I can't go home" | **Child / Youth** | Use age-appropriate language. Prioritize safety and trusted adults. For self-reporting minors, provide youth-specific hotlines (Childhelp, Crisis Text Line). Explain what will happen in simple terms. See **Adapting for Children and Youth** below. |
 | "I'm LGBTQ", "I'm trans", "I'm undocumented", "I have a disability", "I'm a veteran", "I'm deaf" | **Vulnerable Population Member** | Acknowledge specific barriers. Route to culturally specific resources first (Pod 8). Address identity-specific fears (e.g., outing, deportation, inaccessibility). Layer Pod 8 guidance on top of whichever other pod applies. |
 
 > **If the role is unclear**, default to survivor-centered language and offer a brief check-in:
@@ -155,7 +181,7 @@ Match the user's concern to the appropriate pod. Read the corresponding `pod.md`
 | "suicide", "988", "mental health crisis", "overdose", "naloxone", "substance", "psychiatric hold", "96-hour hold" | Pod 5: Behavioral Health Crisis |
 | "disaster", "tornado", "flood", "fire safety", "lead paint", "mold", "code violation", "unsafe housing", "OSHA", "workplace" | Pod 6: Environmental Safety |
 | "cyberstalking", "spyware", "AirTag", "tracking", "online harassment", "sextortion", "CSAM", "revenge porn", "doxxing" | Pod 7: Digital & Tech Safety |
-| "LGBTQ", "trans safety", "disability", "immigration", "ICE", "U-visa", "T-visa", "refugee", "veteran", "homeless", "aging out", "foster care" | Pod 8: Vulnerable Populations |
+| "LGBTQ", "trans safety", "disability", "immigration", "ICE", "U-visa", "T-visa", "refugee", "veteran", "homeless", "kicked out", "aging out", "foster care" | Pod 8: Vulnerable Populations |
 | "safety plan", "escape plan", "exit plan", "go bag" | Cross-Cut: Safety Planning Engine |
 | "document", "incident log", "evidence", "what happened" | Cross-Cut: Incident Documentation |
 | "what resources", "who can help", "find help near me" | Cross-Cut: Resource Directory |
@@ -175,7 +201,7 @@ After routing to a pod, determine the action:
 
 ## St. Louis County — Reference Implementation
 
-This skill ships with St. Louis County, Missouri as the default region. The `stl-county/` directory under each pod contains localized data: agencies, hotlines, addresses, jurisdictional notes, and court-specific procedures.
+This skill ships with St. Louis County, Missouri as the default region. The St. Louis County data (agencies, hotlines, addresses, jurisdictional notes and court-specific procedures) lives inside each `references/<pod>/pod.md` file; there is no separate region folder. Use it for people in Missouri (see Step 1b).
 
 **Why St. Louis County?**
 - 90+ municipalities, complex jurisdiction
@@ -184,7 +210,7 @@ This skill ships with St. Louis County, Missouri as the default region. The `stl
 - Demonstrates how to handle multi-jurisdiction complexity
 - If it works here, it works anywhere
 
-**Key St. Louis County Contacts (always available):**
+**Key St. Louis County Contacts (Missouri only, except the national lines marked below):**
 
 | Resource | Number | Notes |
 |----------|--------|-------|
@@ -194,13 +220,14 @@ This skill ships with St. Louis County, Missouri as the default region. The `stl
 | Child Abuse/Neglect Hotline | 1-800-392-3738 | Missouri Children's Division |
 | DV crisis line — ALIVE | 314-993-2777 | ALIVE (Alternatives to Living in Violent Environments), 24/7 |
 | DV crisis line — Safe Connections | 314-531-2003 | Safe Connections, 24-hour helpline (call or text) |
-| Legal Aid of Western MO | 816-474-6750 | Free legal help in western Missouri (not St. Louis) |
-| Legal Services of Eastern MO | 314-534-4200 | Free legal help |
-| 988 Suicide & Crisis Lifeline | 988 | Call or text, 24/7 |
-| National DV Hotline | 1-800-799-7233 | 24/7, 200+ languages |
-| Childhelp National Hotline | 1-800-422-4453 | 24/7 |
-| RAINN (Sexual Assault) | 1-800-656-4673 | 24/7 |
-| National Human Trafficking | 1-888-373-7888 | Text 233733 |
+| Legal Services of Eastern MO | 314-534-4200 | Free legal help (serves St. Louis) |
+| 988 Suicide & Crisis Lifeline | 988 | National. Call or text, 24/7 |
+| National DV Hotline | 1-800-799-7233 | National. 24/7, 200+ languages |
+| Childhelp National Hotline | 1-800-422-4453 | National. 24/7 |
+| RAINN (Sexual Assault) | 1-800-656-4673 | National. 24/7 |
+| National Human Trafficking | 1-888-373-7888 | National. Text 233733 |
+
+Elsewhere in Missouri: Legal Aid of Western Missouri (816-474-6750) serves western Missouri, not St. Louis.
 
 ---
 
@@ -361,6 +388,8 @@ top of any other role when identity-specific barriers are present.
 
 ### Mandatory Reporter Quick Reference
 
+*Missouri only. Outside Missouri, the duty and the hotline differ by state: find the state's reporting number at childwelfare.gov/organizations.*
+
 When the user identifies as a mandatory reporter (teacher, healthcare worker, counselor, social worker, childcare worker, law enforcement, clergy, or other designated role), prioritize this workflow:
 
 **Step 1 — Clarify the obligation.**
@@ -468,6 +497,14 @@ When the user is a minor (under 18) or the situation involves a child seeking he
 - Explain what healthy vs. unhealthy relationships look like (controlling behavior, jealousy, isolation from friends, checking your phone without permission)
 - If they want to create a safety plan, adapt the safety-plan.md template: replace "partner" with "the person hurting you," focus on school safety and transportation, include a trusted teacher or school counselor
 
+**For young people who have been kicked out or can't go home:**
+- Lead with safety: if they are in danger now, 911. If they have nowhere safe to sleep tonight, that is urgent.
+- **Youth In Need** (St. Louis area, Missouri only): 636-946-3771, 24-hour. Youth shelter and crisis help, including for teens under 16.
+- **National Runaway Safeline:** 1-800-786-2929, call or text, 24/7, anywhere in the U.S.
+- Covenant House Missouri serves ages 16–24, so for under-16s start with Youth In Need or the Safeline.
+- A parent or caregiver putting a minor out of the home can be reported. In Missouri, that report goes to the Child Abuse/Neglect Hotline (1-800-392-3738); elsewhere, to the state's child-abuse line (childwelfare.gov/organizations). Childhelp (1-800-422-4453) can help them work out where to call.
+- Say it plainly and without blame: *"You didn't cause this, and you deserve a safe place to stay."*
+
 **For children witnessing violence at home:**
 - Validate that what they are seeing is scary and wrong
 - Help them identify a trusted adult at school (teacher, counselor, nurse)
@@ -523,7 +560,7 @@ Include this when the topic involves interpersonal violence, stalking, or traffi
 > **Privacy Check:** If someone might see your screen or check your phone, consider:
 > - Use a device they don't have access to (library computer, friend's phone)
 > - Use incognito/private browsing mode
-> - Clear your browser history after visiting safety sites
+> - Delete just the safety-site entries from your browser history, rather than clearing all of it (a fully empty history can draw attention)
 > - Calls to the National DV Hotline (1-800-799-7233) can still show in your phone's call history — delete the entry if that is safer
 > - Text-based services may leave records in your messaging app
 

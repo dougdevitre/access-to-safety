@@ -98,6 +98,7 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
    - Android: Use Google's built-in unknown tracker alerts, or Apple's **Tracker Detect** app.
    - Physically check: Look in your car (wheel wells, under seats, in trunk), bags, jacket pockets, and belongings.
    - If you find one: Do NOT destroy it (it is evidence). Note the serial number, take a photo, and report it to police.
+   - **Don't bring it to a shelter, a friend's home or any other private place** — it can show where you are. Leave it somewhere neutral or give it to police. Talk to an advocate first if you can, because removing or moving a tracker can alert the person who placed it.
 
 3. **Change passwords (from a safe device):**
    - Start with your primary email — this is the key to all other accounts
