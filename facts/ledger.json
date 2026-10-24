@@ -1,0 +1,472 @@
+{
+  "$comment": "Fact ledger: every phone number, dollar figure, deadline and program-status claim this skill states, with the primary source it was verified on, the date, and the files that carry it. scripts/check-facts.mjs fails CI when a fact is past its recheck date, a listed file is missing, or the value (or each string in match) no longer appears in its listed files. Recheck intervals: phone numbers 180 days; dollar figures and program status 90; annual-cycle figures use recheck_on with the next cycle's date. Only add an entry you verified on its source that day; never back-date.",
+  "recheck_days_default": 90,
+  "facts": [
+    {
+      "id": "988-lifeline",
+      "claim": "988 Suicide & Crisis Lifeline: call or text 988, 24/7",
+      "value": "988",
+      "source": "https://988lifeline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "DISCLAIMER.md",
+        "README.md",
+        "SKILL.md",
+        "references/behavioral-health-crisis/pod.md",
+        "references/community-safety/pod.md",
+        "references/crisis-response/pod.md",
+        "references/violence-abuse/pod.md",
+        "references/vulnerable-populations/pod.md",
+        "templates/advocate-case-coordination.md",
+        "templates/resource-directory.md",
+        "templates/support-person-guide.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "988-spanish-text",
+      "claim": "988 in Spanish: press 2 on a call, or text AYUDA to 988",
+      "value": "AYUDA",
+      "source": "https://988lifeline.org/get-help/what-to-expect/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/crisis-response/pod.md"
+      ]
+    },
+    {
+      "id": "veterans-crisis-line-text",
+      "claim": "Veterans Crisis Line: dial 988 then press 1, or text 838255",
+      "value": "838255",
+      "source": "https://988lifeline.org/get-help/what-to-expect/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/crisis-response/pod.md",
+        "references/vulnerable-populations/pod.md"
+      ]
+    },
+    {
+      "id": "crisis-text-line",
+      "claim": "Crisis Text Line: text HOME to 741741",
+      "value": "HOME to 741741",
+      "source": "https://www.crisistextline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/behavioral-health-crisis/pod.md",
+        "references/crisis-response/pod.md",
+        "references/digital-safety/pod.md",
+        "references/violence-abuse/pod.md",
+        "templates/resource-directory.md",
+        "templates/support-person-guide.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "crisis-text-line-spanish",
+      "claim": "Crisis Text Line in Spanish: text HOLA to 741741",
+      "value": "HOLA",
+      "source": "https://www.crisistextline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "templates/resource-directory.md"
+      ]
+    },
+    {
+      "id": "ndvh-phone",
+      "claim": "National Domestic Violence Hotline, 24/7",
+      "value": "1-800-799-7233",
+      "source": "https://www.thehotline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/crisis-response/pod.md",
+        "references/digital-safety/pod.md",
+        "references/environmental-safety/pod.md",
+        "references/violence-abuse/pod.md",
+        "references/vulnerable-populations/pod.md",
+        "schemas/resource-entry.json",
+        "templates/resource-directory.md",
+        "templates/safety-plan.md",
+        "templates/support-person-guide.md"
+      ]
+    },
+    {
+      "id": "ndvh-text",
+      "claim": "National Domestic Violence Hotline by text: START to 88788",
+      "value": "START to 88788",
+      "source": "https://www.thehotline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/violence-abuse/pod.md",
+        "schemas/resource-entry.json",
+        "templates/resource-directory.md",
+        "templates/safety-plan.md"
+      ]
+    },
+    {
+      "id": "childhelp-hotline",
+      "claim": "Childhelp National Child Abuse Hotline (call or text)",
+      "value": "1-800-422-4453",
+      "source": "https://www.childhelphotline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/crisis-response/pod.md",
+        "references/digital-safety/pod.md",
+        "references/violence-abuse/pod.md",
+        "templates/mandatory-reporter-checklist.md",
+        "templates/support-person-guide.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "mo-child-abuse-hotline",
+      "claim": "Missouri Child Abuse & Neglect Hotline (Children's Division), 24/7",
+      "value": "1-800-392-3738",
+      "source": "https://dss.mo.gov/cd/keeping-kids-safe/can.htm",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/crisis-response/pod.md",
+        "references/digital-safety/pod.md",
+        "references/environmental-safety/pod.md",
+        "references/legal-protection/pod.md",
+        "references/violence-abuse/pod.md",
+        "templates/mandatory-reporter-checklist.md",
+        "templates/support-person-guide.md"
+      ]
+    },
+    {
+      "id": "mo-adult-abuse-hotline",
+      "claim": "Missouri Adult Abuse and Neglect Hotline",
+      "value": "1-800-392-0210",
+      "source": "https://health.mo.gov/report-adult-abuse/stop-adult-abuse",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "references/legal-protection/pod.md",
+        "references/violence-abuse/pod.md",
+        "templates/mandatory-reporter-checklist.md"
+      ]
+    },
+    {
+      "id": "mo-adult-abuse-hotline-hours",
+      "claim": "Missouri Adult Abuse and Neglect Hotline hours: 7 days a week, 7:00 a.m. to 8:00 p.m.; online reporting any time",
+      "value": "7 a.m.–8 p.m.",
+      "source": "https://health.mo.gov/report-adult-abuse/stop-adult-abuse",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "references/legal-protection/pod.md",
+        "references/violence-abuse/pod.md",
+        "templates/mandatory-reporter-checklist.md"
+      ]
+    },
+    {
+      "id": "rainn-hotline",
+      "claim": "RAINN National Sexual Assault Hotline (800-656-HOPE), online chat at hotline.rainn.org",
+      "value": "1-800-656-4673",
+      "source": "https://rainn.org/contact",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/violence-abuse/pod.md",
+        "templates/mandatory-reporter-checklist.md",
+        "templates/resource-directory.md"
+      ]
+    },
+    {
+      "id": "trafficking-hotline-phone",
+      "claim": "National Human Trafficking Hotline (operated by Polaris)",
+      "value": "1-888-373-7888",
+      "source": "https://polarisproject.org/?p=836",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/violence-abuse/pod.md",
+        "references/vulnerable-populations/pod.md",
+        "templates/mandatory-reporter-checklist.md"
+      ]
+    },
+    {
+      "id": "trafficking-hotline-text",
+      "claim": "National Human Trafficking Hotline by text: 233733 (BeFree)",
+      "value": "233733",
+      "source": "https://polarisproject.org/?p=836",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/violence-abuse/pod.md",
+        "references/vulnerable-populations/pod.md",
+        "templates/mandatory-reporter-checklist.md"
+      ]
+    },
+    {
+      "id": "trans-lifeline-phone",
+      "claim": "Trans Lifeline US hotline (press 2 for Spanish)",
+      "value": "877-565-8860",
+      "source": "https://translifeline.org/hotline/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/vulnerable-populations/pod.md",
+        "templates/resource-directory.md"
+      ]
+    },
+    {
+      "id": "trans-lifeline-hours",
+      "claim": "Trans Lifeline hours: Monday–Friday 1–9 p.m. ET (12–8 p.m. CT); not 24/7",
+      "value": "1–9 p.m. ET",
+      "source": "https://translifeline.org/hotline/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/vulnerable-populations/pod.md",
+        "templates/resource-directory.md"
+      ]
+    },
+    {
+      "id": "samhsa-helpline",
+      "claim": "SAMHSA National Helpline (1-800-662-HELP), 24/7, English and Spanish",
+      "value": "1-800-662-4357",
+      "source": "https://www.samhsa.gov/find-help/helplines/national-helpline",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/behavioral-health-crisis/pod.md",
+        "references/crisis-response/pod.md",
+        "templates/support-person-guide.md"
+      ]
+    },
+    {
+      "id": "loveisrespect-phone",
+      "claim": "loveisrespect teen dating abuse helpline, 24/7",
+      "value": "1-866-331-9474",
+      "source": "https://www.loveisrespect.org/get-relationship-help/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/violence-abuse/pod.md",
+        "templates/support-person-guide.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "loveisrespect-text",
+      "claim": "loveisrespect by text: LOVEIS to 22522",
+      "value": "LOVEIS to 22522",
+      "source": "https://www.loveisrespect.org/get-relationship-help/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "stronghearts-helpline",
+      "claim": "StrongHearts Native Helpline, 24/7 (call, text or chat)",
+      "value": "1-844-762-8483",
+      "source": "https://strongheartshelpline.org/for-supporters",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/vulnerable-populations/pod.md",
+        "templates/resource-directory.md"
+      ]
+    },
+    {
+      "id": "national-runaway-safeline",
+      "claim": "National Runaway Safeline (1-800-RUNAWAY), call or text, 24/7",
+      "value": "1-800-786-2929",
+      "source": "https://www.1800runaway.org/get-help",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/vulnerable-populations/pod.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "ncmec-hotline",
+      "claim": "NCMEC 24-hour call center (1-800-THE-LOST)",
+      "value": "1-800-843-5678",
+      "source": "https://www.missingkids.org/contact",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/digital-safety/pod.md"
+      ]
+    },
+    {
+      "id": "poison-help",
+      "claim": "Poison Help line, 24/7",
+      "value": "1-800-222-1222",
+      "source": "https://poisonhelp.hrsa.gov/the-poison-help-line/index.html",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "fema-helpline",
+      "claim": "FEMA Helpline for disaster assistance",
+      "value": "1-800-621-3362",
+      "source": "https://fema.gov/de/about/contact",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/environmental-safety/pod.md"
+      ]
+    },
+    {
+      "id": "nami-helpline",
+      "claim": "NAMI HelpLine (not a crisis line)",
+      "value": "1-800-950-6264",
+      "source": "https://nami.org/?p=1708",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "templates/support-person-guide.md"
+      ]
+    },
+    {
+      "id": "nami-helpline-hours",
+      "claim": "NAMI HelpLine hours: Monday–Friday 10 a.m.–10 p.m. ET",
+      "value": "10 a.m.–10 p.m. ET",
+      "source": "https://nami.org/?p=1708",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "templates/support-person-guide.md"
+      ]
+    },
+    {
+      "id": "eldercare-locator-phone",
+      "claim": "Eldercare Locator (Mon–Fri 8 a.m.–9 p.m. ET; not a crisis line)",
+      "value": "1-800-677-1116",
+      "source": "https://eldercare.acl.gov/Public/About/Contact_Info/Index.aspx",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/crisis-response/pod.md",
+        "templates/mandatory-reporter-checklist.md",
+        "templates/resource-directory.md"
+      ]
+    },
+    {
+      "id": "trevor-project-phone",
+      "claim": "Trevor Project crisis line for LGBTQ+ young people, 24/7",
+      "value": "1-866-488-7386",
+      "source": "https://www.thetrevorproject.org/get-help/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/behavioral-health-crisis/pod.md",
+        "references/crisis-response/pod.md",
+        "references/vulnerable-populations/pod.md",
+        "templates/youth-safety-plan.md"
+      ]
+    },
+    {
+      "id": "mo-safe-at-home-phone",
+      "claim": "Missouri Safe at Home address confidentiality program (Secretary of State)",
+      "value": "866-509-1409",
+      "source": "https://www.sos.mo.gov/CMSImages/SafeAtHome/SAHBrochure2026.pdf",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/environmental-safety/pod.md",
+        "references/vulnerable-populations/pod.md"
+      ]
+    },
+    {
+      "id": "lsem-phone",
+      "claim": "Legal Services of Eastern Missouri, St. Louis main office",
+      "value": "314-534-4200",
+      "source": "https://lsmo.org/node/747/offices",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/environmental-safety/pod.md",
+        "references/legal-protection/pod.md",
+        "references/violence-abuse/pod.md",
+        "references/vulnerable-populations/pod.md"
+      ]
+    },
+    {
+      "id": "deaf-hotline-videophone",
+      "claim": "The Deaf Hotline video phone, listed by the National Domestic Violence Hotline",
+      "value": "855-812-1001",
+      "source": "https://www.thehotline.org/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/vulnerable-populations/pod.md",
+        "references/violence-abuse/pod.md"
+      ]
+    },
+    {
+      "id": "ccri-crisis-helpline",
+      "claim": "Cyber Civil Rights Initiative image-abuse crisis helpline, 24/7",
+      "value": "844-878-2274",
+      "source": "https://cybercivilrights.org/ccri-crisis-helpline/",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/digital-safety/pod.md"
+      ]
+    },
+    {
+      "id": "red-cross-assistance-line",
+      "claim": "American Red Cross assistance line, 1-800-RED-CROSS, 24 hours",
+      "value": "1-800-733-2767",
+      "source": "https://www.redcross.org/local/california/los-angeles/about-us/locations/long-beach.html",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/environmental-safety/pod.md"
+      ]
+    },
+    {
+      "id": "atf-tips-line",
+      "claim": "ATF tips line, 1-888-ATF-TIPS",
+      "value": "1-888-283-8477",
+      "source": "https://www.atf.gov/contact/hotlines",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "references/community-safety/pod.md"
+      ]
+    }
+  ]
+}
