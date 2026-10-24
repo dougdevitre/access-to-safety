@@ -467,6 +467,20 @@
       "files": [
         "references/community-safety/pod.md"
       ]
+    },
+    {
+      "id": "bhr-local-crisis-line",
+      "claim": "Behavioral Health Response (BHR), St. Louis region: local 24/7 crisis line 314-819-8811",
+      "value": "314-819-8811",
+      "source": "https://bhrstl.org/contact",
+      "verified_on": "2026-10-24",
+      "recheck_days": 180,
+      "files": [
+        "SKILL.md",
+        "references/behavioral-health-crisis/pod.md",
+        "references/community-safety/pod.md",
+        "references/crisis-response/pod.md"
+      ]
     }
   ]
 }
