@@ -20,6 +20,9 @@ on:
       - "scripts/build-skill-zip.sh"
       - ".github/scripts/check-skill-frontmatter.py"
       - ".github/workflows/skill-package.yml"
+      - "facts/**"
+      - "scripts/check-facts.mjs"
+      - "scripts/test/**"
   push:
     branches: [main]
     paths:
@@ -32,6 +35,9 @@ on:
       - "scripts/build-skill-zip.sh"
       - ".github/scripts/check-skill-frontmatter.py"
       - ".github/workflows/skill-package.yml"
+      - "facts/**"
+      - "scripts/check-facts.mjs"
+      - "scripts/test/**"
   workflow_dispatch:
 
 permissions:
@@ -109,3 +115,23 @@ jobs:
         run: |
           gh api --method PATCH "repos/${GITHUB_REPOSITORY}/git/refs/tags/${TAG}" \
             -f sha="$GITHUB_SHA" -F force=true --jq '.object.sha'
+
+  fact-ledger:
+    name: Fact ledger
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "22"
+
+      - name: Unit tests for the ledger check
+        run: node --test scripts/test/check-facts.test.mjs
+
+      # facts/ledger.json records every verified phone number, dollar figure,
+      # deadline and program-status claim with its primary source and date.
+      # Fails when a fact is past its recheck date, a listed file is missing,
+      # or the value no longer appears in any listed file.
+      - name: Check the fact ledger
+        run: node scripts/check-facts.mjs
