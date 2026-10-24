@@ -133,10 +133,12 @@ access-to-safety/
 │   ├── advocate-case-coordination.md            ← Case coordination (Advocate/Provider)
 │   ├── resource-directory.md                    ← Blank directory for any region
 │   └── customization-guide.md                   ← How to fork for your region
-└── schemas/
-    ├── resource-entry.json                      ← JSON schema: single resource (with role targeting)
-    ├── safety-assessment.json                   ← JSON schema: risk/needs assessment (all assessor types)
-    └── incident-record.json                     ← JSON schema: court-ready incident log
+├── schemas/
+│   ├── resource-entry.json                      ← JSON schema: single resource (with role targeting)
+│   ├── safety-assessment.json                   ← JSON schema: risk/needs assessment (all assessor types)
+│   └── incident-record.json                     ← JSON schema: court-ready incident log
+└── evals/
+    └── evals.json                               ← Eval cases: prohibited-use refusals
 ```
 
 ---

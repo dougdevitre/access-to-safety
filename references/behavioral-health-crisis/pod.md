@@ -38,7 +38,7 @@ This pod covers the full continuum from acute crisis through stabilization and e
 |------|-----------|
 | **988 Suicide and Crisis Lifeline** | National crisis line (call or text 988). Routes to local crisis centers. Launched in July 2022; the old 10-digit number still connects. |
 | **Suicidal ideation** | Thoughts about ending one's life, ranging from passive ("I wish I weren't here") to active ("I have a plan to..."). All levels should be taken seriously. |
-| **96-hour hold (involuntary detention)** | Under Missouri RSMo § 632.305, a person may be held up to 96 hours for psychiatric evaluation if they pose an imminent danger to themselves or others due to a mental disorder. |
+| **96-hour hold (involuntary detention)** | Under Missouri RSMo § 632.305, a person may be held up to 96 hours for psychiatric evaluation if there is a likelihood of serious harm to themselves or others due to a mental disorder. |
 | **Voluntary admission** | A person can ask to be admitted to a psychiatric facility voluntarily. Discharge rules for voluntary patients are set by Missouri law — ask the facility or an attorney. |
 | **Naloxone (Narcan)** | A medication that rapidly reverses opioid overdose. Available over-the-counter in Missouri pharmacies without a prescription. Can be administered as a nasal spray. |
 | **MAT (Medication-Assisted Treatment)** | Use of FDA-approved medications (buprenorphine/Suboxone, methadone, naltrexone/Vivitrol) combined with counseling to treat opioid and alcohol use disorders. |
@@ -180,7 +180,7 @@ Abuse often co-occurs with mental health and substance use crises. Important con
 
 | Statute | Description |
 |---------|-------------|
-| **RSMo § 632.305** | 96-hour involuntary psychiatric hold — imminent danger to self or others due to mental disorder |
+| **RSMo § 632.305** | 96-hour involuntary psychiatric hold — likelihood of serious harm to self or others due to a mental disorder |
 | **RSMo § 632.300** | Mental health coordinator procedure when a likelihood of serious harm is reported |
 | **RSMo § 195.205** | Drug Overdose Immunity — limited protection from drug possession charges when calling 911 for overdose |
 | **RSMo § 630.140** | Confidentiality of mental health records; cannot be disclosed without written consent except in limited circumstances |
@@ -191,13 +191,13 @@ Abuse often co-occurs with mental health and substance use crises. Important con
 ## Quick Reference Card
 
 ```
-SUICIDE / CRISIS LIFELINE:           988  (call or text)
+SUICIDE / CRISIS LIFELINE:           988  (national; call or text)
 MENTAL HEALTH CRISIS (STL region):   988 or 314-819-8811  (BHR)
-OVERDOSE — CALL 911 FIRST:           911  then administer naloxone
-SUBSTANCE USE HELPLINE:              1-800-662-4357  (SAMHSA)
-VETERANS CRISIS LINE:                988 then press 1
-CRISIS TEXT LINE:                    Text HOME to 741741
-ST. LOUIS CHILDREN'S HOSPITAL:       314-454-6000  (main line)
+OVERDOSE — CALL 911 FIRST:           911  then administer naloxone  (national)
+SUBSTANCE USE HELPLINE:              1-800-662-4357  (SAMHSA, national)
+VETERANS CRISIS LINE:                988 then press 1  (national)
+CRISIS TEXT LINE:                    Text HOME to 741741  (national)
+ST. LOUIS CHILDREN'S HOSPITAL:       314-454-6000  (STL; main line)
 ```
 
 ---

@@ -79,7 +79,7 @@ This pod provides guidance on housing code violations, disaster preparedness (es
 
 - **If your abuser is your landlord:** Contact a DV advocate immediately. You may have additional legal protections. National DV Hotline: 1-800-799-7233.
 - **If you need to end a lease:** Missouri law (RSMo § 441.920) protects applicants and tenants who are survivors of DV, sexual assault, or stalking from discrimination, and lets a survivor end a lease early; the landlord may charge a reasonable termination fee. The landlord may ask for documentation, such as a statement from an advocate or health professional, or a police or court record.
-- **If you need emergency shelter:** See the Resource Directory (templates/resource-directory.md) for shelter listings, or call the National DV Hotline.
+- **If you need emergency shelter:** In the St. Louis area, call ALIVE (314-993-2777, 24/7). Anywhere in the U.S., call the National DV Hotline (1-800-799-7233); they can connect you with local shelters and programs. Shelters keep their addresses private, so call first.
 - **Safe at Home Program (Missouri Secretary of State):** Provides a substitute address for survivors to use on public records, voter registration, and other documents. Phone: **866-509-1409**.
 
 ### Lead Paint

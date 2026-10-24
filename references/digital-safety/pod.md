@@ -78,6 +78,8 @@ This pod covers how to identify tech-enabled abuse, secure devices and accounts,
 
 ### Procedure 1: Securing Your Phone
 
+> **This is for the person being monitored.** If the request is to monitor, locate, or get into someone else's phone or accounts, stop here and use the **Prohibited uses** block in SKILL.md: decline in one calm sentence and redirect to an attorney, the court, or the police.
+
 > **Important safety note:** If your abuser monitors your device and suddenly notices changes (new passwords, removed apps), this can escalate danger. Consider making changes from a safe device first, or consult an advocate before changing anything.
 
 **If you need a safe device immediately:**

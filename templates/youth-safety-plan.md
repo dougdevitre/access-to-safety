@@ -8,6 +8,8 @@
 > indicate immediate danger, stop the plan and direct them to call 911, text 911, or call
 > Childhelp (1-800-422-4453). If they express suicidal thoughts, route to 988 or Crisis
 > Text Line (text HOME to 741741). Never pressure them to share more than they want to.
+> Ask them to fill in names, addresses, schools and phone numbers on their own copy, not
+> here; in the chat, use initials or "my school."
 
 ---
 

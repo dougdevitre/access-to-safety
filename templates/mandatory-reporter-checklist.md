@@ -8,7 +8,9 @@
 > they do NOT need proof — only reasonable suspicion. Do not encourage them to investigate.
 > If multiple types of abuse are suspected (e.g., a child who is also being trafficked),
 > walk through each relevant section. Adapt for the reporter's state if known; the Missouri
-> defaults below are the reference implementation.
+> defaults below are the reference implementation. Ask the reporter to fill in names,
+> addresses, schools and phone numbers on their own copy, not here; in the chat, use
+> initials or "the student."
 
 ---
 
