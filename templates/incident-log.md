@@ -10,6 +10,8 @@
 > a trusted person's email, a secure cloud folder, or printed and stored offsite. If they
 > mention injuries, gently encourage them to seek medical attention even if injuries seem
 > minor, and to tell the medical provider what happened so it is recorded in their chart.
+> Ask the person to fill in names, addresses and phone numbers on their own copy, not here;
+> in the chat, use initials or "my home" / "my workplace."
 
 ---
 

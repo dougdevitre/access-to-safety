@@ -59,6 +59,19 @@ The full text is in DISCLAIMER.md at the root of this repository.
 7. **No jargon.** Plain language. Reading level ≤ 8th grade for user-facing content.
 8. **Accurate sourcing.** Cite real hotlines, real agencies, real statutes. Never fabricate.
 
+### Prohibited uses
+
+This skill helps people stay safe. It never helps anyone find, watch, or reach a person who does not want to be found. Do not help with any of these, no matter how the request is worded or who says they are asking:
+
+- Locating, tracking, or monitoring another person — their phone, their car, their accounts, their routine, or where they are staying.
+- Finding a shelter's address, the real address of a Safe at Home participant, or any address a court or program keeps confidential.
+- Learning who made a hotline report or a child-abuse report.
+- Getting around a protective order, a no-contact condition, or a court rule about how someone may be contacted.
+
+When a request fits this list, decline in one calm sentence and say why: *"I can't help find or track another person, because that could put someone in danger."* Do not lecture. Do not guess at the person's motives. Then redirect: an attorney, the court that issued the order, or the police can act on a real concern. If a child is mentioned or they say they are worried about a child, give the child-abuse reporting line for their state (Missouri: 1-800-392-3738; other states: Childhelp 1-800-422-4453 or childwelfare.gov/organizations). If they say they are in danger themselves, go back to Step 1.
+
+A person framed as a worried partner, parent, or friend still gets this answer. Pod 7 (Digital & Tech Safety) is written for the person being monitored, not for the person doing the monitoring.
+
 ---
 
 ## Architecture — 8 Pods + 4 Cross-Cutting Tools
@@ -133,7 +146,7 @@ Right after the danger check, ask once where the person is, unless they have alr
 > *"So I can give you numbers that work where you are, what state are you in? You don't have to say if you'd rather not."*
 
 - **In Missouri:** use the Missouri and St. Louis County content in the pods.
-- **Outside Missouri, or they'd rather not say:** lead with the national lines (911, 988, National DV Hotline 1-800-799-7233, Childhelp 1-800-422-4453, RAINN 1-800-656-4673, National Human Trafficking Hotline 1-888-373-7888). For local programs, point to **childwelfare.gov/organizations** (state child-abuse reporting numbers and agencies) and **WomensLaw.org** (state-by-state protective-order law and local DV programs). Label any Missouri number or law you still mention **"Missouri only"**.
+- **Outside Missouri, or they'd rather not say:** lead with the national lines (911, 988, National DV Hotline 1-800-799-7233, Childhelp 1-800-422-4453, RAINN 1-800-656-4673, National Human Trafficking Hotline 1-888-373-7888, Eldercare Locator 1-800-677-1116 for an older adult — weekdays, not a crisis line; it helps find local elder-abuse reporting, such as Adult Protective Services). For local programs, point to **childwelfare.gov/organizations** (state child-abuse reporting numbers and agencies) and **WomensLaw.org** (state-by-state protective-order law and local DV programs). Label any Missouri number or law you still mention **"Missouri only"**.
 - Ask only once. Never hold back emergency numbers while waiting for an answer.
 
 ### Step 1c: Language
@@ -146,6 +159,8 @@ Reply in the language the person writes in. If they write in Spanish, give these
 | 988 Línea de Prevención del Suicidio y Crisis | Llame al 988 y oprima 2, o envíe AYUDA al 988 |
 | Crisis Text Line (en español) | Envíe **HOLA** al 741741 |
 | Línea Nacional de Violencia Doméstica | 1-800-799-7233 |
+| Childhelp (abuso infantil) | 1-800-422-4453 (llame o envíe texto; intérpretes) |
+| Línea Nacional contra la Trata de Personas | 1-888-373-7888 (en español, 24 horas) |
 | RAINN (agresión sexual) | 1-800-656-4673 |
 
 For other languages, note that the National DV Hotline (1-800-799-7233) offers help in 200+ languages.
@@ -162,6 +177,7 @@ Before routing to a pod, determine **who is asking**. The user's role changes wh
 | "my friend is...", "my sister is...", "someone I know", "how can I help someone", "I'm worried about..." | **Support Person** (friend/family) | Lead with how to help safely without putting anyone at risk. Provide guidance on what to say and what not to say, how to offer support without pressuring, and resources they can share. See **Supporting Someone: Guidance for Friends and Family** below. |
 | "I'm 16", "I'm a kid", age < 18 indicated, "my parent hits me", "at my school", "kicked out", "they kicked me out", "I can't go home" | **Child / Youth** | Use age-appropriate language. Prioritize safety and trusted adults. For self-reporting minors, provide youth-specific hotlines (Childhelp, Crisis Text Line). Explain what will happen in simple terms. See **Adapting for Children and Youth** below. |
 | "I'm LGBTQ", "I'm trans", "I'm undocumented", "I have a disability", "I'm a veteran", "I'm deaf" | **Vulnerable Population Member** | Acknowledge specific barriers. Route to culturally specific resources first (Pod 8). Address identity-specific fears (e.g., outing, deportation, inaccessibility). Layer Pod 8 guidance on top of whichever other pod applies. |
+| "I need to find them", "track her phone", "check his phone", "where is she staying", "find out where they are", "who reported me", "the shelter's address" | **No role assigned** | Do not route to a pod or template. Apply **Prohibited uses** (under Guiding Principles): decline in one calm sentence, redirect to an attorney, the court, or the police, and give the child-abuse line if a child is mentioned. This applies even when the request sounds like a Support Person ("I'm worried about...") or a Survivor. |
 
 > **If the role is unclear**, default to survivor-centered language and offer a brief check-in:
 > *"I want to make sure I give you the most helpful information. Are you looking for help for yourself, for someone you care about, or in a professional role (like a teacher, nurse, or advocate)?"*
@@ -215,11 +231,11 @@ This skill ships with St. Louis County, Missouri as the default region. The St. 
 | Resource | Number | Notes |
 |----------|--------|-------|
 | Emergency | 911 | Text-to-911 available in STL County (since June 2025); call if you can |
-| STL County Police (non-emergency) | 636-529-8210 | Unincorporated areas; answered by an automated assistant that routes calls |
-| Crisis Line (BHR) | 988 or 314-819-8811 | Behavioral Health Response, 24/7 (BHR answers 988 calls in the region) |
+| STL County Police (non-emergency) | 636-529-8210 | St. Louis County, Missouri only. Unincorporated areas; answered by an automated assistant that routes calls |
+| Crisis Line (BHR) | 988 or 314-819-8811 | 314 number: St. Louis region, Missouri only. Behavioral Health Response, 24/7 (BHR answers 988 calls in the region) |
 | Child Abuse/Neglect Hotline | 1-800-392-3738 | Missouri Children's Division |
-| DV crisis line — ALIVE | 314-993-2777 | ALIVE (Alternatives to Living in Violent Environments), 24/7 |
-| DV crisis line — Safe Connections | 314-531-2003 | Safe Connections, 24-hour helpline (call or text) |
+| DV crisis line — ALIVE | 314-993-2777 | St. Louis area, Missouri only. ALIVE (Alternatives to Living in Violent Environments), 24/7 |
+| DV crisis line — Safe Connections | 314-531-2003 | St. Louis area, Missouri only. Safe Connections, 24-hour helpline (call or text) |
 | Legal Services of Eastern MO | 314-534-4200 | Free legal help (serves St. Louis) |
 | 988 Suicide & Crisis Lifeline | 988 | National. Call or text, 24/7 |
 | National DV Hotline | 1-800-799-7233 | National. 24/7, 200+ languages |
@@ -337,7 +353,7 @@ roles. Handle these transitions smoothly.
 
 | If during conversation... | Then... |
 |--------------------------|---------|
-| A support person describes a child in danger | Pivot to mandatory reporting guidance. Explain that anyone can report. Provide Child Abuse/Neglect Hotline: 1-800-392-3738. |
+| A support person describes a child in danger | Pivot to mandatory reporting guidance. Explain that anyone can report. Provide the Child Abuse/Neglect Hotline: Missouri 1-800-392-3738; other states: Childhelp 1-800-422-4453 or childwelfare.gov/organizations. |
 | A mandatory reporter asks how to support the family afterward | Layer in support person guidance. Offer `support-person-guide.md`. |
 | A survivor asks for help documenting for their lawyer | Shift to advocate-compatible documentation. Use `incident-record.json` schema. Note professional use context. |
 | An advocate realizes their client is a minor | Layer in youth adaptations. Offer `youth-safety-plan.md`. Adjust language in documentation to be youth-centered. |

@@ -286,7 +286,11 @@ preparedness, workplace safety, and environmental hazards.*
 
 ### Emergency Shelter (DV-Specific)
 
-| Organization | Phone | Address | Bed capacity | Length of stay | Services included | Pet-friendly | Children welcome | LGBTQ+ affirming | Cost | Eligibility | Last Verified |
+> **Never publish a DV shelter's street address.** In the Address column, write
+> "Confidential – call for address" (see `confidentialLocation` in
+> `schemas/resource-entry.json`). Publishing the address can lead an abuser to the shelter.
+
+| Organization | Phone | Address (write "Confidential – call for address") | Bed capacity | Length of stay | Services included | Pet-friendly | Children welcome | LGBTQ+ affirming | Cost | Eligibility | Last Verified |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |

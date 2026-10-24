@@ -42,7 +42,7 @@ This pod focuses on the acute response phase: the first hours of a crisis. For l
 | **Co-Responder Model** | A licensed clinician rides alongside or responds with a law enforcement officer. Reduces use of force and increases connections to treatment. STL County has co-responder units in some precincts. |
 | **Crisis Stabilization Unit (CSU)** | A short-term facility where people in crisis can stabilize without hospital admission. Less restrictive than a psychiatric emergency room. |
 | **CIT (Crisis Intervention Training)** | A 40-hour training curriculum for law enforcement covering mental health recognition, de-escalation, and diversion. Many STL County officers are CIT-certified. |
-| **Psychiatric Hold / 96-Hour Hold** | Under Missouri RSMo § 632.305, a person can be involuntarily detained up to 96 hours for evaluation when they pose imminent danger to themselves or others. See Behavioral Health Crisis pod. |
+| **Psychiatric Hold / 96-Hour Hold** | Under Missouri RSMo § 632.305, a person can be involuntarily detained up to 96 hours for evaluation when there is a likelihood of serious harm to themselves or others due to a mental disorder. See Behavioral Health Crisis pod. |
 | **Warm Handoff** | A live, real-time transfer of care from one provider to another — for example, a crisis counselor staying on the line until EMS arrives. |
 | **Peer Support Specialist** | A person with lived experience of mental health or substance use challenges, trained and certified to support others in crisis. Often embedded in mobile crisis teams. |
 | **Diversion Program** | An alternative pathway that steers people away from arrest or emergency rooms toward community-based care. |
@@ -251,13 +251,13 @@ CSUs offer short-term, voluntary stabilization — typically up to 23 hours — 
 ## Quick Reference Card
 
 ```
-EMERGENCY (life-threatening):           911
+EMERGENCY (life-threatening):           911  (national)
 MENTAL HEALTH CRISIS (STL region):      988 or 314-819-8811  (BHR)
-SUICIDE / CRISIS LIFELINE:              988  (call or text)
+SUICIDE / CRISIS LIFELINE:              988  (national; call or text)
 POLICE NON-EMERGENCY (STL County):      636-529-8210
 SUBSTANCE USE HELPLINE (national):      1-800-662-4357
-VETERANS CRISIS LINE:                   988 then press 1
-CRISIS TEXT LINE:                       Text HOME to 741741
+VETERANS CRISIS LINE:                   988 then press 1  (national)
+CRISIS TEXT LINE:                       Text HOME to 741741  (national)
 ```
 
 ---
