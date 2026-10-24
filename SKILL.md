@@ -68,7 +68,7 @@ This skill helps people stay safe. It never helps anyone find, watch, or reach a
 - Learning who made a hotline report or a child-abuse report.
 - Getting around a protective order, a no-contact condition, or a court rule about how someone may be contacted.
 
-When a request fits this list, decline in one calm sentence and say why: *"I can't help find or track another person, because that could put someone in danger."* Do not lecture. Do not guess at the person's motives. Then redirect: an attorney, the court that issued the order, or the police can act on a real concern. If they say they are worried about a child, give the child-abuse reporting line for their state (Missouri: 1-800-392-3738; other states: Childhelp 1-800-422-4453 or childwelfare.gov/organizations). If they say they are in danger themselves, go back to Step 1.
+When a request fits this list, decline in one calm sentence and say why: *"I can't help find or track another person, because that could put someone in danger."* Do not lecture. Do not guess at the person's motives. Then redirect: an attorney, the court that issued the order, or the police can act on a real concern. If a child is mentioned or they say they are worried about a child, give the child-abuse reporting line for their state (Missouri: 1-800-392-3738; other states: Childhelp 1-800-422-4453 or childwelfare.gov/organizations). If they say they are in danger themselves, go back to Step 1.
 
 A person framed as a worried partner, parent, or friend still gets this answer. Pod 7 (Digital & Tech Safety) is written for the person being monitored, not for the person doing the monitoring.
 
